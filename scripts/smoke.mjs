@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { buildStateGeometries } from '../src/geo.js';
 import { buildModel, houseStyle, senateStyle, COLORS } from '../src/analyze.js';
 import { delegationMascot, federalElectionDate, majorityLine, mascotMajorityLine, seatElection, tugFigures } from '../src/format.js';
+import { averagePolls, isClose, round1 } from '../src/polls.js';
 
 function assert(cond, message) {
   if (!cond) throw new Error(message);
@@ -100,6 +101,34 @@ assert(new Set(ids).size === ids.length, 'bioguide er ikke unikt');
 
 const houseLine = majorityLine(model.houseTotals, model.houseTotals.seats);
 const senateLine = majorityLine(model.senateTotals, model.senateTotals.seats);
+const polls = JSON.parse(readFileSync(new URL('../public/data/polls.json', import.meta.url)));
+assert(polls.updated === '2026-10-28', 'målinger har opdateringsdato');
+assert(polls.windowStart === '2026-09-28' && polls.windowEnd === '2026-10-28', '30 dages vindue');
+for (const row of [...polls.generic, ...polls.senate]) {
+  assert(row.sourceUrl?.startsWith('http'), `${row.id} mangler kilde`);
+  assert(row.democratPct != null && row.republicanPct != null, `${row.id} mangler procent`);
+  assert(row.democratPct + row.republicanPct <= 100.5, `${row.id} summer over 100`);
+  assert(row.fieldEnd >= polls.windowStart && row.fieldEnd <= polls.windowEnd, `${row.id} uden for vinduet`);
+  assert(!/silver bulletin|realclear|270towin|fiftyplusone|ballotpedia/i.test(row.pollster), `${row.id} er et aggregat`);
+}
+const generic = averagePolls(polls.generic);
+assert(generic.count === 27, `generisk gennemsnit bruger ${generic.count} institutter`);
+assert(round1(generic.democratPct) === 50.9, `generisk D ${generic.democratPct}`);
+assert(round1(generic.republicanPct) === 43, `generisk R ${generic.republicanPct}`);
+const yougov = polls.generic.find((row) => generic.ids.has(row.id) && row.pollster.startsWith('The Economist'));
+assert(yougov?.variant === 'strict' && yougov.democratPct === 52 && yougov.republicanPct === 41, 'YouGov strict LV');
+const rmg = polls.generic.find((row) => generic.ids.has(row.id) && row.pollsterKey === 'rmg research');
+assert(rmg?.population === 'LV' && rmg.democratPct === 52 && rmg.republicanPct === 41 && rmg.variant == null, 'RMG uden leaners');
+const byState = new Map();
+for (const row of polls.senate) {
+  const list = byState.get(row.state) || [];
+  list.push(row);
+  byState.set(row.state, list);
+}
+assert(isClose(averagePolls(byState.get('ME'))), 'Maine er tæt');
+assert(!isClose(averagePolls(byState.get('NC'))), 'North Carolina er uden for 8 point');
+assert(!isClose(averagePolls(byState.get('GA'))), 'Georgia er uden for 8 point');
+
 console.log(JSON.stringify({
   fetchedAt: model.fetchedAt,
   congress: model.congress,
