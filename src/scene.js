@@ -1,9 +1,32 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { COLORS } from './analyze.js';
+import { spriteSvg } from './mascots.js';
 
 const UNCALLED = COLORS.uncalled;
 const WHITE = new THREE.Color('#ffffff');
+
+function loadSpriteTexture(kind) {
+  const url = URL.createObjectURL(new Blob([spriteSvg(kind)], { type: 'image/svg+xml;charset=utf-8' }));
+  return new Promise((resolve) => {
+    const image = new Image();
+    image.onload = () => {
+      const canvas = document.createElement('canvas');
+      canvas.width = 128;
+      canvas.height = 128;
+      canvas.getContext('2d').drawImage(image, 0, 0, 128, 128);
+      const texture = new THREE.CanvasTexture(canvas);
+      texture.colorSpace = THREE.SRGBColorSpace;
+      URL.revokeObjectURL(url);
+      resolve(texture);
+    };
+    image.onerror = () => {
+      URL.revokeObjectURL(url);
+      resolve(null);
+    };
+    image.src = url;
+  });
+}
 
 function easeOutCubic(t) {
   return 1 - (1 - t) ** 3;
@@ -56,7 +79,7 @@ function shadowTexture() {
   return texture;
 }
 
-export function createScene(canvas, { onHover, onPick } = {}) {
+export async function createScene(canvas, { onHover, onPick } = {}) {
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const renderer = new THREE.WebGLRenderer({
     canvas,
@@ -79,8 +102,13 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   controls.minDistance = 1.15;
   controls.maxDistance = 40;
   controls.zoomSpeed = 0.72;
-  controls.rotateSpeed = coarse ? 0.55 : 0.68;
+  controls.rotateSpeed = coarse ? 0.75 : 0.68;
   controls.screenSpacePanning = false;
+  controls.touches = {
+    ONE: THREE.TOUCH.ROTATE,
+    TWO: THREE.TOUCH.DOLLY_PAN,
+  };
+  canvas.style.touchAction = 'none';
 
   const raycaster = new THREE.Raycaster();
   const pointer = new THREE.Vector2();
@@ -97,18 +125,47 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   let selected = null;
   let hovered = null;
   let running = true;
+  let bottomInset = 0;
+  const spriteTextures = {
+    D: await loadSpriteTexture('D'),
+    R: await loadSpriteTexture('R'),
+    I: await loadSpriteTexture('I'),
+  };
+  const spriteMaterials = {};
+  for (const kind of ['D', 'R', 'I']) {
+    if (!spriteTextures[kind]) continue;
+    spriteMaterials[kind] = new THREE.SpriteMaterial({
+      map: spriteTextures[kind],
+      transparent: true,
+      depthWrite: false,
+    });
+  }
   const badgeMap = makeBadgeTexture();
   const sharedMaterial = new THREE.MeshBasicMaterial({ vertexColors: true });
+
+  function applyViewport() {
+    const pr = renderer.getPixelRatio();
+    const cssW = canvas.clientWidth;
+    const cssH = canvas.clientHeight;
+    renderer.setScissorTest(false);
+    renderer.setViewport(0, 0, Math.max(1, Math.floor(cssW * pr)), Math.max(1, Math.floor(cssH * pr)));
+    camera.aspect = cssW / Math.max(cssH, 1);
+    camera.updateProjectionMatrix();
+  }
 
   function resize() {
     const stage = canvas.parentElement;
     const width = stage?.clientWidth || 0;
     const height = stage?.clientHeight || 0;
     if (!width || !height) return;
-    camera.aspect = width / height;
-    camera.updateProjectionMatrix();
     renderer.setSize(width, height, false);
+    applyViewport();
     if (footprint && !userMoved && !flying && !selected) placeHome(false);
+  }
+
+  function setBottomInset(px) {
+    bottomInset = Math.max(0, px || 0);
+    if (canvas.clientWidth) resize();
   }
 
   function writeColors(state, color) {
@@ -132,8 +189,9 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       if (mesh.scale.y !== height) mesh.scale.y = height;
     }
     state.group.position.y = state.lift;
-    state.marker.visible = state.showMarker;
+    state.marker.visible = state.showMarker && state.mascotScale < 0.2;
     state.marker.position.set(state.anchor.x, height + 0.015, state.anchor.z);
+    placeMascots(state, height);
 
     const key = `${state.color.r.toFixed(4)}|${state.color.g.toFixed(4)}|${state.color.b.toFixed(4)}|${state.abbr === selected}|${state.abbr === hovered}|${state.showMarker}`;
     if (key === state.paintKey) return;
@@ -174,6 +232,16 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       marker.visible = false;
       marker.raycast = () => {};
       group.add(marker);
+      const sprites = {};
+      for (const kind of ['D', 'R', 'I']) {
+        if (!spriteMaterials[kind]) continue;
+        const sprite = new THREE.Sprite(spriteMaterials[kind]);
+        sprite.center.set(0.5, 0);
+        sprite.visible = false;
+        sprite.raycast = () => {};
+        group.add(sprite);
+        sprites[kind] = sprite;
+      }
       scene.add(group);
       byAbbr.set(spec.abbr, {
         abbr: spec.abbr,
@@ -182,11 +250,14 @@ export function createScene(canvas, { onHover, onPick } = {}) {
         meshes,
         shades: spec.shades,
         marker,
+        sprites,
         anchor: spec.anchor,
         color: new THREE.Color(UNCALLED),
         height: 0.03,
         lift: 0,
         showMarker: false,
+        mascotKind: null,
+        mascotScale: 0,
         tween: null,
         paintKey: '',
       });
@@ -259,12 +330,22 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     for (const mesh of state.meshes) box.expandByObject(mesh);
     const center = box.getCenter(new THREE.Vector3());
     const size = box.getSize(new THREE.Vector3());
-    const radius = Math.max(size.x, size.z, size.y, 0.4) * 0.78;
+    const radius = Math.max(size.x, size.z, 0.45);
     const fov = (camera.fov * Math.PI) / 180;
-    const dist = Math.min(10, Math.max(1.65, (radius / Math.tan(fov / 2)) * 1.5));
-    const target = new THREE.Vector3(center.x, Math.min(center.y * 0.3, 0.5), center.z);
+    const cover = bottomInset / Math.max(canvas.clientHeight, 1);
+    const ax = state.anchor.x;
+    const az = state.anchor.z;
+    if (cover > 0.08) {
+      const span = Math.max(radius * 2.2, 1.5);
+      const dist = span / Math.tan(fov / 2);
+      const target = new THREE.Vector3(ax, 0, az + span * 0.08);
+      flyTo(new THREE.Vector3(ax, dist * 0.96, target.z + dist * 0.1), target, 700);
+      return;
+    }
+    const dist = Math.min(10, Math.max(1.8, (radius / Math.tan(fov / 2)) * 1.15));
+    const target = new THREE.Vector3(ax, Math.min(center.y * 0.25, 0.4), az);
     flyTo(
-      new THREE.Vector3(center.x, target.y + dist * 0.56, center.z + dist * 0.66),
+      new THREE.Vector3(ax, target.y + dist * 0.62, az + dist * 0.55),
       target,
       900,
     );
@@ -333,8 +414,11 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     const order = eastToWest();
     if (reduced) {
       for (const abbr of order) {
+        const state = byAbbr.get(abbr);
         const target = currentLook[abbr];
-        instant(byAbbr.get(abbr), target.color, target.height, target.marker);
+        instant(state, target.color, target.height, target.marker);
+        state.mascotKind = target.mascot || null;
+        state.mascotScale = target.mascot ? 1 : 0;
       }
       hooks?.onProgress?.(order.length, order.length);
       hooks?.onDone?.();
@@ -359,6 +443,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
         marker: !!target.marker,
         ease: 'back',
         count: true,
+        revealMascot: true,
       };
     });
     hooks?.onProgress?.(0, order.length);
@@ -366,6 +451,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
 
   function stopValgnat() {
     seq = null;
+    clearMascots();
     if (!currentLook) return;
     for (const [abbr, target] of Object.entries(currentLook)) {
       const state = byAbbr.get(abbr);
@@ -390,6 +476,10 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       state.color.copy(tween.fromC).lerp(tween.toC, Math.min(1, u));
       state.height = tween.fromH + (tween.toH - tween.fromH) * shaped;
       state.showMarker = tween.marker ? u > 0.7 : false;
+      if (tween.revealMascot) {
+        state.mascotKind = currentLook?.[state.abbr]?.mascot || null;
+        state.mascotScale = reduced ? 1 : Math.min(1.18, easeOutBack(u));
+      }
       if (u >= 1) {
         state.color.copy(tween.toC);
         state.height = tween.toH;
@@ -416,6 +506,34 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       if (reduced) state.lift = target;
       else state.lift += (target - state.lift) * 0.18;
       if (Math.abs(state.lift - target) < 0.001) state.lift = target;
+    }
+  }
+
+  function placeMascots(state, height) {
+    const show = state.mascotScale > 0.02 && state.mascotKind;
+    const y = height + 0.04;
+    const kinds = state.mascotKind === 'split' ? ['D', 'R'] : state.mascotKind ? [state.mascotKind] : [];
+    for (const kind of ['D', 'R', 'I']) {
+      const sprite = state.sprites[kind];
+      if (!sprite) continue;
+      const visible = show && kinds.includes(kind);
+      sprite.visible = visible;
+      if (!visible) continue;
+      const offset = state.mascotKind === 'split' ? (kind === 'D' ? -0.22 : 0.22) : 0;
+      sprite.position.set(state.anchor.x + offset, y, state.anchor.z);
+      const viewHeight = Math.max(1, (canvas.clientHeight || 1) - bottomInset);
+      const dist = camera.position.distanceTo(sprite.getWorldPosition(tmp));
+      const vFov = (camera.fov * Math.PI) / 180;
+      const worldPerPx = (2 * Math.tan(vFov / 2) * dist) / viewHeight;
+      const size = Math.min(0.48, Math.max(0.16, worldPerPx * 26)) * Math.min(state.mascotScale, 1.12);
+      sprite.scale.set(size, size, 1);
+    }
+  }
+
+  function clearMascots() {
+    for (const state of byAbbr.values()) {
+      state.mascotKind = null;
+      state.mascotScale = 0;
     }
   }
 
@@ -476,6 +594,9 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     if (abbr) onPick?.(abbr);
   });
   canvas.addEventListener('contextmenu', (event) => event.preventDefault());
+  canvas.addEventListener('touchmove', (event) => {
+    if (event.cancelable) event.preventDefault();
+  }, { passive: false });
 
   const resizeObserver = new ResizeObserver(() => resize());
   if (canvas.parentElement) resizeObserver.observe(canvas.parentElement);
@@ -512,6 +633,8 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     focus,
     frameAll() { userMoved = false; placeHome(true); },
     setSelected,
+    setBottomInset,
+    clearMascots,
     resize,
     dispose() {
       running = false;

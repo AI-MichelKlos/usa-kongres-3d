@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { buildStateGeometries } from '../src/geo.js';
 import { buildModel, houseStyle, senateStyle, COLORS } from '../src/analyze.js';
-import { federalElectionDate, majorityLine, seatElection } from '../src/format.js';
+import { delegationMascot, federalElectionDate, majorityLine, mascotMajorityLine, seatElection, tugFigures } from '../src/format.js';
 
 function assert(cond, message) {
   if (!cond) throw new Error(message);
@@ -18,6 +18,23 @@ assert(seatElection('2027-01-03', '2026-10-28')?.status === 'upcoming', 'på val
 assert(seatElection('2027-01-03', '2026-11-03')?.status === 'upcoming', 'selve valgdagen');
 assert(seatElection('2027-01-03', '2026-11-04')?.status === 'passed', 'dagen efter');
 assert(seatElection('2027-01-03', '2027-01-03')?.status === 'ended', 'ny kongres');
+
+const elephants = mascotMajorityLine({
+  Democrat: 214, Republican: 218, caucusDemocrat: 0, caucusRepublican: 1, seats: 435,
+});
+assert(elephants.includes('elefanterne') && elephants.includes('219') && elephants.includes('435'), elephants);
+const donkeys = mascotMajorityLine({
+  Democrat: 48, Republican: 49, caucusDemocrat: 3, caucusRepublican: 0, seats: 100,
+});
+assert(donkeys.includes('æslerne') && donkeys.includes('51'), donkeys);
+assert(tugFigures({ Democrat: 1, Republican: 1, caucusDemocrat: 0, caucusRepublican: 0, seats: 100 }).need === 51, 'senatsflertal');
+assert(tugFigures({ Democrat: 0, Republican: 0, caucusDemocrat: 0, caucusRepublican: 0, seats: 435 }).need === 218, 'husflertal');
+assert(delegationMascot({
+  Democrat: 0, Republican: 1, caucusDemocrat: 1, caucusRepublican: 0, seated: 2,
+}, 'senate') === 'split', 'delt senat');
+assert(delegationMascot({
+  Democrat: 43, Republican: 8, caucusDemocrat: 0, caucusRepublican: 1, seated: 52,
+}, 'house') === 'D', 'hus efter parti');
 
 const bothD = senateStyle([{ party: 'Democrat' }, { party: 'Democrat' }], []);
 assert(bothD.color === COLORS.D && bothD.independent === false, 'to demokrater');

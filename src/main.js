@@ -9,19 +9,22 @@ import { COLORS, SENATE_HEIGHT, buildModel, houseHeight } from './analyze.js';
 import { buildStateGeometries } from './geo.js';
 import { createScene } from './scene.js';
 import { territoryInfo } from './fips.js';
+import { mascotSvg } from './mascots.js';
 import {
   caucusPhrase,
   danishDate,
   danishStamp,
+  delegationMascot,
   districtLabel,
   electionBanner,
-  initials,
   majorityLine,
+  mascotMajorityLine,
   partyBadge,
   rankLabel,
   rosterPhrase,
   seatElection,
   todayInNewYork,
+  tugFigures,
   yearSpan,
 } from './format.js';
 
@@ -54,6 +57,8 @@ let mode = 'house';
 let selected = null;
 let playing = false;
 let todayISO = todayInNewYork();
+const phoneMq = window.matchMedia('(max-width: 979px)');
+const reducedMq = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 function esc(value) {
   return String(value ?? '').replace(/[&<>"']/g, (ch) => ({
@@ -65,10 +70,12 @@ function lookFor(nextMode) {
   const look = {};
   for (const [abbr, state] of Object.entries(model.states)) {
     const style = nextMode === 'senate' ? state.senateStyle : state.houseStyle;
+    const counts = nextMode === 'senate' ? state.senateCounts : state.houseCounts;
     look[abbr] = {
       color: style.color,
       height: nextMode === 'senate' ? SENATE_HEIGHT : houseHeight(state.houseSeats),
       marker: style.independent,
+      mascot: delegationMascot(counts, nextMode),
     };
   }
   return look;
@@ -113,25 +120,70 @@ function renderSummary() {
   const imbalance = totals.imbalance
     ? `<p class="warn">Optællingen stemmer ikke med mandatfordelingen (forskel ${totals.imbalance}).</p>`
     : '';
-  const barLabel = bars.map((part) => `${part.count} ${part.label.toLowerCase()}`).join(', ');
-
-  summary.innerHTML = `
-    <p class="chamber-label">${esc(chamber)}. Delegerede er ikke talt med.</p>
-    <div class="bar" role="img" aria-label="${esc(barLabel)}">
-      ${bars.map((part) => `<span style="width:${part.width}%;background:${part.color}" title="${esc(`${part.count} ${part.label}`)}"></span>`).join('')}
-    </div>
+  const tug = tugFigures(totals);
+  const barLabel = [
+    `Tovtrækning. Æslerne ${tug.d}, elefanterne ${tug.r}, af ${tug.seats}.`,
+    `Flertal ved ${tug.need}.`,
+    bars.map((part) => `${part.count} ${part.label.toLowerCase()}`).join(', '),
+  ].join(' ');
+  const tugHtml = `
+    <div class="tug" role="img" aria-label="${esc(barLabel)}">
+      <span class="tug-animal tug-donkey">${mascotSvg('D')}</span>
+      <div class="tug-track">
+        <span class="tug-rope tug-rope-d"></span>
+        <span class="tug-rope tug-rope-r"></span>
+        <span class="tug-stake" style="left:${tug.needPct}%">
+          <span class="tug-stake-label">${tug.need}</span>
+        </span>
+        <span class="tug-knot"></span>
+      </div>
+      <span class="tug-animal tug-elephant">${mascotSvg('R')}</span>
+    </div>`;
+  const statsHtml = `
     <div class="stats">
-      ${stats.map(([count, label, tone]) => `<div class="stat tone-${tone}"><b>${count}</b><span>${esc(label)}</span></div>`).join('')}
-    </div>
-    <p class="majority">${esc(majorityLine(totals, totals.seats))}</p>
-    <p class="legend desk-only"><span class="u-dot" aria-hidden="true">U</span> ${esc(legend)}</p>
-    <p class="phone-key">${mode === 'senate' ? 'Én højde · farve = caucus · U = uafhængig' : 'Højde = pladser · farve = partiandel · U = uafhængig'}</p>
-    ${imbalance}
-    ${banner ? `<p class="election desk-only">${esc(banner)}</p>` : ''}
-    <p class="disclaimer" id="valgnat-disclaimer">Valgnat animerer den siddende kongres, stat for stat. Det er ikke en prognose.</p>
-    <button type="button" id="open-delegates" class="text-btn">Delegerede uden stemmeret (${model.delegates.length})</button>
-  `;
+      ${stats.map(([count, label, tone]) => {
+        const icon = tone === 'd' ? mascotSvg('D') : tone === 'r' ? mascotSvg('R') : tone === 'i' ? mascotSvg('I') : '';
+        return `<div class="stat tone-${tone}"><b>${icon}${count}</b><span>${esc(label)}</span></div>`;
+      }).join('')}
+    </div>`;
+  const story = `
+    <div class="story">
+      <p class="chamber-label">${esc(chamber)}. Delegerede er ikke talt med. Tovet er caucus-sæder, og stregen er flertal ved ${tug.need}.</p>
+      <p class="majority">${esc(majorityLine(totals, totals.seats))}</p>
+      <p class="legend"><span class="u-dot" aria-hidden="true">U</span> ${esc(legend)}</p>
+      ${imbalance}
+      ${banner ? `<p class="election">${esc(banner)}</p>` : ''}
+      <p class="disclaimer">Valgnat animerer den siddende kongres, stat for stat. Det er ikke en prognose.</p>
+      <button type="button" id="open-delegates" class="text-btn">Delegerede uden stemmeret (${model.delegates.length})</button>
+    </div>`;
+  if (phoneMq.matches) {
+    summary.innerHTML = tugHtml + statsHtml;
+    $('about-body').innerHTML = story;
+  } else {
+    summary.innerHTML = tugHtml + statsHtml + story;
+    $('about-body').innerHTML = '';
+  }
+  animateTug(summary.querySelector('.tug'), tug);
   $('open-delegates').addEventListener('click', openDelegates);
+}
+
+function animateTug(root, tug) {
+  const ropeD = root.querySelector('.tug-rope-d');
+  const ropeR = root.querySelector('.tug-rope-r');
+  const knot = root.querySelector('.tug-knot');
+  const apply = (dPct, rPct) => {
+    ropeD.style.width = `${dPct}%`;
+    ropeR.style.width = `${rPct}%`;
+    knot.style.left = `${dPct}%`;
+  };
+  if (reducedMq.matches) {
+    apply(tug.dPct, tug.rPct);
+    return;
+  }
+  apply(tug.needPct, 100 - tug.needPct);
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => apply(tug.dPct, tug.rPct));
+  });
 }
 
 function renderFooter() {
@@ -190,11 +242,22 @@ function setMode(next, { animate = true } = {}) {
   syncUrl();
 }
 
+function updateInset(refocus) {
+  if (!scene) return;
+  let overlap = 0;
+  if (phoneMq.matches && document.body.classList.contains('sheet-open')) {
+    const canvas = $('c').getBoundingClientRect();
+    const panel = $('panel').getBoundingClientRect();
+    overlap = Math.max(0, Math.min(canvas.height, canvas.bottom - panel.top));
+  }
+  scene.setBottomInset(overlap);
+  if (refocus && selected) scene.focus(selected);
+}
+
 function selectState(abbr, { fly = true } = {}) {
   if (!model.states[abbr]) return;
   selected = abbr;
   scene.setSelected(abbr);
-  if (fly) scene.focus(abbr);
   stateSelect.value = abbr;
   const label = `${names[abbr] || abbr} · ${abbr}`;
   sheetLabel.textContent = label;
@@ -206,7 +269,11 @@ function selectState(abbr, { fly = true } = {}) {
   renderPanel();
   syncUrl();
   const state = model.states[abbr];
-  live.textContent = `${names[abbr]}. Hus: ${rosterPhrase(state.house, state.houseVacancies.length)}. Senat: ${rosterPhrase(state.senate, state.senateVacancies.length)}.`;
+  const lead = mode === 'senate'
+    ? `Senat: ${rosterPhrase(state.senate, state.senateVacancies.length)}`
+    : `Hus: ${rosterPhrase(state.house, state.houseVacancies.length)}`;
+  live.textContent = `${names[abbr]}. ${lead}.`;
+  requestAnimationFrame(() => updateInset(fly));
 }
 
 function clearSelection() {
@@ -219,12 +286,14 @@ function clearSelection() {
   sheetToggle.setAttribute('aria-expanded', 'false');
   renderPanel();
   syncUrl();
+  updateInset(false);
 }
 
 function toggleSheet() {
   const open = !document.body.classList.contains('sheet-open');
   document.body.classList.toggle('sheet-open', open);
   sheetToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  requestAnimationFrame(() => updateInset(open && !!selected));
 }
 
 function memberBits(member) {
@@ -240,13 +309,19 @@ function electionBadge(member) {
   return '<span class="badge">På valg</span>';
 }
 
+function partyMark(member) {
+  if (member.party === 'Democrat') return mascotSvg('D');
+  if (member.party === 'Republican') return mascotSvg('R');
+  return mascotSvg('I');
+}
+
 function personArticle(member, meta, { badge = true } = {}) {
   const link = member.url
     ? `<a href="${esc(member.url)}" target="_blank" rel="noopener noreferrer">Officiel side</a>`
     : '';
   const flag = badge ? electionBadge(member) : '';
   return `<article class="person">
-    <span class="avatar" data-party="${esc(member.party || 'unknown')}">${esc(initials(member))}</span>
+    <span class="avatar" data-party="${esc(member.party || 'unknown')}">${partyMark(member)}</span>
     <div>
       <header><strong>${esc(member.name)}</strong> ${flag}</header>
       <p class="meta">${memberBits(member).map(esc).join(' · ')}${meta ? ` · ${esc(meta)}` : ''}</p>
@@ -265,7 +340,7 @@ function vacantArticle(title, detail) {
   </article>`;
 }
 
-function houseBlock(state) {
+function houseBlock(state, { primary = false, heading = true } = {}) {
   const rows = [
     ...(state.house || []).map((member) => ({ kind: 'member', district: member.district, member })),
     ...state.houseVacancies.map((vacancy) => ({ kind: 'vacant', district: vacancy.district, vacancy })),
@@ -294,8 +369,9 @@ function houseBlock(state) {
     const place = districtLabel(row.member.district);
     return personArticle(row.member, place, { badge: !allUp });
   }).join('');
-  return `<section class="block">
-    <h3>Repræsentanternes Hus · ${state.houseSeats}</h3>
+  const title = primary ? 'Repræsentanter' : 'Repræsentanternes Hus';
+  return `<section class="block${primary ? ' is-primary' : ''}">
+    ${heading ? `<h3>${title} · ${state.houseSeats}</h3>` : ''}
     <p class="roster">${esc(rosterPhrase(state.house, state.houseVacancies.length))}</p>
     ${note}
     ${body}
@@ -303,7 +379,7 @@ function houseBlock(state) {
   </section>`;
 }
 
-function senateBlock(state) {
+function senateBlock(state, { primary = false, heading = true } = {}) {
   const rows = [
     ...(state.senate || []).map((member) => ({ kind: 'member', senateClass: member.senateClass, member })),
     ...state.senateVacancies.map((vacancy) => ({ kind: 'vacant', senateClass: vacancy.senateClass, vacancy })),
@@ -324,8 +400,9 @@ function senateBlock(state) {
   const note = inferred
     ? '<p class="note">Klassen er den faste senatsklasse, der mangler i kilden. Der er ikke sat et navn på pladsen.</p>'
     : '';
-  return `<section class="block">
-    <h3>Senatet</h3>
+  const title = primary ? 'Senatorer' : 'Senatet';
+  return `<section class="block${primary ? ' is-primary' : ''}">
+    ${heading ? `<h3>${title}</h3>` : ''}
     <p class="roster">${esc(rosterPhrase(state.senate, state.senateVacancies.length))}</p>
     ${body}
     ${note}
@@ -341,10 +418,21 @@ function renderPanel() {
     return;
   }
   const state = model.states[selected];
-  const activeFirst = mode === 'senate'
-    ? senateBlock(state) + houseBlock(state)
-    : houseBlock(state) + senateBlock(state);
-  panelScroll.innerHTML = `${activeFirst}<p class="note">Kilde: congress-legislators, hentet ${esc(danishStamp(model.fetchedAt))}.</p>`;
+  const phone = phoneMq.matches;
+  const senate = senateBlock(state, {
+    primary: mode === 'senate',
+    heading: !(phone && mode !== 'senate'),
+  });
+  const house = houseBlock(state, {
+    primary: mode === 'house',
+    heading: !(phone && mode !== 'house'),
+  });
+  const body = phone
+    ? (mode === 'senate'
+      ? `<div class="primary-chamber">${senate}</div><details class="secondary-chamber"><summary>Repræsentanter · ${state.houseSeats}</summary>${house}</details>`
+      : `<div class="primary-chamber">${house}</div><details class="secondary-chamber"><summary>Senatorer</summary>${senate}</details>`)
+    : (mode === 'senate' ? senate + house : house + senate);
+  panelScroll.innerHTML = `${body}<p class="note">Kilde: congress-legislators, hentet ${esc(danishStamp(model.fetchedAt))}.</p>`;
   panelScroll.scrollTop = 0;
 }
 
@@ -406,6 +494,7 @@ function showTooltip(abbr, event) {
 function stopShow() {
   playing = false;
   scene.stopValgnat();
+  scene.clearMascots();
   call.hidden = true;
   valgnatBtn.querySelector('span').textContent = 'Valgnat';
   valgnatBtn.setAttribute('aria-pressed', 'false');
@@ -434,10 +523,15 @@ function startValgnat() {
       playing = false;
       valgnatBtn.querySelector('span').textContent = 'Valgnat';
       valgnatBtn.setAttribute('aria-pressed', 'false');
-      callText.textContent = 'Sådan ser det ud i dag — ikke en prognose';
+      const line = mascotMajorityLine(totalsFor(mode));
+      callText.textContent = `${line}. Ikke en prognose.`;
+      live.textContent = `${line}. Ikke en prognose.`;
       window.setTimeout(() => {
-        if (!playing) call.hidden = true;
-      }, 4200);
+        if (!playing) {
+          call.hidden = true;
+          scene.clearMascots();
+        }
+      }, 5200);
     },
   });
 }
@@ -474,7 +568,8 @@ async function bootApp() {
   fillSelect();
   renderFooter();
 
-  scene = createScene($('c'), {
+  if (!phoneMq.matches) $('about').open = true;
+  scene = await createScene($('c'), {
     onHover: showTooltip,
     onPick: (abbr) => selectState(abbr),
   });
@@ -509,7 +604,12 @@ panelClose.addEventListener('click', (event) => {
   clearSelection();
 });
 sheetToggle.addEventListener('click', () => {
-  if (window.matchMedia('(max-width: 979px)').matches) toggleSheet();
+  if (phoneMq.matches) toggleSheet();
+});
+phoneMq.addEventListener('change', () => {
+  if (!phoneMq.matches) $('about').open = true;
+  if (model) renderSummary();
+  updateInset(false);
 });
 dialog.addEventListener('click', (event) => {
   if (event.target === dialog) dialog.close();
