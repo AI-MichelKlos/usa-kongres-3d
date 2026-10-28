@@ -4,3 +4,5 @@ dist
 .vite
 *.local
 public/data/*.tmp
+__pycache__/
+*.pyc
