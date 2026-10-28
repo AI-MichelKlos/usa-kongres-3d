@@ -130,6 +130,33 @@ function caucusNote(count, side) {
   return `${who} i ${group}`;
 }
 
+/** Caucus counts and the majority line (218 in the House, 51 in the Senate). */
+export function tugFigures(totals) {
+  const seats = Number(totals.seats) || 0;
+  const need = Math.floor(seats / 2) + 1;
+  const d = (totals.Democrat || 0) + (totals.caucusDemocrat || 0);
+  const r = (totals.Republican || 0) + (totals.caucusRepublican || 0);
+  const pct = (count) => (seats ? (count / seats) * 100 : 0);
+  return { seats, need, d, r, dPct: pct(d), rPct: pct(r), needPct: pct(need) };
+}
+
+export function mascotMajorityLine(totals) {
+  const { d, r, seats, need } = tugFigures(totals);
+  if (r >= need && r > d) return `Flertal: elefanterne · ${r} af ${seats}`;
+  if (d >= need && d > r) return `Flertal: æslerne · ${d} af ${seats}`;
+  return `Ingen har flertal · æslerne ${d}, elefanterne ${r} af ${seats}`;
+}
+
+/** Which mascot pops onto a state. House uses party, Senate uses caucus. */
+export function delegationMascot(counts, mode) {
+  const d = mode === 'senate' ? counts.Democrat + counts.caucusDemocrat : counts.Democrat;
+  const r = mode === 'senate' ? counts.Republican + counts.caucusRepublican : counts.Republican;
+  if (d === 0 && r === 0) return counts.seated > 0 ? 'I' : null;
+  if (d > r) return 'D';
+  if (r > d) return 'R';
+  return 'split';
+}
+
 export function majorityLine(totals, seats) {
   const need = Math.floor(seats / 2) + 1;
   const democrats = totals.Democrat + totals.caucusDemocrat;

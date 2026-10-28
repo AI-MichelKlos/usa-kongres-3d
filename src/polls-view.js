@@ -49,9 +49,9 @@ function averageBlock(average, noun) {
       ? `Demokraterne ligger ${formatAveragePct(Math.abs(average.margin))} point foran i dette gennemsnit.`
       : `Republikanerne ligger ${formatAveragePct(Math.abs(average.margin))} point foran i dette gennemsnit.`;
   return `<div class="poll-avg">
-    <div class="poll-avg-side tone-d">${mascotSvg('D')}<b>${formatAveragePct(average.democratPct)} %</b><span>Demokrater</span></div>
+    <div class="poll-avg-side tone-d">${mascotSvg('D', { decorative: false })}<b>${formatAveragePct(average.democratPct)} %</b><span>Demokrater</span></div>
     <div class="poll-avg-mid"><b>${average.count}</b><span>${noun}</span></div>
-    <div class="poll-avg-side tone-r">${mascotSvg('R')}<b>${formatAveragePct(average.republicanPct)} %</b><span>Republikanere</span></div>
+    <div class="poll-avg-side tone-r">${mascotSvg('R', { decorative: false })}<b>${formatAveragePct(average.republicanPct)} %</b><span>Republikanere</span></div>
   </div>
   ${shareBar(average)}
   <p class="poll-ahead">${esc(ahead)} Ikke en prognose.</p>`;

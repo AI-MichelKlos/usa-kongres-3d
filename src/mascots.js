@@ -9,14 +9,34 @@ const ELEPHANT = `
   <path d="M6.4 20.6c-.8 2.4-.2 5 1.8 6.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
 `;
 
-const BODY = { D: DONKEY, R: ELEPHANT };
+const NEUTRAL = `
+  <circle cx="16" cy="16" r="5.4" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="16" cy="16" r="2"/>
+`;
+
+const BODY = { D: DONKEY, R: ELEPHANT, I: NEUTRAL };
 
 const LABEL = {
   D: 'Æsel, demokraternes maskot',
   R: 'Elefant, republikanernes maskot',
+  I: 'Uafhængig',
 };
 
-export function mascotSvg(kind) {
-  const label = LABEL[kind] || '';
-  return `<svg class="mascot mascot-${kind}" viewBox="0 0 32 32" role="img" aria-label="${label}">${BODY[kind] || ''}</svg>`;
+export function mascotSvg(kind, { decorative = true } = {}) {
+  const label = LABEL[kind] || LABEL.I;
+  const a11y = decorative
+    ? 'aria-hidden="true"'
+    : `role="img" aria-label="${label}"`;
+  return `<svg class="mascot mascot-${kind}" viewBox="0 0 32 32" ${a11y}>${BODY[kind] || NEUTRAL}</svg>`;
+}
+
+export function spriteSvg(kind) {
+  const fill = kind === 'R' ? '#e24b4b' : kind === 'D' ? '#3a6fe0' : '#e6b34d';
+  const ink = kind === 'I' ? '#2a1d05' : '#f7f2e8';
+  const shapes = (BODY[kind] || NEUTRAL).replaceAll('currentColor', ink);
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="15" fill="${fill}"/>
+  <g fill="${ink}" stroke="${ink}">${shapes}</g>
+</svg>`;
 }

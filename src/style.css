@@ -19,7 +19,10 @@
 }
 
 * { box-sizing: border-box; }
-html, body { min-height: 100%; }
+html, body {
+  min-height: 100%;
+  overscroll-behavior: none;
+}
 body {
   margin: 0;
   min-height: 100dvh;
@@ -209,15 +212,65 @@ header h1 {
 }
 .majority { color: var(--ink); }
 .election { color: #f0d48a; }
-.bar {
-  display: flex;
-  height: 10px;
-  margin-top: 0.45rem;
-  border-radius: 99px;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.06);
+.tug {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.45rem;
+  align-items: center;
+  margin: 0.45rem 0 0.15rem;
 }
-.bar span { display: block; height: 100%; min-width: 2px; }
+.tug-animal { display: grid; place-items: center; }
+.tug-animal svg { width: 1.85rem; height: 1.85rem; display: block; }
+.tug-donkey svg { color: var(--d); }
+.tug-elephant svg { color: var(--r); transform: scaleX(-1); }
+.tug-track {
+  position: relative;
+  height: 12px;
+  border-radius: 99px;
+  background:
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 6px, transparent 6px 10px),
+    #2a241c;
+}
+.tug-rope {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  transition: width 720ms cubic-bezier(.16, .84, .32, 1);
+}
+.tug-rope-d { left: 0; background: linear-gradient(90deg, #214a9e, var(--d)); border-radius: 99px 0 0 99px; }
+.tug-rope-r { right: 0; background: linear-gradient(270deg, #9d2424, var(--r)); border-radius: 0 99px 99px 0; }
+.tug-stake {
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  width: 2px;
+  background: #f6f1e7;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.tug-stake-label {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+.tug-knot {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  width: 11px;
+  height: 11px;
+  margin-top: -5.5px;
+  border-radius: 2px;
+  background: #f4efe4;
+  border: 2px solid #24180c;
+  transform: translateX(-50%);
+  transition: left 720ms cubic-bezier(.16, .84, .32, 1);
+}
 .stats {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -225,7 +278,9 @@ header h1 {
   margin-top: 0.55rem;
 }
 .stat b {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
   font-family: var(--serif);
   font-size: clamp(1.15rem, 2vw, 1.55rem);
   font-weight: 600;
@@ -427,6 +482,29 @@ header h1 {
   background: var(--v);
   color: #141822;
 }
+.avatar svg { width: 1.55rem; height: 1.55rem; }
+.avatar[data-party="Democrat"] svg,
+.avatar[data-party="Republican"] svg { color: #fff; }
+.avatar[data-party="Independent"] svg { color: var(--gold-ink); }
+.stat .mascot { width: 0.95rem; height: 0.95rem; flex: none; }
+.is-primary h3 { color: var(--ink); font-size: 0.82rem; }
+.secondary-chamber { margin-top: 0.4rem; border-top: 1px solid var(--line); }
+.secondary-chamber summary {
+  cursor: pointer;
+  padding: 0.75rem 0;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+#about { border-top: 1px solid var(--line); background: rgba(8, 12, 22, 0.96); }
+#about summary {
+  cursor: pointer;
+  padding: 0.55rem 0.9rem calc(0.55rem + var(--safe-b));
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+#about-body, #about footer { padding-left: 0.9rem; padding-right: 0.9rem; }
+#stage, #stage canvas { touch-action: none; }
+#panel-scroll, #about { touch-action: pan-y; }
 .avatar[data-party="Democrat"] { background: var(--d); color: white; }
 .avatar[data-party="Republican"] { background: var(--r); color: white; }
 .avatar[data-party="Independent"] { background: var(--i); color: var(--gold-ink); }
@@ -471,37 +549,74 @@ dialog::backdrop { background: rgba(4, 6, 12, 0.68); }
 @media (max-width: 979px) {
   .short { display: inline; }
   .long { display: none; }
-  .finder { flex: 1 1 100%; }
-  .finder select { font-size: 16px; min-width: 0; }
-  #summary { padding-bottom: 0.35rem; }
-  .desk-only { display: none !important; }
-  .phone-key { display: block; }
-  .disclaimer { font-size: 0.75rem; }
-  #stage { min-height: 38dvh; }
+  #app { padding-top: 0; }
+  header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "brand valgnat"
+      "seg finder"
+      "polls polls";
+    gap: 0.35rem 0.45rem;
+    align-items: center;
+    padding: calc(0.35rem + var(--safe-t)) 0.65rem 0.15rem;
+  }
+  .controls { display: contents; }
+  .brand { grid-area: brand; min-width: 0; }
+  header h1 { overflow: hidden; text-overflow: ellipsis; }
+  #polls-open { grid-area: polls; justify-self: start; padding: 0.32rem 0.7rem; }
+  #valgnat { grid-area: valgnat; }
+  .seg { grid-area: seg; justify-self: start; }
+  .finder { grid-area: finder; min-width: 0; }
+  .finder select { font-size: 16px; min-width: 0; width: 100%; }
+  .kicker { display: none; }
+  header h1 { font-size: 1.2rem; white-space: nowrap; }
+  .mark { width: 26px; height: 26px; }
+  .seg button, #valgnat { padding: 0.38rem 0.65rem; }
+  #summary { padding: 0 0.65rem 0.35rem; }
+  .tug-animal svg { width: 1.55rem; height: 1.55rem; }
+  .stat b { font-size: 1.05rem; }
+  #workspace { min-height: 0; }
+  #stage { flex: 1; min-height: 0; }
   #panel {
-    position: relative;
-    height: auto;
-    border-radius: 16px 16px 0 0;
-  }
-  #panel-scroll { display: none; }
-  body.sheet-open #panel {
     position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 6;
-    height: min(72dvh, 640px);
+    left: 0.45rem;
+    right: 0.45rem;
+    bottom: calc(0.4rem + var(--safe-b));
+    z-index: 7;
+    width: auto;
+    max-height: min(40dvh, 380px);
+    border-radius: 16px;
     background: #0e1422;
-    box-shadow: 0 -18px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 -12px 36px rgba(0, 0, 0, 0.45);
+    transform: translateY(130%);
+    pointer-events: none;
   }
-  body.sheet-open #panel-scroll { display: block; }
-  body.sheet-open #hint,
-  body.sheet-open #home { opacity: 0; pointer-events: none; }
-  #sheet-label { font-size: 1.12rem; }
-  footer { position: relative; z-index: 4; background: rgba(8, 12, 22, 0.96); }
+  #panel-scroll { display: block; overflow: auto; max-height: calc(40dvh - 3.2rem); }
+  body.sheet-open #panel { transform: none; pointer-events: auto; }
+  body.sheet-open #hint { opacity: 0; }
+  #home { left: 0.55rem; right: auto; top: 0.45rem; }
+  #sheet-label { font-size: 1.05rem; }
+  #about { max-height: 46dvh; overflow: auto; }
+  #about:not([open]) #about-body,
+  #about:not([open]) footer { display: none; }
+}
+@media (max-width: 979px) and (orientation: landscape) {
+  header {
+    grid-template-columns: auto auto auto auto minmax(7rem, 1fr);
+    grid-template-areas: "brand seg polls valgnat finder";
+    padding-top: calc(0.2rem + var(--safe-t));
+  }
+  .finder { min-width: 0; }
+  #summary { padding-bottom: 0.15rem; }
+  .stat b { font-size: 0.95rem; }
+  .tug { margin-top: 0.15rem; }
+  #panel { max-height: 42dvh; }
+  #panel-scroll { max-height: calc(42dvh - 3rem); }
 }
 
 @media (min-width: 980px) {
+  #about summary { display: none; }
   .grip { display: none; }
   .sheet-toggle { pointer-events: none; }
   #workspace { flex-direction: row; }
@@ -515,6 +630,19 @@ dialog::backdrop { background: rgba(4, 6, 12, 0.68); }
   #hint { bottom: 0.9rem; }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .tug-donkey svg { animation: tug-left 1.8s ease-in-out infinite alternate; }
+  .tug-elephant svg { animation: tug-right 1.8s ease-in-out infinite alternate; }
+}
+@keyframes tug-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-2px); }
+}
+@keyframes tug-right {
+  from { transform: translateX(0) scaleX(-1); }
+  to { transform: translateX(2px) scaleX(-1); }
+}
+.tug-elephant svg { transform: scaleX(-1); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation: none !important;
