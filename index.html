@@ -49,6 +49,7 @@
               <span class="short">Senatet</span>
             </button>
           </div>
+          <button type="button" id="polls-open">Målinger</button>
           <button type="button" id="valgnat" aria-pressed="false" aria-describedby="valgnat-note">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path fill="currentColor" d="M12 3.2 13.6 8l4.9.2-3.9 3.1 1.4 4.7L12 13.4 7.9 16l1.4-4.7L5.5 8.2 10.4 8 12 3.2Z" />
@@ -78,6 +79,7 @@
             <span id="call-count">0 af 50</span>
             <div class="call-track" aria-hidden="true"><span id="call-bar"></span></div>
           </div>
+          <div id="poll-badges"></div>
           <p id="hint"><span class="hint-desk">Træk for at dreje · rul for at zoome</span><span class="hint-touch">Drej med en finger · knib for at zoome</span></p>
           <button type="button" id="home">Hele USA</button>
         </div>
@@ -94,6 +96,16 @@
       </div>
       <footer id="footer"></footer>
     </div>
+
+    <section id="meningsmaalinger" aria-labelledby="polls-title">
+      <div class="polls-inner">
+        <p class="polls-kicker">Meningsmålinger</p>
+        <h2 id="polls-title">Midtvejsvalget 3. november 2026</h2>
+        <div id="polls-body">
+          <p class="poll-empty">Henter målinger…</p>
+        </div>
+      </div>
+    </section>
 
     <dialog id="delegates-dialog" aria-labelledby="delegates-title"></dialog>
     <p id="valgnat-note" class="sr-only">Animationen viser den nuværende sammensætning, som om tallene tikker ind. Det er ikke en prognose.</p>

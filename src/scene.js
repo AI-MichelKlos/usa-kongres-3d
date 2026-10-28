@@ -56,7 +56,7 @@ function shadowTexture() {
   return texture;
 }
 
-export function createScene(canvas, { onHover, onPick } = {}) {
+export function createScene(canvas, { onHover, onPick, onPollBadges } = {}) {
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const renderer = new THREE.WebGLRenderer({
     canvas,
@@ -187,6 +187,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
         height: 0.03,
         lift: 0,
         showMarker: false,
+        showPoll: false,
         tween: null,
         paintKey: '',
       });
@@ -284,6 +285,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       const state = byAbbr.get(abbr);
       const target = look[abbr];
       if (!state || !target) return;
+      state.showPoll = !!target.poll;
       if (intro && !reduced) {
         state.color.set(target.color);
         state.height = 0.03;
@@ -310,6 +312,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     for (const [abbr, target] of Object.entries(look)) {
       const state = byAbbr.get(abbr);
       if (!state) continue;
+      state.showPoll = !!target.poll;
       if (reduced) {
         instant(state, target.color, target.height, target.marker);
         continue;
@@ -344,6 +347,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     order.forEach((abbr, index) => {
       const state = byAbbr.get(abbr);
       const target = currentLook[abbr];
+      state.showPoll = !!target.poll;
       state.color.set(UNCALLED);
       state.height = 0.045;
       state.showMarker = false;
@@ -369,8 +373,29 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     if (!currentLook) return;
     for (const [abbr, target] of Object.entries(currentLook)) {
       const state = byAbbr.get(abbr);
-      if (state) instant(state, target.color, target.height, target.marker);
+      if (!state) continue;
+      state.showPoll = !!target.poll;
+      instant(state, target.color, target.height, target.marker);
     }
+  }
+
+  function emitPollBadges() {
+    if (!onPollBadges) return;
+    const width = canvas.clientWidth || 1;
+    const height = canvas.clientHeight || 1;
+    const list = [];
+    for (const state of byAbbr.values()) {
+      if (!state.showPoll) continue;
+      tmp.set(state.anchor.x, state.lift + Math.max(0.02, state.height) + 0.06, state.anchor.z);
+      tmp.project(camera);
+      if (tmp.z > 1) continue;
+      list.push({
+        abbr: state.abbr,
+        x: (tmp.x * 0.5 + 0.5) * width,
+        y: (-tmp.y * 0.5 + 0.5) * height,
+      });
+    }
+    onPollBadges(list);
   }
 
   function setSelected(abbr) {
@@ -499,6 +524,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     }
     for (const state of byAbbr.values()) applyVisual(state);
     updateMarkerScale();
+    emitPollBadges();
     renderer.render(scene, camera);
   }
   requestAnimationFrame(frame);

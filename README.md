@@ -28,6 +28,18 @@ Ledige pladser er forskellen mellem den lovbestemte mandatfordeling og de medlem
 
 Delegerede fra D.C. og territorierne (herunder Puerto Ricos residentkommissær) stemmer ikke i Huset og sidder ikke i Senatet. De står på deres egen liste og er ikke tegnet på kortet.
 
+## Meningsmålinger
+
+`public/data/polls.json` er en manuel afskrift af enkelte, offentliggjorte målinger til midtvejsvalget 3. november 2026. Den er ikke en del af kongresdataene, og workflowet henter den ikke automatisk. Aggregater og prognoser (Silver Bulletin, RealClearPolitics, Decision Desk HQ, 270toWin, FiftyPlusOne, Ballotpedia og lignende) er ikke taget med. Gennemsnittet regnes i browseren ud fra rækkerne i filen.
+
+Sådan opdateres filen:
+
+1. Kør `python3 scripts/compile_polls.py`. Det kræver netadgang til Wikipedia og læser kun tabeller over enkelte målinger. Feltarbejde uden for de seneste 30 dage udelades. Manglende stikprøve eller fejlmargin bliver stående som tomme felter.
+2. Læs diffen. Ret ikke en procent i hånden, medmindre tabellens celle og den oprindelige kilde er uenige. Så skal tallet tages fra kilden, eller rækken skal ud. Gæt aldrig et tal.
+3. Commit `public/data/polls.json`. Der er ikke et ugentligt job, fordi automatisk indlæsning ikke er pålidelig.
+
+RMG Researchs generiske måling 13.–14. oktober 2026 er afskrevet fra Napolitan-artiklen, fordi Wikipedias ene celle (RV 51–43) ikke er den samme opgørelse som artiklens sandsynlige vælgere uden leaners (52–41).
+
 ## Lokalt
 
 ```bash

@@ -24,6 +24,7 @@ import {
   todayInNewYork,
   yearSpan,
 } from './format.js';
+import { closeStateAbbrs, renderPolls } from './polls-view.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -54,6 +55,8 @@ let mode = 'house';
 let selected = null;
 let playing = false;
 let todayISO = todayInNewYork();
+let closeAbbrs = new Set();
+const badgeButtons = new Map();
 
 function esc(value) {
   return String(value ?? '').replace(/[&<>"']/g, (ch) => ({
@@ -69,6 +72,7 @@ function lookFor(nextMode) {
       color: style.color,
       height: nextMode === 'senate' ? SENATE_HEIGHT : houseHeight(state.houseSeats),
       marker: style.independent,
+      poll: nextMode === 'senate' && closeAbbrs.has(abbr),
     };
   }
   return look;
@@ -442,6 +446,48 @@ function startValgnat() {
   });
 }
 
+function openPolls(abbr) {
+  const section = $('meningsmaalinger');
+  const target = abbr ? $(`poll-${abbr}`) : section;
+  (target || section).scrollIntoView({ behavior: 'auto', block: 'start' });
+}
+
+function syncBadges(list) {
+  const layer = $('poll-badges');
+  if (!layer) return;
+  const seen = new Set();
+  const placed = [];
+  for (const item of list) {
+    let y = item.y;
+    let guard = 0;
+    while (placed.some((other) => Math.abs(other.x - item.x) < 64 && Math.abs(other.y - y) < 22) && guard < 8) {
+      y -= 20;
+      guard += 1;
+    }
+    if (y < 10) y = item.y;
+    placed.push({ x: item.x, y });
+    seen.add(item.abbr);
+    let button = badgeButtons.get(item.abbr);
+    if (!button) {
+      button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'tight-badge';
+      button.textContent = 'tæt løb';
+      button.addEventListener('pointerdown', (event) => event.stopPropagation());
+      button.addEventListener('click', () => openPolls(item.abbr));
+      layer.appendChild(button);
+      badgeButtons.set(item.abbr, button);
+    }
+    const name = names[item.abbr] || item.abbr;
+    button.setAttribute('aria-label', `${name}, tæt løb. Åbn meningsmålingerne.`);
+    button.style.transform = `translate(${item.x}px, ${y}px) translate(-50%, -100%)`;
+    button.hidden = false;
+  }
+  for (const [abbr, button] of badgeButtons) {
+    if (!seen.has(abbr)) button.hidden = true;
+  }
+}
+
 function showError(message) {
   bootStatus.textContent = message;
   const bar = boot.querySelector('.boot-bar');
@@ -456,12 +502,14 @@ async function bootApp() {
   root.style.setProperty('--v', COLORS.vacant);
   root.style.setProperty('--split', COLORS.split);
 
-  const [congressRes, topoRes] = await Promise.all([
+  const [congressRes, topoRes, pollsRes] = await Promise.all([
     fetch('./data/congress.json'),
     fetch('./geo/states-10m.json'),
+    fetch('./data/polls.json').catch(() => null),
   ]);
   if (!congressRes.ok || !topoRes.ok) throw new Error('Kunne ikke hente datafilerne');
   const [congress, topo] = await Promise.all([congressRes.json(), topoRes.json()]);
+  const polls = pollsRes?.ok ? await pollsRes.json() : null;
   model = buildModel(congress);
   todayISO = todayInNewYork();
   await document.fonts.ready;
@@ -469,6 +517,8 @@ async function bootApp() {
   await new Promise((resolve) => { requestAnimationFrame(() => resolve()); });
   const built = buildStateGeometries(topo);
   names = Object.fromEntries(built.states.map((state) => [state.abbr, state.name]));
+  closeAbbrs = new Set(closeStateAbbrs(polls));
+  renderPolls($('polls-body'), polls, names);
 
   $('kicker').textContent = `${model.congress}. kongres`;
   fillSelect();
@@ -477,6 +527,7 @@ async function bootApp() {
   scene = createScene($('c'), {
     onHover: showTooltip,
     onPick: (abbr) => selectState(abbr),
+    onPollBadges: syncBadges,
   });
   scene.setGeometries(built);
 
@@ -496,6 +547,7 @@ async function bootApp() {
   window.setTimeout(() => hint.classList.add('gone'), 6800);
 }
 
+$('polls-open').addEventListener('click', () => openPolls());
 $('mode-house').addEventListener('click', () => { if (mode !== 'house') setMode('house'); });
 $('mode-senate').addEventListener('click', () => { if (mode !== 'senate') setMode('senate'); });
 valgnatBtn.addEventListener('click', startValgnat);
