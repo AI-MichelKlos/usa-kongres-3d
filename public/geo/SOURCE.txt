@@ -1,0 +1,9 @@
+states-10m.json
+Package: us-atlas@3.0.1
+Upstream: https://github.com/topojson/us-atlas
+License: ISC (see LICENSE-us-atlas.txt), Copyright 2013-2019 Michael Bostock
+
+Unprojected TopoJSON (WGS84). The site projects it in the browser with
+d3-geo's geoAlbersUsa, the same Albers composite projection us-atlas uses
+for its preprojected files. Only the 50 states are drawn. The District of
+Columbia and the territories are in the file but listed separately in the UI.

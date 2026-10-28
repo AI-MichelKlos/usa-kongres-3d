@@ -1,0 +1,6718 @@
+{
+  "fetchedAt": "2026-10-28T15:13:25Z",
+  "asOf": "2026-10-28",
+  "source": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+  "sourceRepo": "https://github.com/unitedstates/congress-legislators",
+  "retrievedFrom": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+  "congress": 119,
+  "recordVersion": 1,
+  "apportionment": {
+    "houseSeats": 435,
+    "senateSeats": 100,
+    "note": "Huspladser er folketællingen 2020 (U.S. Census Bureau). Senatet har to pladser pr. stat."
+  },
+  "states": {
+    "AK": {
+      "houseSeats": 1,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "S001198",
+          "name": "Dan Sullivan",
+          "first": "Dan",
+          "last": "Sullivan",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.sullivan.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Lisa Murkowski",
+          "first": "Lisa",
+          "last": "Murkowski",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.murkowski.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "B001323",
+          "name": "Nicholas J. Begich III",
+          "first": "Nicholas",
+          "last": "Begich",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://begich.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "AL": {
+      "houseSeats": 7,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "T000278",
+          "name": "Tommy Tuberville",
+          "first": "Tommy",
+          "last": "Tuberville",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.tuberville.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Katie Boyd Britt",
+          "first": "Katie",
+          "last": "Britt",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.britt.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001212",
+          "name": "Barry Moore",
+          "first": "Barry",
+          "last": "Moore",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://barrymoore.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "F000481",
+          "name": "Shomari Figures",
+          "first": "Shomari",
+          "last": "Figures",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://figures.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "R000575",
+          "name": "Mike Rogers",
+          "first": "Mike",
+          "last": "Rogers",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mikerogers.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Robert B. Aderholt",
+          "first": "Robert",
+          "last": "Aderholt",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://aderholt.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "S001220",
+          "name": "Dale W. Strong",
+          "first": "Dale",
+          "last": "Strong",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://strong.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "P000609",
+          "name": "Gary J. Palmer",
+          "first": "Gary",
+          "last": "Palmer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://palmer.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Terri A. Sewell",
+          "first": "Terri",
+          "last": "Sewell",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sewell.house.gov",
+          "district": 7
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "AR": {
+      "houseSeats": 4,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "C001095",
+          "name": "Tom Cotton",
+          "first": "Tom",
+          "last": "Cotton",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.cotton.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "B001236",
+          "name": "John Boozman",
+          "first": "John",
+          "last": "Boozman",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.boozman.senate.gov/public",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "C001087",
+          "name": "Eric A. \"Rick\" Crawford",
+          "first": "Eric",
+          "last": "Crawford",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crawford.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "H001072",
+          "name": "J. French Hill",
+          "first": "J.",
+          "last": "Hill",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hill.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "W000809",
+          "name": "Steve Womack",
+          "first": "Steve",
+          "last": "Womack",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://womack.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "W000821",
+          "name": "Bruce Westerman",
+          "first": "Bruce",
+          "last": "Westerman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://westerman.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "AZ": {
+      "houseSeats": 9,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "G000574",
+          "name": "Ruben Gallego",
+          "first": "Ruben",
+          "last": "Gallego",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.gallego.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Mark Kelly",
+          "first": "Mark",
+          "last": "Kelly",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.kelly.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "S001183",
+          "name": "David Schweikert",
+          "first": "David",
+          "last": "Schweikert",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://schweikert.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "C001132",
+          "name": "Elijah Crane",
+          "first": "Eli",
+          "last": "Crane",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crane.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "A000381",
+          "name": "Yassamin Ansari",
+          "first": "Yassamin",
+          "last": "Ansari",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ansari.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Greg Stanton",
+          "first": "Greg",
+          "last": "Stanton",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stanton.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Andy Biggs",
+          "first": "Andy",
+          "last": "Biggs",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://biggs.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Juan Ciscomani",
+          "first": "Juan",
+          "last": "Ciscomani",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ciscomani.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "G000606",
+          "name": "Adelita S. Grijalva",
+          "first": "Adelita",
+          "last": "Grijalva",
+          "party": "Democrat",
+          "termStart": "2025-11-12",
+          "termEnd": "2027-01-03",
+          "url": "https://grijalva.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Abraham J. Hamadeh",
+          "first": "Abraham",
+          "last": "Hamadeh",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hamadeh.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Paul A. Gosar",
+          "first": "Paul",
+          "last": "Gosar",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gosar.house.gov",
+          "district": 9
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "CA": {
+      "houseSeats": 52,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "S001150",
+          "name": "Adam B. Schiff",
+          "first": "Adam",
+          "last": "Schiff",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.schiff.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Alex Padilla",
+          "first": "Alejandro",
+          "last": "Padilla",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.padilla.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "G000607",
+          "name": "James Gallagher",
+          "first": "James",
+          "last": "Gallagher",
+          "party": "Republican",
+          "termStart": "2026-06-10",
+          "termEnd": "2027-01-03",
+          "url": "https://gallagher.house.gov/",
+          "district": 1
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Jared Huffman",
+          "first": "Jared",
+          "last": "Huffman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://huffman.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "K000401",
+          "name": "Kevin Kiley",
+          "first": "Kevin",
+          "last": "Kiley",
+          "party": "Independent",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "caucus": "Republican",
+          "url": "https://kiley.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Mike Thompson",
+          "first": "Mike",
+          "last": "Thompson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mikethompson.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "M001177",
+          "name": "Tom McClintock",
+          "first": "Tom",
+          "last": "McClintock",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcclintock.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Ami Bera",
+          "first": "Ami",
+          "last": "Bera",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bera.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Doris O. Matsui",
+          "first": "Doris",
+          "last": "Matsui",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://matsui.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "G000559",
+          "name": "John Garamendi",
+          "first": "John",
+          "last": "Garamendi",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://garamendi.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Josh Harder",
+          "first": "Josh",
+          "last": "Harder",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://harder.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "D000623",
+          "name": "Mark DeSaulnier",
+          "first": "Mark",
+          "last": "DeSaulnier",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://desaulnier.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "P000197",
+          "name": "Nancy Pelosi",
+          "first": "Nancy",
+          "last": "Pelosi",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pelosi.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Lateefah Simon",
+          "first": "Lateefah",
+          "last": "Simon",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://simon.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Adam Gray",
+          "first": "Adam",
+          "last": "Gray",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gray.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "W000832",
+          "name": "Aisha Wahab",
+          "first": "Aisha",
+          "last": "Wahab",
+          "party": "Democrat",
+          "termStart": "2026-09-02",
+          "termEnd": "2027-01-03",
+          "url": "https://wahab.house.gov/",
+          "district": 14
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Kevin Mullin",
+          "first": "Kevin",
+          "last": "Mullin",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kevinmullin.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "L000607",
+          "name": "Sam T. Liccardo",
+          "first": "Sam",
+          "last": "Liccardo",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://liccardo.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "K000389",
+          "name": "Ro Khanna",
+          "first": "Ro",
+          "last": "Khanna",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://khanna.house.gov",
+          "district": 17
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Zoe Lofgren",
+          "first": "Zoe",
+          "last": "Lofgren",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lofgren.house.gov",
+          "district": 18
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Jimmy Panetta",
+          "first": "Jimmy",
+          "last": "Panetta",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://panetta.house.gov",
+          "district": 19
+        },
+        {
+          "bioguide": "F000480",
+          "name": "Vince Fong",
+          "first": "Vince",
+          "last": "Fong",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fong.house.gov",
+          "district": 20
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Jim Costa",
+          "first": "Jim",
+          "last": "Costa",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://costa.house.gov",
+          "district": 21
+        },
+        {
+          "bioguide": "V000129",
+          "name": "David G. Valadao",
+          "first": "David",
+          "last": "Valadao",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://valadao.house.gov",
+          "district": 22
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Jay Obernolte",
+          "first": "Jay",
+          "last": "Obernolte",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://obernolte.house.gov",
+          "district": 23
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Salud O. Carbajal",
+          "first": "Salud",
+          "last": "Carbajal",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://carbajal.house.gov",
+          "district": 24
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Raul Ruiz",
+          "first": "Raul",
+          "last": "Ruiz",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ruiz.house.gov",
+          "district": 25
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Julia Brownley",
+          "first": "Julia",
+          "last": "Brownley",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://juliabrownley.house.gov",
+          "district": 26
+        },
+        {
+          "bioguide": "W000830",
+          "name": "George Whitesides",
+          "first": "George",
+          "last": "Whitesides",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://whitesides.house.gov",
+          "district": 27
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Judy Chu",
+          "first": "Judy",
+          "last": "Chu",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://chu.house.gov",
+          "district": 28
+        },
+        {
+          "bioguide": "R000620",
+          "name": "Luz M. Rivas",
+          "first": "Luz",
+          "last": "Rivas",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://rivas.house.gov",
+          "district": 29
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Laura Friedman",
+          "first": "Laura",
+          "last": "Friedman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://friedman.house.gov",
+          "district": 30
+        },
+        {
+          "bioguide": "C001123",
+          "name": "Gilbert Ray Cisneros, Jr.",
+          "first": "Gilbert",
+          "last": "Cisneros",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cisneros.house.gov",
+          "district": 31
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Brad Sherman",
+          "first": "Brad",
+          "last": "Sherman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sherman.house.gov",
+          "district": 32
+        },
+        {
+          "bioguide": "A000371",
+          "name": "Pete Aguilar",
+          "first": "Pete",
+          "last": "Aguilar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://aguilar.house.gov",
+          "district": 33
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Jimmy Gomez",
+          "first": "Jimmy",
+          "last": "Gomez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gomez.house.gov",
+          "district": 34
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Norma J. Torres",
+          "first": "Norma",
+          "last": "Torres",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://torres.house.gov",
+          "district": 35
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Ted Lieu",
+          "first": "Ted",
+          "last": "Lieu",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lieu.house.gov",
+          "district": 36
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Sydney Kamlager-Dove",
+          "first": "Sydney",
+          "last": "Kamlager-Dove",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kamlager-dove.house.gov",
+          "district": 37
+        },
+        {
+          "bioguide": "S001156",
+          "name": "Linda T. Sánchez",
+          "first": "Linda",
+          "last": "Sánchez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lindasanchez.house.gov",
+          "district": 38
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Mark Takano",
+          "first": "Mark",
+          "last": "Takano",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://takano.house.gov",
+          "district": 39
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Young Kim",
+          "first": "Young",
+          "last": "Kim",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://youngkim.house.gov",
+          "district": 40
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Ken Calvert",
+          "first": "Ken",
+          "last": "Calvert",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://calvert.house.gov",
+          "district": 41
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Robert Garcia",
+          "first": "Robert",
+          "last": "Garcia",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://robertgarcia.house.gov",
+          "district": 42
+        },
+        {
+          "bioguide": "W000187",
+          "name": "Maxine Waters",
+          "first": "Maxine",
+          "last": "Waters",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://waters.house.gov",
+          "district": 43
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Nanette Diaz Barragán",
+          "first": "Nanette",
+          "last": "Barragán",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://barragan.house.gov",
+          "district": 44
+        },
+        {
+          "bioguide": "T000491",
+          "name": "Derek Tran",
+          "first": "Derek",
+          "last": "Tran",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tran.house.gov",
+          "district": 45
+        },
+        {
+          "bioguide": "C001110",
+          "name": "J. Luis Correa",
+          "first": "J.",
+          "last": "Correa",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://correa.house.gov",
+          "district": 46
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Dave Min",
+          "first": "Dave",
+          "last": "Min",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://min.house.gov",
+          "district": 47
+        },
+        {
+          "bioguide": "I000056",
+          "name": "Darrell Issa",
+          "first": "Darrell",
+          "last": "Issa",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://issa.house.gov",
+          "district": 48
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Mike Levin",
+          "first": "Mike",
+          "last": "Levin",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://levin.house.gov",
+          "district": 49
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Scott H. Peters",
+          "first": "Scott",
+          "last": "Peters",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://scottpeters.house.gov",
+          "district": 50
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Sara Jacobs",
+          "first": "Sara",
+          "last": "Jacobs",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sarajacobs.house.gov",
+          "district": 51
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Juan Vargas",
+          "first": "Juan",
+          "last": "Vargas",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vargas.house.gov",
+          "district": 52
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "CO": {
+      "houseSeats": 8,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "H000273",
+          "name": "John W. Hickenlooper",
+          "first": "John",
+          "last": "Hickenlooper",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.hickenlooper.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Michael F. Bennet",
+          "first": "Michael",
+          "last": "Bennet",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.bennet.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "D000197",
+          "name": "Diana DeGette",
+          "first": "Diana",
+          "last": "DeGette",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://degette.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Joe Neguse",
+          "first": "Joe",
+          "last": "Neguse",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://neguse.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "H001100",
+          "name": "Jeff Hurd",
+          "first": "Jeff",
+          "last": "Hurd",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hurd.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Lauren Boebert",
+          "first": "Lauren",
+          "last": "Boebert",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://boebert.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "C001137",
+          "name": "Jeff Crank",
+          "first": "Jeff",
+          "last": "Crank",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crank.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "C001121",
+          "name": "Jason Crow",
+          "first": "Jason",
+          "last": "Crow",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crow.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Brittany Pettersen",
+          "first": "Brittany",
+          "last": "Pettersen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pettersen.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Gabe Evans",
+          "first": "Gabe",
+          "last": "Evans",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gabeevans.house.gov",
+          "district": 8
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "CT": {
+      "houseSeats": 5,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M001169",
+          "name": "Christopher Murphy",
+          "first": "Christopher",
+          "last": "Murphy",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.murphy.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Richard Blumenthal",
+          "first": "Richard",
+          "last": "Blumenthal",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.blumenthal.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "L000557",
+          "name": "John B. Larson",
+          "first": "John",
+          "last": "Larson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://larson.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "C001069",
+          "name": "Joe Courtney",
+          "first": "Joe",
+          "last": "Courtney",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://courtney.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "D000216",
+          "name": "Rosa L. DeLauro",
+          "first": "Rosa",
+          "last": "DeLauro",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://delauro.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "H001047",
+          "name": "James A. Himes",
+          "first": "James",
+          "last": "Himes",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://himes.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Jahana Hayes",
+          "first": "Jahana",
+          "last": "Hayes",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hayes.house.gov",
+          "district": 5
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "DE": {
+      "houseSeats": 1,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "B001303",
+          "name": "Lisa Blunt Rochester",
+          "first": "Lisa",
+          "last": "Blunt Rochester",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.bluntrochester.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Christopher A. Coons",
+          "first": "Christopher",
+          "last": "Coons",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.coons.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001238",
+          "name": "Sarah McBride",
+          "first": "Sarah",
+          "last": "McBride",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcbride.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "FL": {
+      "houseSeats": 28,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "S001217",
+          "name": "Rick Scott",
+          "first": "Rick",
+          "last": "Scott",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.rickscott.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "M001244",
+          "name": "Ashley Moody",
+          "first": "Ashley",
+          "last": "Moody",
+          "party": "Republican",
+          "termStart": "2025-01-21",
+          "termEnd": "2026-11-03",
+          "url": "https://www.moody.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "P000622",
+          "name": "Jimmy Patronis",
+          "first": "Jimmy",
+          "last": "Patronis",
+          "party": "Republican",
+          "termStart": "2025-04-02",
+          "termEnd": "2027-01-03",
+          "url": "https://patronis.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Neal P. Dunn",
+          "first": "Neal",
+          "last": "Dunn",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://dunn.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Kat Cammack",
+          "first": "Katherine",
+          "last": "Cammack",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cammack.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "B001314",
+          "name": "Aaron Bean",
+          "first": "Aaron",
+          "last": "Bean",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bean.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "R000609",
+          "name": "John H. Rutherford",
+          "first": "John",
+          "last": "Rutherford",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://rutherford.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Randy Fine",
+          "first": "Randall",
+          "last": "Fine",
+          "party": "Republican",
+          "termStart": "2025-04-02",
+          "termEnd": "2027-01-03",
+          "url": "https://fine.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Cory Mills",
+          "first": "Cory",
+          "last": "Mills",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mills.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "H001099",
+          "name": "Mike Haridopolos",
+          "first": "Mike",
+          "last": "Haridopolos",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://haridopolos.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Darren Soto",
+          "first": "Darren",
+          "last": "Soto",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://soto.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Maxwell Frost",
+          "first": "Maxwell",
+          "last": "Frost",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://frost.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Daniel Webster",
+          "first": "Daniel",
+          "last": "Webster",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://webster.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Gus M. Bilirakis",
+          "first": "Gus",
+          "last": "Bilirakis",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bilirakis.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Anna Paulina Luna",
+          "first": "Anna",
+          "last": "Luna",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://luna.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Kathy Castor",
+          "first": "Kathy",
+          "last": "Castor",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://castor.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "L000597",
+          "name": "Laurel M. Lee",
+          "first": "Laurel",
+          "last": "Lee",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://laurellee.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Vern Buchanan",
+          "first": "Vern",
+          "last": "Buchanan",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://buchanan.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "S001214",
+          "name": "W. Gregory Steube",
+          "first": "W.",
+          "last": "Steube",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://steube.house.gov",
+          "district": 17
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Scott Franklin",
+          "first": "C.",
+          "last": "Franklin",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://franklin.house.gov",
+          "district": 18
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Byron Donalds",
+          "first": "Byron",
+          "last": "Donalds",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://donalds.house.gov",
+          "district": 19
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Brian J. Mast",
+          "first": "Brian",
+          "last": "Mast",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mast.house.gov",
+          "district": 21
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Lois Frankel",
+          "first": "Lois",
+          "last": "Frankel",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://frankel.house.gov",
+          "district": 22
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Jared Moskowitz",
+          "first": "Jared",
+          "last": "Moskowitz",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://moskowitz.house.gov",
+          "district": 23
+        },
+        {
+          "bioguide": "W000808",
+          "name": "Frederica S. Wilson",
+          "first": "Frederica",
+          "last": "Wilson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://wilson.house.gov",
+          "district": 24
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Debbie Wasserman Schultz",
+          "first": "Debbie",
+          "last": "Wasserman Schultz",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://wassermanschultz.house.gov",
+          "district": 25
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Mario Diaz-Balart",
+          "first": "Mario",
+          "last": "Diaz-Balart",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mariodiazbalart.house.gov",
+          "district": 26
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Maria Elvira Salazar",
+          "first": "Maria",
+          "last": "Salazar",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://salazar.house.gov",
+          "district": 27
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Carlos A. Gimenez",
+          "first": "Carlos",
+          "last": "Gimenez",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gimenez.house.gov",
+          "district": 28
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": [
+        {
+          "district": 20,
+          "inferred": true
+        }
+      ]
+    },
+    "GA": {
+      "houseSeats": 14,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "O000174",
+          "name": "Jon Ossoff",
+          "first": "Jon",
+          "last": "Ossoff",
+          "party": "Democrat",
+          "termStart": "2021-01-20",
+          "termEnd": "2027-01-03",
+          "url": "https://www.ossoff.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Raphael G. Warnock",
+          "first": "Raphael",
+          "last": "Warnock",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.warnock.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "C001103",
+          "name": "Earl L. \"Buddy\" Carter",
+          "first": "Earl",
+          "last": "Carter",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://buddycarter.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Sanford D. Bishop, Jr.",
+          "first": "Sanford",
+          "last": "Bishop",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bishop.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "J000311",
+          "name": "Brian Jack",
+          "first": "Brian",
+          "last": "Jack",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jack.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Henry C. \"Hank\" Johnson, Jr.",
+          "first": "Henry",
+          "last": "Johnson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hankjohnson.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Nikema Williams",
+          "first": "Nikema",
+          "last": "Williams",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://nikemawilliams.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Lucy McBath",
+          "first": "Lucy",
+          "last": "McBath",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcbath.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Richard McCormick",
+          "first": "Rich",
+          "last": "McCormick",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mccormick.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Austin Scott",
+          "first": "Austin",
+          "last": "Scott",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://austinscott.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Andrew S. Clyde",
+          "first": "Andrew",
+          "last": "Clyde",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://clyde.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Mike Collins",
+          "first": "Mike",
+          "last": "Collins",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://collins.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "L000583",
+          "name": "Barry Loudermilk",
+          "first": "Barry",
+          "last": "Loudermilk",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://loudermilk.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "A000372",
+          "name": "Rick W. Allen",
+          "first": "Rick",
+          "last": "Allen",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://allen.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "B001328",
+          "name": "Everton Blair Jr.",
+          "first": "Everton",
+          "last": "Blair",
+          "party": "Democrat",
+          "termStart": "2026-09-01",
+          "termEnd": "2027-01-03",
+          "url": "https://blair.house.gov/",
+          "district": 13
+        },
+        {
+          "bioguide": "F000485",
+          "name": "Clay Fuller",
+          "first": "Clay",
+          "last": "Fuller",
+          "party": "Republican",
+          "termStart": "2026-04-14",
+          "termEnd": "2027-01-03",
+          "url": "https://fuller.house.gov",
+          "district": 14
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "HI": {
+      "houseSeats": 2,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "H001042",
+          "name": "Mazie K. Hirono",
+          "first": "Mazie",
+          "last": "Hirono",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.hirono.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Brian Schatz",
+          "first": "Brian",
+          "last": "Schatz",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.schatz.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "C001055",
+          "name": "Ed Case",
+          "first": "Ed",
+          "last": "Case",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://case.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Jill N. Tokuda",
+          "first": "Jill",
+          "last": "Tokuda",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tokuda.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "IA": {
+      "houseSeats": 4,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "E000295",
+          "name": "Joni Ernst",
+          "first": "Joni",
+          "last": "Ernst",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.ernst.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Chuck Grassley",
+          "first": "Charles",
+          "last": "Grassley",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.grassley.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001215",
+          "name": "Mariannette Miller-Meeks",
+          "first": "Mariannette",
+          "last": "Miller-Meeks",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://millermeeks.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Ashley Hinson",
+          "first": "Ashley",
+          "last": "Hinson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hinson.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Zachary Nunn",
+          "first": "Zachary (Zach)",
+          "last": "Nunn",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://nunn.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Randy Feenstra",
+          "first": "Randy",
+          "last": "Feenstra",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://feenstra.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "ID": {
+      "houseSeats": 2,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "R000584",
+          "name": "James E. Risch",
+          "first": "James",
+          "last": "Risch",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.risch.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Mike Crapo",
+          "first": "Michael",
+          "last": "Crapo",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.crapo.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "F000469",
+          "name": "Russ Fulcher",
+          "first": "Russ",
+          "last": "Fulcher",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fulcher.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "S001148",
+          "name": "Michael K. Simpson",
+          "first": "Michael",
+          "last": "Simpson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://simpson.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "IL": {
+      "houseSeats": 17,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "D000563",
+          "name": "Richard J. Durbin",
+          "first": "Richard",
+          "last": "Durbin",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.durbin.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Tammy Duckworth",
+          "first": "Tammy",
+          "last": "Duckworth",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.duckworth.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "J000309",
+          "name": "Jonathan L. Jackson",
+          "first": "Jonathan",
+          "last": "Jackson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jonathanjackson.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Robin L. Kelly",
+          "first": "Robin",
+          "last": "Kelly",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://robinkelly.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Delia C. Ramirez",
+          "first": "Delia",
+          "last": "Ramirez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ramirez.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "G000586",
+          "name": "Jesús G. \"Chuy\" García",
+          "first": "Jesús",
+          "last": "García",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://chuygarcia.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Mike Quigley",
+          "first": "Mike",
+          "last": "Quigley",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://quigley.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Sean Casten",
+          "first": "Sean",
+          "last": "Casten",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://casten.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Danny K. Davis",
+          "first": "Danny",
+          "last": "Davis",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://davis.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Raja Krishnamoorthi",
+          "first": "Raja",
+          "last": "Krishnamoorthi",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://krishnamoorthi.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Janice D. Schakowsky",
+          "first": "Janice",
+          "last": "Schakowsky",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://schakowsky.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Bradley Scott Schneider",
+          "first": "Bradley",
+          "last": "Schneider",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://schneider.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Bill Foster",
+          "first": "Bill",
+          "last": "Foster",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://foster.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Mike Bost",
+          "first": "Mike",
+          "last": "Bost",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bost.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Nikki Budzinski",
+          "first": "Nicole (Nikki)",
+          "last": "Budzinski",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://budzinski.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Lauren Underwood",
+          "first": "Lauren",
+          "last": "Underwood",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://underwood.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Mary E. Miller",
+          "first": "Mary",
+          "last": "Miller",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://marymiller.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "L000585",
+          "name": "Darin LaHood",
+          "first": "Darin",
+          "last": "LaHood",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lahood.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Eric Sorensen",
+          "first": "Eric",
+          "last": "Sorensen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sorensen.house.gov",
+          "district": 17
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "IN": {
+      "houseSeats": 9,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "B001299",
+          "name": "Jim Banks",
+          "first": "Jim",
+          "last": "Banks",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.banks.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Todd Young",
+          "first": "Todd",
+          "last": "Young",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.young.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001214",
+          "name": "Frank J. Mrvan",
+          "first": "Frank",
+          "last": "Mrvan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mrvan.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rudy Yakym III",
+          "first": "Rudy",
+          "last": "Yakym",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://yakym.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Marlin A. Stutzman",
+          "first": "Marlin",
+          "last": "Stutzman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stutzman.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "B001307",
+          "name": "James R. Baird",
+          "first": "James",
+          "last": "Baird",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://baird.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "S000929",
+          "name": "Victoria Spartz",
+          "first": "Victoria",
+          "last": "Spartz",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://spartz.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "S001229",
+          "name": "Jefferson Shreve",
+          "first": "Jefferson",
+          "last": "Shreve",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://shreve.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "C001072",
+          "name": "André Carson",
+          "first": "André",
+          "last": "Carson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://carson.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "M001233",
+          "name": "Mark B. Messmer",
+          "first": "Mark",
+          "last": "Messmer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://messmer.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Erin Houchin",
+          "first": "Erin",
+          "last": "Houchin",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://houchin.house.gov",
+          "district": 9
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "KS": {
+      "houseSeats": 4,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M001198",
+          "name": "Roger Marshall",
+          "first": "Roger",
+          "last": "Marshall",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.marshall.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Jerry Moran",
+          "first": "Jerry",
+          "last": "Moran",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.moran.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M000871",
+          "name": "Tracey Mann",
+          "first": "Tracey",
+          "last": "Mann",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mann.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Derek Schmidt",
+          "first": "Derek",
+          "last": "Schmidt",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://schmidt.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Sharice Davids",
+          "first": "Sharice",
+          "last": "Davids",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://davids.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "E000298",
+          "name": "Ron Estes",
+          "first": "Ron",
+          "last": "Estes",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://estes.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "KY": {
+      "houseSeats": 6,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M000355",
+          "name": "Mitch McConnell",
+          "first": "Mitch",
+          "last": "McConnell",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.mcconnell.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "P000603",
+          "name": "Rand Paul",
+          "first": "Rand",
+          "last": "Paul",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.paul.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "C001108",
+          "name": "James Comer",
+          "first": "James",
+          "last": "Comer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://comer.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Brett Guthrie",
+          "first": "Brett",
+          "last": "Guthrie",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://guthrie.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Morgan McGarvey",
+          "first": "Morgan",
+          "last": "McGarvey",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcgarvey.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "M001184",
+          "name": "Thomas Massie",
+          "first": "Thomas",
+          "last": "Massie",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://massie.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "R000395",
+          "name": "Harold Rogers",
+          "first": "Harold",
+          "last": "Rogers",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://halrogers.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Andy Barr",
+          "first": "Garland",
+          "last": "Barr",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://barr.house.gov",
+          "district": 6
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "LA": {
+      "houseSeats": 6,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "C001075",
+          "name": "Bill Cassidy",
+          "first": "Bill",
+          "last": "Cassidy",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.cassidy.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "K000393",
+          "name": "John Kennedy",
+          "first": "John",
+          "last": "Kennedy",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.kennedy.senate.gov/public",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "S001176",
+          "name": "Steve Scalise",
+          "first": "Steve",
+          "last": "Scalise",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://scalise.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Troy A. Carter",
+          "first": "Troy",
+          "last": "Carter",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://troycarter.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Clay Higgins",
+          "first": "Clay",
+          "last": "Higgins",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://clayhiggins.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "J000299",
+          "name": "Mike Johnson",
+          "first": "Mike",
+          "last": "Johnson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mikejohnson.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "L000595",
+          "name": "Julia Letlow",
+          "first": "Julia",
+          "last": "Letlow",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://letlow.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Cleo Fields",
+          "first": "Cleo",
+          "last": "Fields",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fields.house.gov",
+          "district": 6
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MA": {
+      "houseSeats": 9,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "W000817",
+          "name": "Elizabeth Warren",
+          "first": "Elizabeth",
+          "last": "Warren",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.warren.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Edward J. Markey",
+          "first": "Edward",
+          "last": "Markey",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.markey.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "N000015",
+          "name": "Richard E. Neal",
+          "first": "Richard",
+          "last": "Neal",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://neal.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "M000312",
+          "name": "James P. McGovern",
+          "first": "James",
+          "last": "McGovern",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcgovern.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "T000482",
+          "name": "Lori Trahan",
+          "first": "Lori",
+          "last": "Trahan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://trahan.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "A000148",
+          "name": "Jake Auchincloss",
+          "first": "Jake",
+          "last": "Auchincloss",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://auchincloss.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "C001101",
+          "name": "Katherine M. Clark",
+          "first": "Katherine",
+          "last": "Clark",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://katherineclark.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Seth Moulton",
+          "first": "Seth",
+          "last": "Moulton",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://moulton.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "P000617",
+          "name": "Ayanna Pressley",
+          "first": "Ayanna",
+          "last": "Pressley",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pressley.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "L000562",
+          "name": "Stephen F. Lynch",
+          "first": "Stephen",
+          "last": "Lynch",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lynch.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "K000375",
+          "name": "William R. Keating",
+          "first": "William",
+          "last": "Keating",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://keating.house.gov",
+          "district": 9
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MD": {
+      "houseSeats": 8,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "A000382",
+          "name": "Angela D. Alsobrooks",
+          "first": "Angela",
+          "last": "Alsobrooks",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.alsobrooks.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Chris Van Hollen",
+          "first": "Chris",
+          "last": "Van Hollen",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.vanhollen.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "H001052",
+          "name": "Andy Harris",
+          "first": "Andy",
+          "last": "Harris",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://harris.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "O000176",
+          "name": "Johnny Olszewski, Jr.",
+          "first": "Johnny",
+          "last": "Olszewski",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://olszewski.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Sarah Elfreth",
+          "first": "Sarah",
+          "last": "Elfreth",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://elfreth.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "I000058",
+          "name": "Glenn Ivey",
+          "first": "Glenn",
+          "last": "Ivey",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ivey.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "H000874",
+          "name": "Steny H. Hoyer",
+          "first": "Steny",
+          "last": "Hoyer",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hoyer.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "M001232",
+          "name": "April McClain Delaney",
+          "first": "April",
+          "last": "McClain Delaney",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcclaindelaney.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M000687",
+          "name": "Kweisi Mfume",
+          "first": "Kweisi",
+          "last": "Mfume",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mfume.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Jamie Raskin",
+          "first": "Jamie",
+          "last": "Raskin",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://raskin.house.gov",
+          "district": 8
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "ME": {
+      "houseSeats": 2,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "K000383",
+          "name": "Angus S. King, Jr.",
+          "first": "Angus",
+          "last": "King",
+          "party": "Independent",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "caucus": "Democrat",
+          "url": "https://www.king.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Susan M. Collins",
+          "first": "Susan",
+          "last": "Collins",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.collins.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "P000597",
+          "name": "Chellie Pingree",
+          "first": "Chellie",
+          "last": "Pingree",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pingree.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "G000592",
+          "name": "Jared F. Golden",
+          "first": "Jared",
+          "last": "Golden",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://golden.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MI": {
+      "houseSeats": 13,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "S001208",
+          "name": "Elissa Slotkin",
+          "first": "Elissa",
+          "last": "Slotkin",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.slotkin.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "P000595",
+          "name": "Gary C. Peters",
+          "first": "Gary",
+          "last": "Peters",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.peters.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "B001301",
+          "name": "Jack Bergman",
+          "first": "Jack",
+          "last": "Bergman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bergman.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "M001194",
+          "name": "John R. Moolenaar",
+          "first": "John",
+          "last": "Moolenaar",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://moolenaar.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S001221",
+          "name": "Hillary J. Scholten",
+          "first": "Hillary",
+          "last": "Scholten",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://scholten.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Bill Huizenga",
+          "first": "Bill",
+          "last": "Huizenga",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://huizenga.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "W000798",
+          "name": "Tim Walberg",
+          "first": "Tim",
+          "last": "Walberg",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://walberg.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Debbie Dingell",
+          "first": "Debbie",
+          "last": "Dingell",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://debbiedingell.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "B001321",
+          "name": "Tom Barrett",
+          "first": "Tom",
+          "last": "Barrett",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://barrett.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "M001237",
+          "name": "Kristen McDonald Rivet",
+          "first": "Kristen",
+          "last": "McDonald Rivet",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcdonaldrivet.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "M001136",
+          "name": "Lisa C. McClain",
+          "first": "Lisa",
+          "last": "McClain",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcclain.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "J000307",
+          "name": "John James",
+          "first": "John",
+          "last": "James",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://james.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Haley M. Stevens",
+          "first": "Haley",
+          "last": "Stevens",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stevens.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rashida Tlaib",
+          "first": "Rashida",
+          "last": "Tlaib",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tlaib.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Shri Thanedar",
+          "first": "Shri",
+          "last": "Thanedar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://thanedar.house.gov",
+          "district": 13
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MN": {
+      "houseSeats": 8,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "K000367",
+          "name": "Amy Klobuchar",
+          "first": "Amy",
+          "last": "Klobuchar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.klobuchar.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Tina Smith",
+          "first": "Tina",
+          "last": "Smith",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.smith.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "F000475",
+          "name": "Brad Finstad",
+          "first": "Brad",
+          "last": "Finstad",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://finstad.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Angie Craig",
+          "first": "Angie",
+          "last": "Craig",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://craig.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "M001234",
+          "name": "Kelly Morrison",
+          "first": "Kelly",
+          "last": "Morrison",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://morrison.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "M001143",
+          "name": "Betty McCollum",
+          "first": "Betty",
+          "last": "McCollum",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mccollum.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "O000173",
+          "name": "Ilhan Omar",
+          "first": "Ilhan",
+          "last": "Omar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://omar.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "E000294",
+          "name": "Tom Emmer",
+          "first": "Tom",
+          "last": "Emmer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://emmer.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "F000470",
+          "name": "Michelle Fischbach",
+          "first": "Michelle",
+          "last": "Fischbach",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fischbach.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "S001212",
+          "name": "Pete Stauber",
+          "first": "Pete",
+          "last": "Stauber",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stauber.house.gov",
+          "district": 8
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MO": {
+      "houseSeats": 8,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "H001089",
+          "name": "Josh Hawley",
+          "first": "Joshua",
+          "last": "Hawley",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.hawley.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Eric Schmitt",
+          "first": "Eric",
+          "last": "Schmitt",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.schmitt.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "B001324",
+          "name": "Wesley Bell",
+          "first": "Wesley",
+          "last": "Bell",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bell.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "W000812",
+          "name": "Ann Wagner",
+          "first": "Ann",
+          "last": "Wagner",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://wagner.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Robert F. Onder, Jr.",
+          "first": "Robert",
+          "last": "Onder",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://onder.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "A000379",
+          "name": "Mark Alford",
+          "first": "Mark",
+          "last": "Alford",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://alford.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Emanuel Cleaver",
+          "first": "Emanuel",
+          "last": "Cleaver",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cleaver.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "G000546",
+          "name": "Sam Graves",
+          "first": "Sam",
+          "last": "Graves",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://graves.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Eric Burlison",
+          "first": "Eric",
+          "last": "Burlison",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://burlison.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "S001195",
+          "name": "Jason Smith",
+          "first": "Jason",
+          "last": "Smith",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jasonsmith.house.gov",
+          "district": 8
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MS": {
+      "houseSeats": 4,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "W000437",
+          "name": "Roger F. Wicker",
+          "first": "Roger",
+          "last": "Wicker",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.wicker.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Cindy Hyde-Smith",
+          "first": "Cindy",
+          "last": "Hyde-Smith",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.hydesmith.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "K000388",
+          "name": "Trent Kelly",
+          "first": "Trent",
+          "last": "Kelly",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://trentkelly.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Bennie G. Thompson",
+          "first": "Bennie",
+          "last": "Thompson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://benniethompson.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Michael Guest",
+          "first": "Michael",
+          "last": "Guest",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://guest.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "E000235",
+          "name": "Mike Ezell",
+          "first": "Mike",
+          "last": "Ezell",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ezell.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "MT": {
+      "houseSeats": 2,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "S001232",
+          "name": "Tim Sheehy",
+          "first": "Tim",
+          "last": "Sheehy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.sheehy.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Steve Daines",
+          "first": "Steve",
+          "last": "Daines",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.daines.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "Z000018",
+          "name": "Ryan K. Zinke",
+          "first": "Ryan",
+          "last": "Zinke",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://zinke.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Troy Downing",
+          "first": "Troy",
+          "last": "Downing",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://downing.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NC": {
+      "houseSeats": 14,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "T000476",
+          "name": "Thom Tillis",
+          "first": "Thom",
+          "last": "Tillis",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.tillis.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Ted Budd",
+          "first": "Ted",
+          "last": "Budd",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.budd.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "D000230",
+          "name": "Donald G. Davis",
+          "first": "Donald",
+          "last": "Davis",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://dondavis.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Deborah K. Ross",
+          "first": "Deborah",
+          "last": "Ross",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ross.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "M001210",
+          "name": "Gregory F. Murphy",
+          "first": "Gregory",
+          "last": "Murphy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://murphy.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "F000477",
+          "name": "Valerie P. Foushee",
+          "first": "Valerie",
+          "last": "Foushee",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://foushee.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "F000450",
+          "name": "Virginia Foxx",
+          "first": "Virginia",
+          "last": "Foxx",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://foxx.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Addison P. McDowell",
+          "first": "Addison",
+          "last": "McDowell",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcdowell.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "R000603",
+          "name": "David Rouzer",
+          "first": "David",
+          "last": "Rouzer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://rouzer.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Mark Harris",
+          "first": "Mark",
+          "last": "Harris",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://markharris.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "H001067",
+          "name": "Richard Hudson",
+          "first": "Richard",
+          "last": "Hudson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hudson.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Pat Harrigan",
+          "first": "Pat",
+          "last": "Harrigan",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://harrigan.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Chuck Edwards",
+          "first": "Charles (Chuck)",
+          "last": "Edwards",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://edwards.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Alma S. Adams",
+          "first": "Alma",
+          "last": "Adams",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://adams.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "K000405",
+          "name": "Brad Knott",
+          "first": "Brad",
+          "last": "Knott",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://knott.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Tim Moore",
+          "first": "Tim",
+          "last": "Moore",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://timmoore.house.gov",
+          "district": 14
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "ND": {
+      "houseSeats": 1,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "C001096",
+          "name": "Kevin Cramer",
+          "first": "Kevin",
+          "last": "Cramer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.cramer.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "H001061",
+          "name": "John Hoeven",
+          "first": "John",
+          "last": "Hoeven",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.hoeven.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "F000482",
+          "name": "Julie Fedorchak",
+          "first": "Julie",
+          "last": "Fedorchak",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fedorchak.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NE": {
+      "houseSeats": 3,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "F000463",
+          "name": "Deb Fischer",
+          "first": "Deb",
+          "last": "Fischer",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.fischer.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Pete Ricketts",
+          "first": "Pete",
+          "last": "Ricketts",
+          "party": "Republican",
+          "termStart": "2024-11-05",
+          "termEnd": "2027-01-03",
+          "url": "https://www.ricketts.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "F000474",
+          "name": "Mike Flood",
+          "first": "Mike",
+          "last": "Flood",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://flood.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Don Bacon",
+          "first": "Don",
+          "last": "Bacon",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bacon.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S001172",
+          "name": "Adrian Smith",
+          "first": "Adrian",
+          "last": "Smith",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://adriansmith.house.gov",
+          "district": 3
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NH": {
+      "houseSeats": 2,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "S001181",
+          "name": "Jeanne Shaheen",
+          "first": "Jeanne",
+          "last": "Shaheen",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.shaheen.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Margaret Wood Hassan",
+          "first": "Margaret",
+          "last": "Hassan",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.hassan.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "P000614",
+          "name": "Chris Pappas",
+          "first": "Chris",
+          "last": "Pappas",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pappas.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "G000604",
+          "name": "Maggie Goodlander",
+          "first": "Maggie",
+          "last": "Goodlander",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://goodlander.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NJ": {
+      "houseSeats": 12,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "K000394",
+          "name": "Andy Kim",
+          "first": "Andy",
+          "last": "Kim",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.kim.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Cory A. Booker",
+          "first": "Cory",
+          "last": "Booker",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.booker.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "N000188",
+          "name": "Donald Norcross",
+          "first": "Donald",
+          "last": "Norcross",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://norcross.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Jefferson Van Drew",
+          "first": "Jefferson",
+          "last": "Van Drew",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vandrew.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "C001136",
+          "name": "Herbert C. Conaway, Jr.",
+          "first": "Herbert",
+          "last": "Conaway",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://conaway.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Christopher H. Smith",
+          "first": "Christopher",
+          "last": "Smith",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://chrissmith.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Josh Gottheimer",
+          "first": "Josh",
+          "last": "Gottheimer",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gottheimer.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Frank Pallone, Jr.",
+          "first": "Frank",
+          "last": "Pallone",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pallone.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Thomas H. Kean, Jr.",
+          "first": "Thomas",
+          "last": "Kean",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kean.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Robert Menendez",
+          "first": "Robert",
+          "last": "Menendez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://menendez.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "P000621",
+          "name": "Nellie Pou",
+          "first": "Nellie",
+          "last": "Pou",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pou.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "M001229",
+          "name": "LaMonica McIver",
+          "first": "LaMonica",
+          "last": "McIver",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mciver.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "M001246",
+          "name": "Analilia Mejia",
+          "first": "Analilia",
+          "last": "Mejia",
+          "party": "Democrat",
+          "termStart": "2026-04-20",
+          "termEnd": "2027-01-03",
+          "url": "https://mejia.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Bonnie Watson Coleman",
+          "first": "Bonnie",
+          "last": "Watson Coleman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://watsoncoleman.house.gov",
+          "district": 12
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NM": {
+      "houseSeats": 3,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "H001046",
+          "name": "Martin Heinrich",
+          "first": "Martin",
+          "last": "Heinrich",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.heinrich.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Ben Ray Luján",
+          "first": "Ben",
+          "last": "Luján",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.lujan.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "S001218",
+          "name": "Melanie A. Stansbury",
+          "first": "Melanie",
+          "last": "Stansbury",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stansbury.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Gabe Vasquez",
+          "first": "Gabriel (Gabe)",
+          "last": "Vasquez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vasquez.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "L000273",
+          "name": "Teresa Leger Fernandez",
+          "first": "Teresa",
+          "last": "Leger Fernandez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fernandez.house.gov",
+          "district": 3
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NV": {
+      "houseSeats": 4,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "R000608",
+          "name": "Jacky Rosen",
+          "first": "Jacky",
+          "last": "Rosen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.rosen.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Catherine Cortez Masto",
+          "first": "Catherine",
+          "last": "Cortez Masto",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.cortezmasto.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "T000468",
+          "name": "Dina Titus",
+          "first": "Dina",
+          "last": "Titus",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://titus.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "A000369",
+          "name": "Mark E. Amodei",
+          "first": "Mark",
+          "last": "Amodei",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://amodei.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Susie Lee",
+          "first": "Susie",
+          "last": "Lee",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://susielee.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Steven Horsford",
+          "first": "Steven",
+          "last": "Horsford",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://horsford.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "NY": {
+      "houseSeats": 26,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "G000555",
+          "name": "Kirsten E. Gillibrand",
+          "first": "Kirsten",
+          "last": "Gillibrand",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.gillibrand.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "S000148",
+          "name": "Charles E. Schumer",
+          "first": "Charles",
+          "last": "Schumer",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.schumer.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "L000598",
+          "name": "Nick LaLota",
+          "first": "Nicolas",
+          "last": "LaLota",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lalota.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "G000597",
+          "name": "Andrew R. Garbarino",
+          "first": "Andrew",
+          "last": "Garbarino",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://garbarino.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Thomas R. Suozzi",
+          "first": "Thomas",
+          "last": "Suozzi",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://suozzi.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Laura Gillen",
+          "first": "Laura",
+          "last": "Gillen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gillen.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "M001137",
+          "name": "Gregory W. Meeks",
+          "first": "Gregory",
+          "last": "Meeks",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://meeks.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Grace Meng",
+          "first": "Grace",
+          "last": "Meng",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://meng.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Nydia M. Velázquez",
+          "first": "Nydia",
+          "last": "Velázquez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://velazquez.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "J000294",
+          "name": "Hakeem S. Jeffries",
+          "first": "Hakeem",
+          "last": "Jeffries",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jeffries.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Yvette D. Clarke",
+          "first": "Yvette",
+          "last": "Clarke",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://clarke.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Daniel S. Goldman",
+          "first": "Dan",
+          "last": "Goldman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://goldman.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Nicole Malliotakis",
+          "first": "Nicole",
+          "last": "Malliotakis",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://malliotakis.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Jerrold Nadler",
+          "first": "Jerrold",
+          "last": "Nadler",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://nadler.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Adriano Espaillat",
+          "first": "Adriano",
+          "last": "Espaillat",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://espaillat.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "O000172",
+          "name": "Alexandria Ocasio-Cortez",
+          "first": "Alexandria",
+          "last": "Ocasio-Cortez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ocasio-cortez.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Ritchie Torres",
+          "first": "Ritchie",
+          "last": "Torres",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ritchietorres.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "L000606",
+          "name": "George Latimer",
+          "first": "George",
+          "last": "Latimer",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://latimer.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Michael Lawler",
+          "first": "Michael",
+          "last": "Lawler",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lawler.house.gov",
+          "district": 17
+        },
+        {
+          "bioguide": "R000579",
+          "name": "Patrick Ryan",
+          "first": "Patrick",
+          "last": "Ryan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://patryan.house.gov",
+          "district": 18
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Josh Riley",
+          "first": "Josh",
+          "last": "Riley",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://riley.house.gov",
+          "district": 19
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Paul Tonko",
+          "first": "Paul",
+          "last": "Tonko",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tonko.house.gov",
+          "district": 20
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Elise M. Stefanik",
+          "first": "Elise",
+          "last": "Stefanik",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://stefanik.house.gov",
+          "district": 21
+        },
+        {
+          "bioguide": "M001231",
+          "name": "John W. Mannion",
+          "first": "John",
+          "last": "Mannion",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mannion.house.gov",
+          "district": 22
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Nicholas A. Langworthy",
+          "first": "Nicholas",
+          "last": "Langworthy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://langworthy.house.gov",
+          "district": 23
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Claudia Tenney",
+          "first": "Claudia",
+          "last": "Tenney",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tenney.house.gov",
+          "district": 24
+        },
+        {
+          "bioguide": "M001206",
+          "name": "Joseph D. Morelle",
+          "first": "Joseph",
+          "last": "Morelle",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://morelle.house.gov",
+          "district": 25
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Timothy M. Kennedy",
+          "first": "Timothy",
+          "last": "Kennedy",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kennedy.house.gov",
+          "district": 26
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "OH": {
+      "houseSeats": 15,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M001242",
+          "name": "Bernie Moreno",
+          "first": "Bernie",
+          "last": "Moreno",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.moreno.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "H001104",
+          "name": "Jon Husted",
+          "first": "Jon",
+          "last": "Husted",
+          "party": "Republican",
+          "termStart": "2025-01-21",
+          "termEnd": "2026-11-03",
+          "url": "https://www.husted.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "L000601",
+          "name": "Greg Landsman",
+          "first": "Greg",
+          "last": "Landsman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://landsman.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "T000490",
+          "name": "David J. Taylor",
+          "first": "David",
+          "last": "Taylor",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://taylor.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Joyce Beatty",
+          "first": "Joyce",
+          "last": "Beatty",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://beatty.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "J000289",
+          "name": "Jim Jordan",
+          "first": "Jim",
+          "last": "Jordan",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jordan.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "L000566",
+          "name": "Robert E. Latta",
+          "first": "Robert",
+          "last": "Latta",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://latta.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Michael A. Rulli",
+          "first": "Michael",
+          "last": "Rulli",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://rulli.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Max L. Miller",
+          "first": "Max",
+          "last": "Miller",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://maxmiller.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "D000626",
+          "name": "Warren Davidson",
+          "first": "Warren",
+          "last": "Davidson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://davidson.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "K000009",
+          "name": "Marcy Kaptur",
+          "first": "Marcy",
+          "last": "Kaptur",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kaptur.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "T000463",
+          "name": "Michael R. Turner",
+          "first": "Michael",
+          "last": "Turner",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://turner.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "B001313",
+          "name": "Shontel M. Brown",
+          "first": "Shontel",
+          "last": "Brown",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://shontelbrown.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Troy Balderson",
+          "first": "Troy",
+          "last": "Balderson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://balderson.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Emilia Strong Sykes",
+          "first": "Emilia",
+          "last": "Sykes",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sykes.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "J000295",
+          "name": "David P. Joyce",
+          "first": "David",
+          "last": "Joyce",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://joyce.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Mike Carey",
+          "first": "Mike",
+          "last": "Carey",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://carey.house.gov",
+          "district": 15
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "OK": {
+      "houseSeats": 5,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "A000383",
+          "name": "Alan Armstrong",
+          "first": "Alan",
+          "last": "Armstrong",
+          "party": "Republican",
+          "termStart": "2026-03-24",
+          "termEnd": "2027-01-03",
+          "url": "https://www.armstrong.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "L000575",
+          "name": "James Lankford",
+          "first": "James",
+          "last": "Lankford",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.lankford.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "H001082",
+          "name": "Kevin Hern",
+          "first": "Kevin",
+          "last": "Hern",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hern.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B001317",
+          "name": "Josh Brecheen",
+          "first": "Josh",
+          "last": "Brecheen",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://brecheen.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "L000491",
+          "name": "Frank D. Lucas",
+          "first": "Frank",
+          "last": "Lucas",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://lucas.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "C001053",
+          "name": "Tom Cole",
+          "first": "Tom",
+          "last": "Cole",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cole.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Stephanie I. Bice",
+          "first": "Stephanie",
+          "last": "Bice",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bice.house.gov",
+          "district": 5
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "OR": {
+      "houseSeats": 6,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M001176",
+          "name": "Jeff Merkley",
+          "first": "Jeff",
+          "last": "Merkley",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.merkley.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Ron Wyden",
+          "first": "Ron",
+          "last": "Wyden",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.wyden.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "B001278",
+          "name": "Suzanne Bonamici",
+          "first": "Suzanne",
+          "last": "Bonamici",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bonamici.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B000668",
+          "name": "Cliff Bentz",
+          "first": "Cliff",
+          "last": "Bentz",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bentz.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Maxine Dexter",
+          "first": "Maxine",
+          "last": "Dexter",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://dexter.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "H001094",
+          "name": "Val T. Hoyle",
+          "first": "Valerie",
+          "last": "Hoyle",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hoyle.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Janelle S. Bynum",
+          "first": "Janelle",
+          "last": "Bynum",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bynum.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Andrea Salinas",
+          "first": "Andrea",
+          "last": "Salinas",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://salinas.house.gov",
+          "district": 6
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "PA": {
+      "houseSeats": 17,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "M001243",
+          "name": "David McCormick",
+          "first": "Dave",
+          "last": "McCormick",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.mccormick.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "F000479",
+          "name": "John Fetterman",
+          "first": "John",
+          "last": "Fetterman",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.fetterman.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "F000466",
+          "name": "Brian K. Fitzpatrick",
+          "first": "Brian",
+          "last": "Fitzpatrick",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fitzpatrick.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Brendan F. Boyle",
+          "first": "Brendan",
+          "last": "Boyle",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://boyle.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Dwight Evans",
+          "first": "Dwight",
+          "last": "Evans",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://evans.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "D000631",
+          "name": "Madeleine Dean",
+          "first": "Madeleine",
+          "last": "Dean",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://dean.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Mary Gay Scanlon",
+          "first": "Mary",
+          "last": "Scanlon",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://scanlon.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Chrissy Houlahan",
+          "first": "Chrissy",
+          "last": "Houlahan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://houlahan.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Ryan Mackenzie",
+          "first": "Ryan",
+          "last": "Mackenzie",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mackenzie.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Robert P. Bresnahan, Jr.",
+          "first": "Robert",
+          "last": "Bresnahan",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bresnahan.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Daniel Meuser",
+          "first": "Daniel",
+          "last": "Meuser",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://meuser.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Scott Perry",
+          "first": "Scott",
+          "last": "Perry",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://perry.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "S001199",
+          "name": "Lloyd Smucker",
+          "first": "Lloyd",
+          "last": "Smucker",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://smucker.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "L000602",
+          "name": "Summer L. Lee",
+          "first": "Summer",
+          "last": "Lee",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://summerlee.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "J000302",
+          "name": "John Joyce",
+          "first": "John",
+          "last": "Joyce",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://johnjoyce.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "R000610",
+          "name": "Guy Reschenthaler",
+          "first": "Guy",
+          "last": "Reschenthaler",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://reschenthaler.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "T000467",
+          "name": "Glenn Thompson",
+          "first": "Glenn",
+          "last": "Thompson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://thompson.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "K000376",
+          "name": "Mike Kelly",
+          "first": "Mike",
+          "last": "Kelly",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kelly.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "D000530",
+          "name": "Christopher R. Deluzio",
+          "first": "Chris",
+          "last": "Deluzio",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://deluzio.house.gov",
+          "district": 17
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "RI": {
+      "houseSeats": 2,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "W000802",
+          "name": "Sheldon Whitehouse",
+          "first": "Sheldon",
+          "last": "Whitehouse",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.whitehouse.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Jack Reed",
+          "first": "John",
+          "last": "Reed",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.reed.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "A000380",
+          "name": "Gabe Amo",
+          "first": "Gabe",
+          "last": "Amo",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://amo.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Seth Magaziner",
+          "first": "Seth",
+          "last": "Magaziner",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://magaziner.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "SC": {
+      "houseSeats": 7,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "G000608",
+          "name": "Darline Graham",
+          "first": "Darline",
+          "last": "Graham Nordone",
+          "party": "Republican",
+          "termStart": "2026-07-14",
+          "termEnd": "2027-01-03",
+          "url": "https://www.dgraham.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "S001184",
+          "name": "Tim Scott",
+          "first": "Tim",
+          "last": "Scott",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.scott.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M000194",
+          "name": "Nancy Mace",
+          "first": "Nancy",
+          "last": "Mace",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mace.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Joe Wilson",
+          "first": "Joe",
+          "last": "Wilson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://joewilson.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "B001325",
+          "name": "Sheri Biggs",
+          "first": "Sheri",
+          "last": "Biggs",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sheribiggs.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "T000480",
+          "name": "William R. Timmons IV",
+          "first": "William",
+          "last": "Timmons",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://timmons.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Ralph Norman",
+          "first": "Ralph",
+          "last": "Norman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://norman.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "C000537",
+          "name": "James E. Clyburn",
+          "first": "James",
+          "last": "Clyburn",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://clyburn.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Russell Fry",
+          "first": "Russell",
+          "last": "Fry",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fry.house.gov",
+          "district": 7
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "SD": {
+      "houseSeats": 1,
+      "senateClasses": [
+        2,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "R000605",
+          "name": "Mike Rounds",
+          "first": "Mike",
+          "last": "Rounds",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.rounds.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "T000250",
+          "name": "John Thune",
+          "first": "John",
+          "last": "Thune",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.thune.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "J000301",
+          "name": "Dusty Johnson",
+          "first": "Dusty",
+          "last": "Johnson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://dustyjohnson.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "TN": {
+      "houseSeats": 9,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "B001243",
+          "name": "Marsha Blackburn",
+          "first": "Marsha",
+          "last": "Blackburn",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.blackburn.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "H000601",
+          "name": "Bill Hagerty",
+          "first": "Bill",
+          "last": "Hagerty",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.hagerty.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "H001086",
+          "name": "Diana Harshbarger",
+          "first": "Diana",
+          "last": "Harshbarger",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://harshbarger.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "B001309",
+          "name": "Tim Burchett",
+          "first": "Tim",
+          "last": "Burchett",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://burchett.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Charles J. \"Chuck\" Fleischmann",
+          "first": "Charles",
+          "last": "Fleischmann",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fleischmann.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "D000616",
+          "name": "Scott DesJarlais",
+          "first": "Scott",
+          "last": "DesJarlais",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://desjarlais.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Andrew Ogles",
+          "first": "Andrew",
+          "last": "Ogles",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ogles.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "R000612",
+          "name": "John W. Rose",
+          "first": "John",
+          "last": "Rose",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://johnrose.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "V000139",
+          "name": "Matt Van Epps",
+          "first": "Matt",
+          "last": "Van Epps",
+          "party": "Republican",
+          "termStart": "2025-12-04",
+          "termEnd": "2027-01-03",
+          "url": "https://vanepps.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "K000392",
+          "name": "David Kustoff",
+          "first": "David",
+          "last": "Kustoff",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kustoff.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Steve Cohen",
+          "first": "Steve",
+          "last": "Cohen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cohen.house.gov",
+          "district": 9
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "TX": {
+      "houseSeats": 38,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "C001098",
+          "name": "Ted Cruz",
+          "first": "Ted",
+          "last": "Cruz",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.cruz.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C001056",
+          "name": "John Cornyn",
+          "first": "John",
+          "last": "Cornyn",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.cornyn.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001224",
+          "name": "Nathaniel Moran",
+          "first": "Nathaniel",
+          "last": "Moran",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://moran.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Dan Crenshaw",
+          "first": "Dan",
+          "last": "Crenshaw",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crenshaw.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Keith Self",
+          "first": "Keith",
+          "last": "Self",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://keithself.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "F000246",
+          "name": "Pat Fallon",
+          "first": "Patrick",
+          "last": "Fallon",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fallon.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Lance Gooden",
+          "first": "Lance",
+          "last": "Gooden",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gooden.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "E000071",
+          "name": "Jake Ellzey",
+          "first": "Jake",
+          "last": "Ellzey",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://ellzey.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "F000468",
+          "name": "Lizzie Fletcher",
+          "first": "Lizzie",
+          "last": "Fletcher",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fletcher.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "L000603",
+          "name": "Morgan Luttrell",
+          "first": "Morgan",
+          "last": "Luttrell",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://luttrell.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "G000553",
+          "name": "Al Green",
+          "first": "Al",
+          "last": "Green",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://algreen.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Michael T. McCaul",
+          "first": "Michael",
+          "last": "McCaul",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mccaul.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "P000048",
+          "name": "August Pfluger",
+          "first": "August",
+          "last": "Pfluger",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pfluger.house.gov",
+          "district": 11
+        },
+        {
+          "bioguide": "G000601",
+          "name": "Craig A. Goldman",
+          "first": "Craig",
+          "last": "Goldman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://craiggoldman.house.gov",
+          "district": 12
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Ronny Jackson",
+          "first": "Ronny",
+          "last": "Jackson",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jackson.house.gov",
+          "district": 13
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Randy K. Weber, Sr.",
+          "first": "Randy",
+          "last": "Weber",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://weber.house.gov",
+          "district": 14
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Monica De La Cruz",
+          "first": "Mónica",
+          "last": "De La Cruz",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://delacruz.house.gov",
+          "district": 15
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Veronica Escobar",
+          "first": "Veronica",
+          "last": "Escobar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://escobar.house.gov",
+          "district": 16
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Pete Sessions",
+          "first": "Pete",
+          "last": "Sessions",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sessions.house.gov",
+          "district": 17
+        },
+        {
+          "bioguide": "M001245",
+          "name": "Christian D. Menefee",
+          "first": "Christian",
+          "last": "Menefee",
+          "party": "Democrat",
+          "termStart": "2026-02-02",
+          "termEnd": "2027-01-03",
+          "url": "https://menefee.house.gov",
+          "district": 18
+        },
+        {
+          "bioguide": "A000375",
+          "name": "Jodey C. Arrington",
+          "first": "Jodey",
+          "last": "Arrington",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://arrington.house.gov",
+          "district": 19
+        },
+        {
+          "bioguide": "C001091",
+          "name": "Joaquin Castro",
+          "first": "Joaquin",
+          "last": "Castro",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://castro.house.gov",
+          "district": 20
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Chip Roy",
+          "first": "Chip",
+          "last": "Roy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://roy.house.gov",
+          "district": 21
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Troy E. Nehls",
+          "first": "Troy",
+          "last": "Nehls",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://nehls.house.gov",
+          "district": 22
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Beth Van Duyne",
+          "first": "Beth",
+          "last": "Van Duyne",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vanduyne.house.gov",
+          "district": 24
+        },
+        {
+          "bioguide": "W000816",
+          "name": "Roger Williams",
+          "first": "Roger",
+          "last": "Williams",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://williams.house.gov",
+          "district": 25
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Brandon Gill",
+          "first": "Brandon",
+          "last": "Gill",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gill.house.gov",
+          "district": 26
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Michael Cloud",
+          "first": "Michael",
+          "last": "Cloud",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cloud.house.gov",
+          "district": 27
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Henry Cuellar",
+          "first": "Henry",
+          "last": "Cuellar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cuellar.house.gov",
+          "district": 28
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Sylvia R. Garcia",
+          "first": "Sylvia",
+          "last": "Garcia",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://sylviagarcia.house.gov",
+          "district": 29
+        },
+        {
+          "bioguide": "C001130",
+          "name": "Jasmine Crockett",
+          "first": "Jasmine",
+          "last": "Crockett",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://crockett.house.gov",
+          "district": 30
+        },
+        {
+          "bioguide": "C001051",
+          "name": "John R. Carter",
+          "first": "John",
+          "last": "Carter",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://carter.house.gov",
+          "district": 31
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Julie Johnson",
+          "first": "Julie",
+          "last": "Johnson",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://juliejohnson.house.gov",
+          "district": 32
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Marc A. Veasey",
+          "first": "Marc",
+          "last": "Veasey",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://veasey.house.gov",
+          "district": 33
+        },
+        {
+          "bioguide": "G000581",
+          "name": "Vicente Gonzalez",
+          "first": "Vicente",
+          "last": "Gonzalez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gonzalez.house.gov",
+          "district": 34
+        },
+        {
+          "bioguide": "C001131",
+          "name": "Greg Casar",
+          "first": "Gregorio",
+          "last": "Casar",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://casar.house.gov",
+          "district": 35
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Brian Babin",
+          "first": "Brian",
+          "last": "Babin",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://babin.house.gov",
+          "district": 36
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Lloyd Doggett",
+          "first": "Lloyd",
+          "last": "Doggett",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://doggett.house.gov",
+          "district": 37
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Wesley Hunt",
+          "first": "Wesley",
+          "last": "Hunt",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hunt.house.gov",
+          "district": 38
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": [
+        {
+          "district": 23,
+          "inferred": true
+        }
+      ]
+    },
+    "UT": {
+      "houseSeats": 4,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "C001114",
+          "name": "John R. Curtis",
+          "first": "John",
+          "last": "Curtis",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.curtis.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Mike Lee",
+          "first": "Mike",
+          "last": "Lee",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.lee.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001213",
+          "name": "Blake D. Moore",
+          "first": "Blake",
+          "last": "Moore",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://blakemoore.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "M001228",
+          "name": "Celeste Maloy",
+          "first": "Celeste",
+          "last": "Maloy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://maloy.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Mike Kennedy",
+          "first": "Mike",
+          "last": "Kennedy",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mikekennedy.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Burgess Owens",
+          "first": "Clarence",
+          "last": "Owens",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://owens.house.gov",
+          "district": 4
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "VA": {
+      "houseSeats": 11,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "K000384",
+          "name": "Tim Kaine",
+          "first": "Timothy",
+          "last": "Kaine",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.kaine.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Mark R. Warner",
+          "first": "Mark",
+          "last": "Warner",
+          "party": "Democrat",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.warner.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "W000804",
+          "name": "Robert J. Wittman",
+          "first": "Robert",
+          "last": "Wittman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://wittman.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Jennifer A. Kiggans",
+          "first": "Jennifer",
+          "last": "Kiggans",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://kiggans.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "S000185",
+          "name": "Robert C. \"Bobby\" Scott",
+          "first": "Robert",
+          "last": "Scott",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://bobbyscott.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Jennifer L. McClellan",
+          "first": "Jennifer",
+          "last": "McClellan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcclellan.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "M001239",
+          "name": "John J. McGuire III",
+          "first": "John",
+          "last": "McGuire",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://mcguire.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Ben Cline",
+          "first": "Ben",
+          "last": "Cline",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://cline.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Eugene Simon Vindman",
+          "first": "Eugene",
+          "last": "Vindman",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vindman.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "B001292",
+          "name": "Donald S. Beyer, Jr.",
+          "first": "Donald",
+          "last": "Beyer",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://beyer.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "G000568",
+          "name": "H. Morgan Griffith",
+          "first": "H.",
+          "last": "Griffith",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://morgangriffith.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Suhas Subramanyam",
+          "first": "Suhas",
+          "last": "Subramanyam",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://subramanyam.house.gov",
+          "district": 10
+        },
+        {
+          "bioguide": "W000831",
+          "name": "James R. Walkinshaw",
+          "first": "James",
+          "last": "Walkinshaw",
+          "party": "Democrat",
+          "termStart": "2025-09-10",
+          "termEnd": "2027-01-03",
+          "url": "https://walkinshaw.house.gov",
+          "district": 11
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "VT": {
+      "houseSeats": 1,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "S000033",
+          "name": "Bernard Sanders",
+          "first": "Bernard",
+          "last": "Sanders",
+          "party": "Independent",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "caucus": "Democrat",
+          "url": "https://www.sanders.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Peter Welch",
+          "first": "Peter",
+          "last": "Welch",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.welch.senate.gov",
+          "senateClass": 3,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "B001318",
+          "name": "Becca Balint",
+          "first": "Becca",
+          "last": "Balint",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://balint.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "WA": {
+      "houseSeats": 10,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "C000127",
+          "name": "Maria Cantwell",
+          "first": "Maria",
+          "last": "Cantwell",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.cantwell.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Patty Murray",
+          "first": "Patty",
+          "last": "Murray",
+          "party": "Democrat",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.murray.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "D000617",
+          "name": "Suzan K. DelBene",
+          "first": "Suzan",
+          "last": "DelBene",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://delbene.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "L000560",
+          "name": "Rick Larsen",
+          "first": "Rick",
+          "last": "Larsen",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://larsen.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Marie Gluesenkamp Perez",
+          "first": "Marie",
+          "last": "Gluesenkamp Perez",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gluesenkampperez.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Dan Newhouse",
+          "first": "Dan",
+          "last": "Newhouse",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://newhouse.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Michael Baumgartner",
+          "first": "Michael",
+          "last": "Baumgartner",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://baumgartner.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Emily Randall",
+          "first": "Emily",
+          "last": "Randall",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://randall.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "J000298",
+          "name": "Pramila Jayapal",
+          "first": "Pramila",
+          "last": "Jayapal",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://jayapal.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Kim Schrier",
+          "first": "Kim",
+          "last": "Schrier",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://schrier.house.gov",
+          "district": 8
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Adam Smith",
+          "first": "Adam",
+          "last": "Smith",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://adamsmith.house.gov",
+          "district": 9
+        },
+        {
+          "bioguide": "S001159",
+          "name": "Marilyn Strickland",
+          "first": "Marilyn",
+          "last": "Strickland",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://strickland.house.gov",
+          "district": 10
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "WI": {
+      "houseSeats": 8,
+      "senateClasses": [
+        1,
+        3
+      ],
+      "senate": [
+        {
+          "bioguide": "B001230",
+          "name": "Tammy Baldwin",
+          "first": "Tammy",
+          "last": "Baldwin",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.baldwin.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "J000293",
+          "name": "Ron Johnson",
+          "first": "Ron",
+          "last": "Johnson",
+          "party": "Republican",
+          "termStart": "2023-01-03",
+          "termEnd": "2029-01-03",
+          "url": "https://www.ronjohnson.senate.gov",
+          "senateClass": 3,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "S001213",
+          "name": "Bryan Steil",
+          "first": "Bryan",
+          "last": "Steil",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://steil.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Mark Pocan",
+          "first": "Mark",
+          "last": "Pocan",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://pocan.house.gov",
+          "district": 2
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Derrick Van Orden",
+          "first": "Derrick",
+          "last": "Van Orden",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://vanorden.house.gov",
+          "district": 3
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Gwen Moore",
+          "first": "Gwen",
+          "last": "Moore",
+          "party": "Democrat",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://gwenmoore.house.gov",
+          "district": 4
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Scott Fitzgerald",
+          "first": "Scott",
+          "last": "Fitzgerald",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://fitzgerald.house.gov",
+          "district": 5
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Glenn Grothman",
+          "first": "Glenn",
+          "last": "Grothman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://grothman.house.gov",
+          "district": 6
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Thomas P. Tiffany",
+          "first": "Thomas",
+          "last": "Tiffany",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://tiffany.house.gov",
+          "district": 7
+        },
+        {
+          "bioguide": "W000829",
+          "name": "Tony Wied",
+          "first": "Tony",
+          "last": "Wied",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://wied.house.gov",
+          "district": 8
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "WV": {
+      "houseSeats": 2,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "J000312",
+          "name": "James C. Justice",
+          "first": "Jim",
+          "last": "Justice",
+          "party": "Republican",
+          "termStart": "2025-01-14",
+          "termEnd": "2031-01-03",
+          "url": "https://www.justice.senate.gov",
+          "senateClass": 1,
+          "stateRank": "junior"
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Shelley Moore Capito",
+          "first": "Shelley",
+          "last": "Capito",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.capito.senate.gov",
+          "senateClass": 2,
+          "stateRank": "senior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "M001205",
+          "name": "Carol D. Miller",
+          "first": "Carol",
+          "last": "Miller",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://miller.house.gov",
+          "district": 1
+        },
+        {
+          "bioguide": "M001235",
+          "name": "Riley M. Moore",
+          "first": "Riley",
+          "last": "Moore",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://rileymoore.house.gov",
+          "district": 2
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    },
+    "WY": {
+      "houseSeats": 1,
+      "senateClasses": [
+        1,
+        2
+      ],
+      "senate": [
+        {
+          "bioguide": "B001261",
+          "name": "John Barrasso",
+          "first": "John",
+          "last": "Barrasso",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2031-01-03",
+          "url": "https://www.barrasso.senate.gov",
+          "senateClass": 1,
+          "stateRank": "senior"
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Cynthia M. Lummis",
+          "first": "Cynthia",
+          "last": "Lummis",
+          "party": "Republican",
+          "termStart": "2021-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://www.lummis.senate.gov",
+          "senateClass": 2,
+          "stateRank": "junior"
+        }
+      ],
+      "house": [
+        {
+          "bioguide": "H001096",
+          "name": "Harriet M. Hageman",
+          "first": "Harriet",
+          "last": "Hageman",
+          "party": "Republican",
+          "termStart": "2025-01-03",
+          "termEnd": "2027-01-03",
+          "url": "https://hageman.house.gov",
+          "district": 0
+        }
+      ],
+      "senateVacancies": [],
+      "houseVacancies": []
+    }
+  },
+  "delegates": [
+    {
+      "bioguide": "R000600",
+      "name": "Aumua Amata Coleman Radewagen",
+      "first": "Aumua Amata",
+      "last": "Radewagen",
+      "party": "Republican",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://radewagen.house.gov",
+      "district": 0,
+      "state": "AS"
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Eleanor Holmes Norton",
+      "first": "Eleanor",
+      "last": "Norton",
+      "party": "Democrat",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://norton.house.gov",
+      "district": 0,
+      "state": "DC"
+    },
+    {
+      "bioguide": "M001219",
+      "name": "James C. Moylan",
+      "first": "James (Jim)",
+      "last": "Moylan",
+      "party": "Republican",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://moylan.house.gov",
+      "district": 0,
+      "state": "GU"
+    },
+    {
+      "bioguide": "K000404",
+      "name": "Kimberlyn King-Hinds",
+      "first": "Kimberlyn",
+      "last": "King-Hinds",
+      "party": "Republican",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://king-hinds.house.gov",
+      "district": 0,
+      "state": "MP"
+    },
+    {
+      "bioguide": "H001103",
+      "name": "Pablo José Hernández",
+      "first": "Pablo José",
+      "last": "Hernández Rivera",
+      "party": "Democrat",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://hernandez.house.gov",
+      "district": 0,
+      "state": "PR"
+    },
+    {
+      "bioguide": "P000610",
+      "name": "Stacey E. Plaskett",
+      "first": "Stacey",
+      "last": "Plaskett",
+      "party": "Democrat",
+      "termStart": "2025-01-03",
+      "termEnd": "2027-01-03",
+      "url": "https://plaskett.house.gov",
+      "district": 0,
+      "state": "VI"
+    }
+  ],
+  "unplaced": [],
+  "warnings": []
+}

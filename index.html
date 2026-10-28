@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#080c16" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Interaktivt 3D-kort over partifordelingen i USA's Kongres. Repræsentanternes Hus og Senatet, stat for stat."
+    />
+    <meta property="og:title" content="Kongreskortet" />
+    <meta property="og:description" content="Partierne i den amerikanske kongres, tegnet som et kort du kan dreje." />
+    <meta property="og:locale" content="da_DK" />
+    <title>Kongreskortet</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="boot" role="status">
+      <div class="boot-card">
+        <p class="boot-kicker">USA's Kongres</p>
+        <h1>Kongreskortet</h1>
+        <p id="boot-status">Henter medlemmer og tegner staterne…</p>
+        <div class="boot-bar" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+
+    <div id="app">
+      <header>
+        <div class="brand">
+          <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+            <rect x="4" y="16" width="5" height="12" rx="1.2" fill="#e24b4b" />
+            <rect x="13.5" y="9" width="5" height="19" rx="1.2" fill="#8e5d96" />
+            <rect x="23" y="4" width="5" height="24" rx="1.2" fill="#3a6fe0" />
+          </svg>
+          <div>
+            <h1>Kongreskortet</h1>
+            <p class="kicker" id="kicker">Den siddende kongres</p>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="seg" role="group" aria-label="Kammer">
+            <button type="button" id="mode-house" data-mode="house" aria-pressed="true">
+              <span class="long">Repræsentanternes Hus</span>
+              <span class="short">Huset</span>
+            </button>
+            <button type="button" id="mode-senate" data-mode="senate" aria-pressed="false">
+              <span class="long">Senatet</span>
+              <span class="short">Senatet</span>
+            </button>
+          </div>
+          <button type="button" id="valgnat" aria-pressed="false" aria-describedby="valgnat-note">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 3.2 13.6 8l4.9.2-3.9 3.1 1.4 4.7L12 13.4 7.9 16l1.4-4.7L5.5 8.2 10.4 8 12 3.2Z" />
+            </svg>
+            <span>Valgnat</span>
+          </button>
+          <label class="finder">
+            <span class="sr-only">Find en stat</span>
+            <select id="state-select">
+              <option value="">Find en stat…</option>
+            </select>
+          </label>
+        </div>
+      </header>
+
+      <section id="summary" aria-label="Nationale mandattal"></section>
+
+      <div id="workspace">
+        <div id="stage">
+          <canvas id="c" aria-label="Interaktivt kort over USA. Vælg en stat, eller brug listen ovenfor."></canvas>
+          <div id="tooltip" role="tooltip" hidden></div>
+          <div id="call" hidden>
+            <div class="call-copy">
+              <strong>Valgnat</strong>
+              <span id="call-text">Den siddende kongres — ikke en prognose</span>
+            </div>
+            <span id="call-count">0 af 50</span>
+            <div class="call-track" aria-hidden="true"><span id="call-bar"></span></div>
+          </div>
+          <p id="hint"><span class="hint-desk">Træk for at dreje · rul for at zoome</span><span class="hint-touch">Drej med en finger · knib for at zoome</span></p>
+          <button type="button" id="home">Hele USA</button>
+        </div>
+        <aside id="panel" aria-label="Statens delegation">
+          <div class="sheet-bar">
+            <button type="button" id="sheet-toggle" class="sheet-toggle" aria-expanded="false" aria-controls="panel-scroll">
+              <span class="grip" aria-hidden="true"></span>
+              <span id="sheet-label">Vælg en stat</span>
+            </button>
+            <button type="button" id="panel-close" hidden>Luk</button>
+          </div>
+          <div id="panel-scroll"></div>
+        </aside>
+      </div>
+      <footer id="footer"></footer>
+    </div>
+
+    <dialog id="delegates-dialog" aria-labelledby="delegates-title"></dialog>
+    <p id="valgnat-note" class="sr-only">Animationen viser den nuværende sammensætning, som om tallene tikker ind. Det er ikke en prognose.</p>
+    <div id="live" class="sr-only" aria-live="polite"></div>
+    <noscript>Kongreskortet kræver JavaScript for at vise kortet.</noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
