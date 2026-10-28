@@ -1,11 +1,11 @@
 /** Party colours and seat tallies. Every number is derived from the data file. */
 
 export const COLORS = {
-  D: '#3a6fe0',
-  R: '#e24b4b',
-  I: '#e6b34d',
-  vacant: '#8e97ab',
-  uncalled: '#6d7690',
+  D: '#24558f',
+  R: '#8e3333',
+  I: '#8a5a16',
+  vacant: '#d4c8b8',
+  uncalled: '#e4d9c8',
 };
 
 export function hexToRgb(hex) {

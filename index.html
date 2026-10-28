@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#080c16" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#f3eadf" />
+    <meta name="color-scheme" content="light" />
     <meta
       name="description"
-      content="Interaktivt 3D-kort over partifordelingen i USA's Kongres. Repræsentanternes Hus og Senatet, stat for stat."
+      content="Kort over partifordelingen i USA's Kongres. Peg på en stat for at se Repræsentanternes Hus og Senatet."
     />
     <meta property="og:title" content="Kongreskortet" />
-    <meta property="og:description" content="Partierne i den amerikanske kongres, tegnet som et kort du kan dreje." />
+    <meta property="og:description" content="Partierne i den amerikanske kongres, tegnet som et kort du kan pege på." />
     <meta property="og:locale" content="da_DK" />
     <title>Kongreskortet</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
@@ -69,7 +69,7 @@
 
       <div id="workspace">
         <div id="stage">
-          <canvas id="c" aria-label="Interaktivt kort over USA. Vælg en stat, eller brug listen ovenfor."></canvas>
+          <svg id="map" role="group" aria-label="Kort over USA. Hver stat kan vælges med mus, finger eller tastatur."></svg>
           <div id="tooltip" role="tooltip" hidden></div>
           <div id="call" hidden>
             <div class="call-copy">
@@ -80,8 +80,7 @@
             <div class="call-track" aria-hidden="true"><span id="call-bar"></span></div>
           </div>
           <div id="poll-badges"></div>
-          <p id="hint"><span class="hint-desk">Træk for at dreje · rul for at zoome</span><span class="hint-touch">Drej med en finger · knib for at zoome</span></p>
-          <button type="button" id="home">Hele USA</button>
+          <p id="hint"><span class="hint-desk">Peg på en stat</span><span class="hint-touch">Tryk på en stat</span></p>
         </div>
         <aside id="panel" aria-label="Statens delegation">
           <div class="sheet-bar">

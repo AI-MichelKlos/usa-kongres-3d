@@ -72,17 +72,16 @@ const built = buildStateGeometries(topo);
 assert(built.states.length === 50, `forventede 50 stater, fik ${built.states.length}`);
 const by = Object.fromEntries(built.states.map((state) => [state.abbr, state]));
 for (const state of built.states) {
-  assert(state.geometries.length > 0, `${state.abbr} mangler geometri`);
-  const width = state.bounds.maxX - state.bounds.minX;
-  const depth = state.bounds.maxZ - state.bounds.minZ;
-  assert(width < 6 && depth < 6, `${state.abbr} er for stor (${width.toFixed(2)} x ${depth.toFixed(2)})`);
+  assert(state.d && state.d.length > 20, `${state.abbr} mangler en sti`);
+  assert(state.bounds.maxX > state.bounds.minX && state.bounds.maxY > state.bounds.minY, `${state.abbr} mangler udstrækning`);
   assert(Number.isFinite(state.lon), `${state.abbr} mangler længdegrad`);
 }
 assert(by.NY.anchor.x > by.CA.anchor.x, 'New York skal ligge øst for Californien');
-assert(by.ME.anchor.z < by.FL.anchor.z, 'Maine skal ligge nord for Florida');
+assert(by.ME.anchor.y < by.FL.anchor.y, 'Maine skal ligge nord for Florida');
 assert(by.AK.anchor.x < by.TX.anchor.x, 'Alaska skal ligge i indhakket til venstre');
+assert(by.HI.anchor.y > by.CA.anchor.y, 'Hawaii skal ligge i indhakket mod syd');
 assert(by.ME.lon > by.CA.lon && by.CA.lon > by.HI.lon, 'valgnat-rækkefølge øst mod vest');
-assert(built.footprint.width > 8 && built.footprint.width < 12, 'kortbredde');
+assert(built.width === 960 && built.height === 600, 'viewBox');
 
 const data = JSON.parse(readFileSync(new URL('../public/data/congress.json', import.meta.url)));
 const model = buildModel(data);
@@ -139,13 +138,13 @@ console.log(JSON.stringify({
   senateLine,
   droppedPoints: built.stats.dropped,
   failedPolygons: built.stats.failed,
-  footprint: built.footprint,
+  viewBox: built.viewBox,
   sample: {
-    ME: { z: by.ME.anchor.z, x: by.ME.anchor.x },
-    FL: { z: by.FL.anchor.z, x: by.FL.anchor.x },
-    CA: { z: by.CA.anchor.z, x: by.CA.anchor.x },
-    AK: { z: by.AK.anchor.z, x: by.AK.anchor.x },
-    HI: { z: by.HI.anchor.z, x: by.HI.anchor.x },
+    ME: { y: by.ME.anchor.y, x: by.ME.anchor.x },
+    FL: { y: by.FL.anchor.y, x: by.FL.anchor.x },
+    CA: { y: by.CA.anchor.y, x: by.CA.anchor.x },
+    AK: { y: by.AK.anchor.y, x: by.AK.anchor.x },
+    HI: { y: by.HI.anchor.y, x: by.HI.anchor.x },
     NY: { x: by.NY.anchor.x },
   },
 }, null, 2));
