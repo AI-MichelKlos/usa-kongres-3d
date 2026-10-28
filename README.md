@@ -1,10 +1,10 @@
 # Kongreskortet
 
-Interaktivt 3D-kort over partifordelingen i USA's Kongres. Hver delstat er en ekstruderet form, man kan dreje, zoome og klikke på. Teksten er på dansk.
+Interaktivt kort over partifordelingen i USA's Kongres. Hver delstat kan man pege på. Teksten er på dansk.
 
-I **Repræsentanternes Hus** er højden statens antal pladser, og farven blander rød og blå efter andelen af demokrater og republikanere. En uafhængig får et guldmærke og trækker ikke farven. I **Senatet** har alle stater samme højde. Farven følger caucus (blå, rød eller lilla, når delegationen er delt), og et guldmærke markerer en uafhængig. Dæmpet farve betyder, at en af pladserne er ledig.
+I **Repræsentanternes Hus** blander farven rød og blå efter andelen af demokrater og republikanere. En uafhængig får et guldmærke og trækker ikke farven. I **Senatet** følger farven caucus (blå, rød eller lilla, når delegationen er delt), og et guldmærke markerer en uafhængig. Beige betyder, at en af pladserne er ledig.
 
-**Valgnat** animerer staterne ind fra øst mod vest i deres *nuværende* farver, som når resultater tikker ind. Det er ikke en prognose.
+**Valgnat** farver staterne fra øst mod vest i deres *nuværende* farver, som når resultater tikker ind. Det er ikke en prognose.
 
 ## Siden
 
