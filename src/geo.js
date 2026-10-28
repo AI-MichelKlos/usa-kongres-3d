@@ -110,9 +110,11 @@ function shadeGeometry(geometry) {
   const normals = geometry.attributes.normal;
   const shade = new Float32Array(normals.count);
   const colors = new Float32Array(normals.count * 3);
+  const position = geometry.attributes.position;
   for (let i = 0; i < normals.count; i += 1) {
     const up = normals.getY(i);
-    const tone = up > 0.72 ? 1 : up < -0.72 ? 0.34 : 0.52;
+    const height = Math.min(1, Math.max(0, position.getY(i)));
+    const tone = up > 0.72 ? 1 : up < -0.72 ? 0.28 : 0.34 + height * 0.28;
     shade[i] = tone;
     colors[i * 3] = tone;
     colors[i * 3 + 1] = tone;
@@ -234,11 +236,15 @@ export function buildStateGeometries(topo) {
   let maxFX = -Infinity;
   let minFZ = Infinity;
   let maxFZ = -Infinity;
+  let sumX = 0;
+  let sumZ = 0;
   for (const state of states) {
     minFX = Math.min(minFX, state.bounds.minX);
     maxFX = Math.max(maxFX, state.bounds.maxX);
     minFZ = Math.min(minFZ, state.bounds.minZ);
     maxFZ = Math.max(maxFZ, state.bounds.maxZ);
+    sumX += state.anchor.x;
+    sumZ += state.anchor.z;
   }
 
   return {
@@ -251,6 +257,8 @@ export function buildStateGeometries(topo) {
       maxZ: maxFZ,
       cx: (minFX + maxFX) / 2,
       cz: (minFZ + maxFZ) / 2,
+      aimX: sumX / states.length,
+      aimZ: sumZ / states.length,
       width: maxFX - minFX,
       depth: maxFZ - minFZ,
     },

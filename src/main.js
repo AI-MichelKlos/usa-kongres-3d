@@ -124,9 +124,10 @@ function renderSummary() {
       ${stats.map(([count, label, tone]) => `<div class="stat tone-${tone}"><b>${count}</b><span>${esc(label)}</span></div>`).join('')}
     </div>
     <p class="majority">${esc(majorityLine(totals, totals.seats))}</p>
-    <p class="legend"><span class="u-dot" aria-hidden="true">U</span> ${esc(legend)}</p>
+    <p class="legend desk-only"><span class="u-dot" aria-hidden="true">U</span> ${esc(legend)}</p>
+    <p class="phone-key">${mode === 'senate' ? 'Én højde · farve = caucus · U = uafhængig' : 'Højde = pladser · farve = partiandel · U = uafhængig'}</p>
     ${imbalance}
-    ${banner ? `<p class="election">${esc(banner)}</p>` : ''}
+    ${banner ? `<p class="election desk-only">${esc(banner)}</p>` : ''}
     <p class="disclaimer" id="valgnat-disclaimer">Valgnat animerer den siddende kongres, stat for stat. Det er ikke en prognose.</p>
     <button type="button" id="open-delegates" class="text-btn">Delegerede uden stemmeret (${model.delegates.length})</button>
   `;

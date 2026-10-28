@@ -76,8 +76,8 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   controls.dampingFactor = 0.085;
   controls.maxPolarAngle = 1.15;
   controls.minPolarAngle = 0.18;
-  controls.minDistance = 1.25;
-  controls.maxDistance = 18;
+  controls.minDistance = 1.15;
+  controls.maxDistance = 40;
   controls.zoomSpeed = 0.72;
   controls.rotateSpeed = coarse ? 0.55 : 0.68;
   controls.screenSpacePanning = false;
@@ -89,6 +89,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   const tmp = new THREE.Vector3();
   const paintColor = new THREE.Color();
   let footprint = null;
+  let userMoved = false;
   let currentLook = null;
   let seq = null;
   let seqN = 0;
@@ -107,6 +108,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
     renderer.setSize(width, height, false);
+    if (footprint && !userMoved && !flying && !selected) placeHome(false);
   }
 
   function writeColors(state, color) {
@@ -140,11 +142,6 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     if (state.abbr === selected) paintColor.lerp(WHITE, 0.18);
     else if (state.abbr === hovered) paintColor.lerp(WHITE, 0.1);
     writeColors(state, paintColor);
-    if (state.abbr === selected) state.edgeMat.color.setHex(0xf6e2a8);
-    else if (state.abbr === hovered) state.edgeMat.color.setHex(0xfffaf2);
-    else if (state.showMarker) state.edgeMat.color.setHex(0xe6b34d);
-    else state.edgeMat.color.setHex(0x140e0c);
-    state.edgeMat.opacity = state.abbr === selected || state.showMarker ? 0.95 : 0.45;
   }
 
   function instant(state, hex, height, marker) {
@@ -160,16 +157,10 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     footprint = built.footprint;
     for (const spec of built.states) {
       const group = new THREE.Group();
-      const edgeMat = new THREE.LineBasicMaterial({
-        color: 0x140e0c,
-        transparent: true,
-        opacity: 0.45,
-      });
       const meshes = [];
       spec.geometries.forEach((geometry) => {
         const mesh = new THREE.Mesh(geometry, sharedMaterial);
         mesh.userData.abbr = spec.abbr;
-        mesh.add(new THREE.LineSegments(new THREE.EdgesGeometry(geometry, 32), edgeMat));
         group.add(mesh);
         meshes.push(mesh);
         pickables.push(mesh);
@@ -190,7 +181,6 @@ export function createScene(canvas, { onHover, onPick } = {}) {
         group,
         meshes,
         shades: spec.shades,
-        edgeMat,
         marker,
         anchor: spec.anchor,
         color: new THREE.Color(UNCALLED),
@@ -215,13 +205,15 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   }
 
   function homePose() {
-    const { cx, cz, width, depth } = footprint;
-    const fov = (camera.fov * Math.PI) / 180;
-    const radius = 0.5 * Math.max(width, depth);
-    const dist = (radius / Math.tan(fov / 2)) * 1.34;
+    const { width, depth, aimX, aimZ } = footprint;
+    const vFov = (camera.fov * Math.PI) / 180;
+    const aspect = Math.max(camera.aspect || 1.2, 0.6);
+    const tanV = Math.tan(vFov / 2);
+    const tanH = tanV * aspect;
+    const dist = Math.max((depth * 0.78) / tanV, (width * 0.56) / tanH) * 0.92;
     return {
-      pos: new THREE.Vector3(cx, dist * 0.72, cz + dist * 0.7),
-      target: new THREE.Vector3(cx, 0.1, cz),
+      pos: new THREE.Vector3(aimX, dist * 0.74, aimZ + dist * 0.5),
+      target: new THREE.Vector3(aimX, 0.18, aimZ),
     };
   }
 
@@ -260,6 +252,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   }
 
   function focus(abbr) {
+    userMoved = true;
     const state = byAbbr.get(abbr);
     if (!state) return;
     const box = new THREE.Box3();
@@ -433,7 +426,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
       if (!state.marker.visible) continue;
       const dist = camera.position.distanceTo(state.marker.getWorldPosition(tmp));
       const worldPerPx = (2 * Math.tan(vFov / 2) * dist) / viewHeight;
-      const size = Math.min(0.46, Math.max(0.15, worldPerPx * 24));
+      const size = Math.min(0.5, Math.max(0.16, worldPerPx * 30));
       state.marker.scale.set(size, size, 1);
     }
   }
@@ -449,6 +442,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
   }
 
   let down = null;
+  controls.addEventListener('start', () => { userMoved = true; });
   canvas.addEventListener('pointerdown', (event) => {
     if (!event.isPrimary) return;
     down = { x: event.clientX, y: event.clientY };
@@ -516,7 +510,7 @@ export function createScene(canvas, { onHover, onPick } = {}) {
     playValgnat,
     stopValgnat,
     focus,
-    frameAll() { placeHome(true); },
+    frameAll() { userMoved = false; placeHome(true); },
     setSelected,
     resize,
     dispose() {
