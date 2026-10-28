@@ -672,6 +672,29 @@ dialog::backdrop { background: rgba(44, 36, 28, 0.35); }
   #about:not([open]) #about-body,
   #about:not([open]) footer { display: none; }
 }
+@media (max-width: 979px) and (orientation: portrait) {
+  #app { height: auto; }
+  #workspace { flex: none; }
+  #stage {
+    flex: none;
+    display: block;
+    padding: 0 0.15rem 0.35rem;
+  }
+  #map {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 960 / 600;
+  }
+  #hint {
+    position: static;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    display: table;
+    margin: 0.3rem auto 0.15rem;
+  }
+}
 @media (max-width: 979px) and (orientation: landscape) {
   header {
     grid-template-columns: auto auto auto auto minmax(7rem, 1fr);
