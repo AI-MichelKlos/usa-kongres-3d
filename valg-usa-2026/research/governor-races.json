@@ -1,0 +1,2183 @@
+{
+  "checkedOn": "2026-10-31",
+  "electionDate": "2026-11-03",
+  "office": "Governor",
+  "officeLabel": "Guvernør",
+  "scope": "USA's 50 stater; territorier og Washington, D.C. er ikke medtaget.",
+  "raceCount": 36,
+  "regularRaces": 36,
+  "specialRaces": 0,
+  "currentGovernorships": {
+    "D": 24,
+    "R": 26,
+    "O": 0,
+    "total": 50
+  },
+  "governorshipsUp": {
+    "D": 18,
+    "R": 18,
+    "O": 0,
+    "total": 36
+  },
+  "governorshipsNotUp": {
+    "D": 6,
+    "R": 8,
+    "O": 0,
+    "total": 14
+  },
+  "baseline": {
+    "asOf": "2026-10-31",
+    "total": 50,
+    "up": 36,
+    "notUp": 14,
+    "currentByParty": {
+      "D": 24,
+      "R": 26,
+      "O": 0
+    },
+    "upByIncumbentParty": {
+      "D": 18,
+      "R": 18,
+      "O": 0
+    },
+    "fixedByParty": {
+      "D": 6,
+      "R": 8,
+      "O": 0
+    },
+    "sources": [
+      {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      {
+        "label": "Ballotpedia, gubernatorial elections 2026, 36 valg og partifordeling",
+        "url": "https://ballotpedia.org/Gubernatorial_elections,_2026"
+      },
+      {
+        "label": "270toWin, 2026 governor election, 24 demokratiske og 26 republikanske guvernører",
+        "url": "https://www.270towin.com/2026-governor-election/"
+      }
+    ]
+  },
+  "method": "Nationalt scope og partibaseline er kontrolleret mod Ballotpedia, 270toWin og NGA. Incumbent er den siddende guvernør pr. kontroltidspunktet, ikke nødvendigvis en kandidat i 2026. De enkelte kandidatfelter følger de anførte kilder. Officielle lister er prioriteret; felter, som kun er kontrolleret i sekundære kilder, er eksplicit markeret. Write-in-kandidater, tilbagetrukne kandidater og primærvalgsdeltagere, der ikke er på general ballot, er ikke medtaget.",
+  "candidateGroups": {
+    "D": "Demokraterne",
+    "R": "Republikanerne",
+    "O": "Andre partier og uafhængige"
+  },
+  "verificationLevels": {
+    "official": "Kandidatnavne og felt kontrolleret i en læsbar officiel kilde.",
+    "official-indexed": "Officielt kildeindhold læst i søgeresultater; selve dokumentet eller siden kunne ikke læses fuldt i denne research.",
+    "mixed": "Officiel kilde til kandidatfeltet, supplerende sekundær kilde til partier.",
+    "secondary": "Kandidatfelt kontrolleret i sekundær kilde; selvstændig officiel kontrol udestår."
+  },
+  "races": [
+    {
+      "id": "AL-GOV-2026",
+      "state": "Alabama",
+      "stateDa": "Alabama",
+      "abbr": "AL",
+      "fips": "01",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Kay Ivey",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Doug Jones",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Tommy Tuberville",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Alabama Secretary of State, officiel prøvestemmeseddel",
+          "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Autauga-Sample.pdf"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "AK-GOV-2026",
+      "state": "Alaska",
+      "stateDa": "Alaska",
+      "abbr": "AK",
+      "fips": "02",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Mike Dunleavy",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Jonathan Kreiss-Tomkins",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Dave Bronson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Treg Taylor",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Bernadette Wilson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater fra søgeindekseret officiel kandidatliste. Den fulde officielle side blev ikke tilgængelig i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official-indexed",
+      "sources": [
+        {
+          "label": "Alaska Division of Elections, certificerede kandidater til general election",
+          "url": "https://www.elections.alaska.gov/candidates/?election=26GENR"
+        },
+        {
+          "label": "National Governors Association, guvernørvalg 2026",
+          "url": "https://www.nga.org/governors/elections/"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Alaska har fire kandidater på general election-stemmesedlen, heraf tre republikanere og én demokrat. Valget bruger ranked-choice voting; en scenarievælger skal forstås som valg af den endelige vinder, ikke som førstestemmer.",
+        "Den officielle kandidatliste var læsbar i søgeindekset; direkte åbning gav en serverfejl."
+      ]
+    },
+    {
+      "id": "AZ-GOV-2026",
+      "state": "Arizona",
+      "stateDa": "Arizona",
+      "abbr": "AZ",
+      "fips": "04",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Katie Hobbs",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Katie Hobbs",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Andy Biggs",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Risa Lombardo",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        },
+        {
+          "name": "Teri Hourihan",
+          "party": "NL",
+          "partyLabel": "No Labels Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalg i Arizona",
+          "url": "https://ballotpedia.org/Arizona_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        },
+        {
+          "label": "FOX 10 Phoenix, guide til delstatsvalg, opdateret 30. oktober 2026",
+          "url": "https://www.fox10phoenix.com/election/2026-election-guide-candidates-running-governor-other-statewide-offices"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "AR-GOV-2026",
+      "state": "Arkansas",
+      "stateDa": "Arkansas",
+      "abbr": "AR",
+      "fips": "05",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Sarah Huckabee Sanders",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Fred Love",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Sarah Huckabee Sanders",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Colt Shelby",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "ARVotes, statewide executive candidates",
+          "url": "https://www.arvotes.org/stateexecutive"
+        },
+        {
+          "label": "VoteClock, kandidater på stemmesedlen i Arkansas",
+          "url": "https://voteclock.org/arkansas-candidates-on-the-ballot-2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "CA-GOV-2026",
+      "state": "California",
+      "stateDa": "California",
+      "abbr": "CA",
+      "fips": "06",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Gavin Newsom",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Xavier Becerra",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Steve Hilton",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Sacramento County, kvalificerede kandidater til valget",
+          "url": "https://elections.saccounty.gov/us/en/campaign-services/candidate-report.html"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "CO-GOV-2026",
+      "state": "Colorado",
+      "stateDa": "Colorado",
+      "abbr": "CO",
+      "fips": "08",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Jared Polis",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Phil Weiser",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Victor Marx",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Stephen T. Hamilton",
+          "party": "CON",
+          "partyLabel": "American Constitution Party",
+          "group": "O"
+        },
+        {
+          "name": "Eric Mulder",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Jeff Peckman",
+          "party": "UNITY",
+          "partyLabel": "Unity Party",
+          "group": "O"
+        },
+        {
+          "name": "Erik Underwood",
+          "party": "AVP",
+          "partyLabel": "Approval Voting Party",
+          "group": "O"
+        },
+        {
+          "name": "Greg Lopez",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Navne kontrolleret mod en officiel kandidatliste; partitilhørsforhold suppleret fra Ballotpedia. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "mixed",
+      "sources": [
+        {
+          "label": "Boulder County, kandidater og ballot measures 2026",
+          "url": "https://bouldercounty.gov/elections/information/2026-general-election-candidates-and-ballot-measures/"
+        },
+        {
+          "label": "Ballotpedia, guvernørvalget i Colorado",
+          "url": "https://ballotpedia.org/Colorado_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Boulder Countys kandidatliste bekræfter navnene; Ballotpedia angiver partierne."
+      ]
+    },
+    {
+      "id": "CT-GOV-2026",
+      "state": "Connecticut",
+      "stateDa": "Connecticut",
+      "abbr": "CT",
+      "fips": "09",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Ned Lamont",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Ned Lamont",
+          "party": "D",
+          "partyLabel": "Demokraterne / Working Families Party",
+          "group": "D"
+        },
+        {
+          "name": "Ryan Fazio",
+          "party": "R",
+          "partyLabel": "Republikanerne / Independent Party of Connecticut",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i Connecticut",
+          "url": "https://ballotpedia.org/Connecticut_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        },
+        {
+          "label": "Ballotpedia, Connecticut elections 2026, herunder write-in-status",
+          "url": "https://ballotpedia.org/Connecticut_elections,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Kandidater på flere partilinjer er samlet som én kandidat.",
+        "Zenobia Adgers og Christian Noe er opført som write-in-kandidater og er derfor udeladt."
+      ]
+    },
+    {
+      "id": "FL-GOV-2026",
+      "state": "Florida",
+      "stateDa": "Florida",
+      "abbr": "FL",
+      "fips": "12",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Ron DeSantis",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "David Jolly",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Byron Donalds",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Scott Eckhard Jewett",
+          "party": "L",
+          "partyLabel": "Libertarian Party of Florida",
+          "group": "O"
+        },
+        {
+          "name": "Charles Burkett",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Frank J. Russo",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Moliere \"Moe\" Dimanche",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Dean Ocean Abrams",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Florida Division of Elections, general election candidate list",
+          "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?OfficeCode=GOV&elecid=20261103-GEN"
+        },
+        {
+          "label": "Florida Election Watch, guvernørvalgets kandidatfelt",
+          "url": "https://floridaelectionwatch.gov/StateOffices/Governor"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "GA-GOV-2026",
+      "state": "Georgia",
+      "stateDa": "Georgia",
+      "abbr": "GA",
+      "fips": "13",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Brian Kemp",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Keisha Lance Bottoms",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Rick Jackson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, statewide executive elections i Georgia",
+          "url": "https://ballotpedia.org/Georgia_state_executive_official_elections,_2026"
+        },
+        {
+          "label": "WABE, Libertarian Party afslutter forsøg på ballot access",
+          "url": "https://www.wabe.org/georgia-libertarians-end-efforts-to-get-on-2026-general-election-ballot/"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Chase Oliver er ikke medtaget, fordi Libertarian Party ikke opnåede ballot access til dette valg ifølge WABE."
+      ]
+    },
+    {
+      "id": "HI-GOV-2026",
+      "state": "Hawaii",
+      "stateDa": "Hawaii",
+      "abbr": "HI",
+      "fips": "15",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Josh Green",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Josh Green",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Gary Cordery",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i Hawaii",
+          "url": "https://ballotpedia.org/Hawaii_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "ID-GOV-2026",
+      "state": "Idaho",
+      "stateDa": "Idaho",
+      "abbr": "ID",
+      "fips": "16",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Brad Little",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Terri Pickens",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Brad Little",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Pro-Life",
+          "party": "CON",
+          "partyLabel": "Constitution Party",
+          "group": "O"
+        },
+        {
+          "name": "Paul Sand",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "John R. Stegner",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, statewide executive elections i Idaho",
+          "url": "https://ballotpedia.org/Idaho_state_executive_official_elections,_2026"
+        },
+        {
+          "label": "VoteClock, kandidater på stemmesedlen i Idaho",
+          "url": "https://voteclock.org/idaho-candidates-on-the-ballot-2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "IL-GOV-2026",
+      "state": "Illinois",
+      "stateDa": "Illinois",
+      "abbr": "IL",
+      "fips": "17",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "JB Pritzker",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "JB Pritzker",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Darren Bailey",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Collin Corbett",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Illinois State Board of Elections, general election candidate list",
+          "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=%2FIn13iuXmuD56WVRMXU%2FKg%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D"
+        },
+        {
+          "label": "Cook County Clerk, guvernørvalgets kandidatfelt",
+          "url": "https://cookresults.azurewebsites.net/"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "IA-GOV-2026",
+      "state": "Iowa",
+      "stateDa": "Iowa",
+      "abbr": "IA",
+      "fips": "19",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Kim Reynolds",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Rob Sand",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Zach Lahn",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Iowa County, general election 3. november 2026",
+          "url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/"
+        },
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalg, herunder tilbagetrukne kandidater",
+          "url": "https://ballotpedia.org/Iowa_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Nicholas Gluba er i kilden markeret som tilbagetrukket eller diskvalificeret og er ikke medtaget."
+      ]
+    },
+    {
+      "id": "KS-GOV-2026",
+      "state": "Kansas",
+      "stateDa": "Kansas",
+      "abbr": "KS",
+      "fips": "20",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Laura Kelly",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Cindy Holscher",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Ty Masterson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Kiowa County, officielle valgmeddelelser",
+          "url": "https://www.kiowacountyks.gov/210/Election-Notices"
+        },
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalg, herunder write-in-status",
+          "url": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "ME-GOV-2026",
+      "state": "Maine",
+      "stateDa": "Maine",
+      "abbr": "ME",
+      "fips": "23",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Janet Mills",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Hannah Pingree",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Bobby Charles",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Richard Bennett",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernørvalget i Maine",
+          "url": "https://ballotpedia.org/Maine_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MD-GOV-2026",
+      "state": "Maryland",
+      "stateDa": "Maryland",
+      "abbr": "MD",
+      "fips": "24",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Wes Moore",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Wes Moore",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Dan Cox",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Andy Ellis",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        },
+        {
+          "name": "Cathy White",
+          "party": "WCP",
+          "partyLabel": "Working Class Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Maryland State Archives, general election gubernatorial candidates",
+          "url": "https://msa.maryland.gov/msa/mdmanual/42electg/html/2026/2026gov.html"
+        },
+        {
+          "label": "Maryland State Board of Elections, statewide candidate list",
+          "url": "https://elections.maryland.gov/elections/2026/general_candidates/2026_GG_statewide_candidatelist.html"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MA-GOV-2026",
+      "state": "Massachusetts",
+      "stateDa": "Massachusetts",
+      "abbr": "MA",
+      "fips": "25",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Maura Healey",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Maura Healey",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Michael Minogue",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Andrea James",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Massachusetts Secretary of the Commonwealth, state election candidates",
+          "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm"
+        },
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i Massachusetts",
+          "url": "https://ballotpedia.org/Massachusetts_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MI-GOV-2026",
+      "state": "Michigan",
+      "stateDa": "Michigan",
+      "abbr": "MI",
+      "fips": "26",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Gretchen Whitmer",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Jocelyn Benson",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "John James",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Douglas Campbell",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        },
+        {
+          "name": "Anthony Hudson",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Donna Brandenburg",
+          "party": "UST",
+          "partyLabel": "U.S. Taxpayers Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Michigan Bureau of Elections, offentlig kandidatliste",
+          "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport"
+        },
+        {
+          "label": "Ballotpedia, guvernørvalget i Michigan, herunder tilbagetrukne kandidater",
+          "url": "https://ballotpedia.org/Michigan_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Mike Duggan er i kilden markeret som tilbagetrukket eller diskvalificeret og findes ikke på den kontrollerede officielle kandidatliste."
+      ]
+    },
+    {
+      "id": "MN-GOV-2026",
+      "state": "Minnesota",
+      "stateDa": "Minnesota",
+      "abbr": "MN",
+      "fips": "27",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Tim Walz",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Amy Klobuchar",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Lisa Demuth",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Steven Young",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i Minnesota",
+          "url": "https://ballotpedia.org/Minnesota_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NE-GOV-2026",
+      "state": "Nebraska",
+      "stateDa": "Nebraska",
+      "abbr": "NE",
+      "fips": "31",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Jim Pillen",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Lynne Walz",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Jim Pillen",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Brett Lindstrom",
+          "party": "AF",
+          "partyLabel": "America First Party Nebraska",
+          "group": "O"
+        },
+        {
+          "name": "Rick Beard",
+          "party": "LMN",
+          "partyLabel": "Legal Marijuana NOW",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Nebraska Secretary of State, endelig statewide general candidate list, 11. september 2026",
+          "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NV-GOV-2026",
+      "state": "Nevada",
+      "stateDa": "Nevada",
+      "abbr": "NV",
+      "fips": "32",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Joe Lombardo",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Aaron Ford",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Joe Lombardo",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Danielle Ford",
+          "party": "I",
+          "partyLabel": "Uden partitilhørsforhold",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Washoe County, valginformation og kandidater 2026",
+          "url": "https://washoecounty.gov/voters/information/index.php"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Nevadas stemmeseddel indeholder også \"None of these candidates\". Det er ikke en kandidat, som kan få embedet, og er derfor ikke medtaget som mulig vinder."
+      ]
+    },
+    {
+      "id": "NH-GOV-2026",
+      "state": "New Hampshire",
+      "stateDa": "New Hampshire",
+      "abbr": "NH",
+      "fips": "33",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Kelly Ayotte",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Cinde Warmington",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Kelly Ayotte",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Stephen Villee",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernørvalget i New Hampshire",
+          "url": "https://ballotpedia.org/New_Hampshire_gubernatorial_election,_2026"
+        },
+        {
+          "label": "New Hampshire Public Radio, kandidatguide 29. oktober 2026",
+          "url": "https://www.nhpr.org/politics/2026-10-29/whos-running-election-voting-ayotte-warmington-villee-republican-democrat-independent"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NM-GOV-2026",
+      "state": "New Mexico",
+      "stateDa": "New Mexico",
+      "abbr": "NM",
+      "fips": "35",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Michelle Lujan Grisham",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Deb Haaland",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Gregg Hull",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i New Mexico",
+          "url": "https://ballotpedia.org/New_Mexico_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NY-GOV-2026",
+      "state": "New York",
+      "stateDa": "New York",
+      "abbr": "NY",
+      "fips": "36",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Kathy Hochul",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Kathy Hochul",
+          "party": "D",
+          "partyLabel": "Demokraterne / Working Families Party",
+          "group": "D"
+        },
+        {
+          "name": "Bruce Blakeman",
+          "party": "R",
+          "partyLabel": "Republikanerne / Conservative / Vote Affordable",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "NYC Votes, officiel vælgerguide til guvernørvalget",
+          "url": "https://www.nycvotes.org/whats-on-the-ballot/2026-general-election-voter-guide/governor/?boroughCode=+&districtID=&geoAreaAbbr=&officeType=9&officelevel=2&pg=r"
+        },
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i New York",
+          "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Kandidater på flere partilinjer er samlet som én kandidat. Den officielle vælgerguide opfører Hochul og Blakeman."
+      ]
+    },
+    {
+      "id": "OH-GOV-2026",
+      "state": "Ohio",
+      "stateDa": "Ohio",
+      "abbr": "OH",
+      "fips": "39",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Mike DeWine",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Amy Acton",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Vivek Ramaswamy",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Don Kissick",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Clark County Board of Elections, officiel tilgængelig prøvestemmeseddel",
+          "url": "https://www.boe.ohio.gov/abmt/oh12/20261103/X057___1_ENON_2.html"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "OK-GOV-2026",
+      "state": "Oklahoma",
+      "stateDa": "Oklahoma",
+      "abbr": "OK",
+      "fips": "40",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Kevin Stitt",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Cyndi Munson",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Mike Mazzei",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Orlando Lynn Bush",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Robert E. Brooks Sr.",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Jerry Griffin",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Oklahoma State Election Board, kandidatliste",
+          "url": "https://hosting.okelections.gov/electionlist.html"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "OR-GOV-2026",
+      "state": "Oregon",
+      "stateDa": "Oregon",
+      "abbr": "OR",
+      "fips": "41",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Tina Kotek",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Tina Kotek",
+          "party": "D",
+          "partyLabel": "Demokraterne / Working Families Party",
+          "group": "D"
+        },
+        {
+          "name": "Christine Drazan",
+          "party": "R",
+          "partyLabel": "Republikanerne / Libertarian Party",
+          "group": "R"
+        },
+        {
+          "name": "Brett Smith",
+          "party": "PG",
+          "partyLabel": "Pacific Green Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernørvalget i Oregon",
+          "url": "https://ballotpedia.org/Oregon_gubernatorial_election,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Kandidater på flere partilinjer er samlet som én kandidat. Christine Drazan grupperes som republikansk trods også at have Libertarian Party som partilinje."
+      ]
+    },
+    {
+      "id": "PA-GOV-2026",
+      "state": "Pennsylvania",
+      "stateDa": "Pennsylvania",
+      "abbr": "PA",
+      "fips": "42",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Josh Shapiro",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Josh Shapiro",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Stacy Garrity",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Ken Krawchuk",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, fælles general election for guvernør og viceguvernør",
+          "url": "https://ballotpedia.org/Pennsylvania_lieutenant_gubernatorial_election,_2026"
+        },
+        {
+          "label": "Penn State University Libraries, kandidatguide 2026",
+          "url": "https://guides.libraries.psu.edu/HBGvote2026midterm/candidates"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "RI-GOV-2026",
+      "state": "Rhode Island",
+      "stateDa": "Rhode Island",
+      "abbr": "RI",
+      "fips": "44",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Dan McKee",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Helena Foulkes",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Aaron Guckian",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Kenneth J. Block",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Rhode Island Department of State, kandidater med On Election Ballot = Y",
+          "url": "https://vote.sos.ri.gov/Candidates/CandidateSearchSummary?Election=18144&OfficeType=549"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Kun kandidater markeret On Election Ballot = Y i det officielle register er medtaget. Navnene i appen er almindelige korte former af Helena Buonanno Foulkes og Aaron Christopher Guckian."
+      ]
+    },
+    {
+      "id": "SC-GOV-2026",
+      "state": "South Carolina",
+      "stateDa": "South Carolina",
+      "abbr": "SC",
+      "fips": "45",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Henry McMaster",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Jermaine Johnson",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Alan Wilson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Walid Hakim",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        },
+        {
+          "name": "Michael Addison",
+          "party": "UC",
+          "partyLabel": "United Citizens Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Charleston County Board of Voter Registration and Elections, general election candidates",
+          "url": "https://vote.charlestoncounty.gov/?r=816"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "SD-GOV-2026",
+      "state": "South Dakota",
+      "stateDa": "South Dakota",
+      "abbr": "SD",
+      "fips": "46",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Larry Rhoden",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Dan Ahlers",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Larry Rhoden",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "South Dakota Secretary of State, kandidatliste til general election",
+          "url": "https://vip.sdsos.gov/candidatelist.aspx?eid=774"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "TN-GOV-2026",
+      "state": "Tennessee",
+      "stateDa": "Tennessee",
+      "abbr": "TN",
+      "fips": "47",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Bill Lee",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Jerri Green",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Marsha Blackburn",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Misam Abidi",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Dean Brewer",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Ray Brown",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "David Hatley",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Wendell Jackson",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Charles Van Morgan",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Eddie Lee Murphy",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Lauren Pinkston",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Victor L. Scoggin",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Dave Seeman",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Karl Knox Smithson",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "L. Webb Taylor",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Robert C. Vick",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "TN Election, kandidatfelt til guvernørvalget med link til statens kandidatliste",
+          "url": "https://tnelection.org/races/governor/"
+        },
+        {
+          "label": "Ballotpedia, Tennessee elections 2026",
+          "url": "https://ballotpedia.org/Tennessee_elections,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Alle 15 kandidater i TN Elections aktuelle kandidatfelt er medtaget. Den linkede officielle PDF returnerede HTTP 403 ved direkte åbning; feltet er også kontrolleret hos Ballotpedia."
+      ]
+    },
+    {
+      "id": "TX-GOV-2026",
+      "state": "Texas",
+      "stateDa": "Texas",
+      "abbr": "TX",
+      "fips": "48",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Greg Abbott",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Gina Hinojosa",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Greg Abbott",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Pat Dixon",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater fra søgeindekseret officiel kandidatliste. Den fulde officielle side blev ikke tilgængelig i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official-indexed",
+      "sources": [
+        {
+          "label": "Texas Secretary of State, certificering af general election ballot 2026",
+          "url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31",
+      "notes": [
+        "Kandidatfeltet er baseret på den søgeindekserede officielle ballot certification."
+      ]
+    },
+    {
+      "id": "VT-GOV-2026",
+      "state": "Vermont",
+      "stateDa": "Vermont",
+      "abbr": "VT",
+      "fips": "50",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Phil Scott",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Amanda Janoo",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Phil Scott",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Dean Roy",
+          "party": "FU",
+          "partyLabel": "Freedom and Unity Party",
+          "group": "O"
+        },
+        {
+          "name": "June Goodband",
+          "party": "GMPJ",
+          "partyLabel": "Green Mountain Peace and Justice Party",
+          "group": "O"
+        },
+        {
+          "name": "Brian Judd",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, Governor of Vermont, valgafsnit 2026",
+          "url": "https://ballotpedia.org/Governor_of_Vermont"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "WI-GOV-2026",
+      "state": "Wisconsin",
+      "stateDa": "Wisconsin",
+      "abbr": "WI",
+      "fips": "55",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Tony Evers",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "David Crowley",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Tom Tiffany",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Kandidatfeltet er kontrolleret i de anførte sekundære kilder, men ikke selvstændigt mod en tilgængelig officiel kandidatliste i denne research. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "verificationLevel": "secondary",
+      "sources": [
+        {
+          "label": "Ballotpedia, guvernør- og viceguvernørvalget i Wisconsin",
+          "url": "https://ballotpedia.org/Wisconsin_gubernatorial_and_lieutenant_gubernatorial_election,_2026"
+        },
+        {
+          "label": "Ballotpedia, statewide executive elections, herunder write-in-status",
+          "url": "https://ballotpedia.org/Wisconsin_state_executive_official_elections,_2026"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "WY-GOV-2026",
+      "state": "Wyoming",
+      "stateDa": "Wyoming",
+      "abbr": "WY",
+      "fips": "56",
+      "type": "regular",
+      "typeLabel": "Ordinært guvernørvalg",
+      "incumbent": "Mark Gordon",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Kenneth R. Casner",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Eric Barlow",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Rebecca Bextel",
+          "party": "CON",
+          "partyLabel": "Constitution Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Kandidater på en officiel kandidatliste eller stemmeseddel. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "verificationLevel": "official",
+      "sources": [
+        {
+          "label": "Wyoming Secretary of State, general election candidates",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf"
+        }
+      ],
+      "incumbentSource": {
+        "label": "National Governors Association, siddende guvernører",
+        "url": "https://www.nga.org/Governors/"
+      },
+      "checkedOn": "2026-10-31"
+    }
+  ],
+  "fixedStates": [
+    {
+      "abbr": "DE",
+      "state": "Delaware",
+      "stateDa": "Delaware",
+      "fips": "10",
+      "incumbent": "Matt Meyer",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "KY",
+      "state": "Kentucky",
+      "stateDa": "Kentucky",
+      "fips": "21",
+      "incumbent": "Andy Beshear",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "NJ",
+      "state": "New Jersey",
+      "stateDa": "New Jersey",
+      "fips": "34",
+      "incumbent": "Mikie Sherrill",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "NC",
+      "state": "North Carolina",
+      "stateDa": "North Carolina",
+      "fips": "37",
+      "incumbent": "Josh Stein",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "VA",
+      "state": "Virginia",
+      "stateDa": "Virginia",
+      "fips": "51",
+      "incumbent": "Abigail Spanberger",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "WA",
+      "state": "Washington",
+      "stateDa": "Washington",
+      "fips": "53",
+      "incumbent": "Bob Ferguson",
+      "incumbentParty": "D",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "IN",
+      "state": "Indiana",
+      "stateDa": "Indiana",
+      "fips": "18",
+      "incumbent": "Mike Braun",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "LA",
+      "state": "Louisiana",
+      "stateDa": "Louisiana",
+      "fips": "22",
+      "incumbent": "Jeff Landry",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "MS",
+      "state": "Mississippi",
+      "stateDa": "Mississippi",
+      "fips": "28",
+      "incumbent": "Tate Reeves",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "MO",
+      "state": "Missouri",
+      "stateDa": "Missouri",
+      "fips": "29",
+      "incumbent": "Mike Kehoe",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "MT",
+      "state": "Montana",
+      "stateDa": "Montana",
+      "fips": "30",
+      "incumbent": "Greg Gianforte",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "ND",
+      "state": "North Dakota",
+      "stateDa": "North Dakota",
+      "fips": "38",
+      "incumbent": "Kelly Armstrong",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "UT",
+      "state": "Utah",
+      "stateDa": "Utah",
+      "fips": "49",
+      "incumbent": "Spencer Cox",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    },
+    {
+      "abbr": "WV",
+      "state": "West Virginia",
+      "stateDa": "West Virginia",
+      "fips": "54",
+      "incumbent": "Patrick Morrisey",
+      "incumbentParty": "R",
+      "sources": [
+        {
+          "label": "National Governors Association, siddende guvernører",
+          "url": "https://www.nga.org/Governors/"
+        }
+      ]
+    }
+  ],
+  "nationalSources": [
+    {
+      "label": "National Governors Association, siddende guvernører",
+      "url": "https://www.nga.org/Governors/"
+    },
+    {
+      "label": "Ballotpedia, gubernatorial elections 2026, 36 valg og partifordeling",
+      "url": "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    },
+    {
+      "label": "270toWin, 2026 governor election, 24 demokratiske og 26 republikanske guvernører",
+      "url": "https://www.270towin.com/2026-governor-election/"
+    }
+  ],
+  "notes": [
+    "De 36 guvernørvalg afgør hver sin delstats øverste udøvende embede. Et nationalt antal guvernører er en partifordeling, ikke kontrol over én samlet regering eller et parlament.",
+    "Et scenarie starter med 6 demokratiske og 8 republikanske guvernørposter uden valg og tilføjer én endelig vinder for hver af de 36 stater med valg.",
+    "Der anvendes ingen vicepræsidentregel, tiebreaker eller 51-mandaters tærskel for guvernørfordelingen.",
+    "Listen er et øjebliksbillede kontrolleret 31. oktober 2026. Ingen valgresultater eller prognoser er indlagt.",
+    "En person med flere partilinjer tælles én gang. group viser hovedpartiets D/R-tilhørsforhold eller O for andre.",
+    "New Hampshire og Vermont vælger guvernør for to år; de øvrige stater i denne liste for fire år.",
+    "Write-in-kandidater er konsekvent udeladt. candidateScope oplyser dette for hvert valg.",
+    "Guvernør og viceguvernør vælges på fælles liste i nogle stater, men datasættet viser alene guvernørkandidatens navn."
+  ]
+}

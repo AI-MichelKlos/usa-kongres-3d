@@ -1,0 +1,205 @@
+{
+  "source": "https://www.sos.arkansas.gov/education/arkansas-history/history-of-the-flag/order-of-states-admission",
+  "states": {
+    "AK": {
+      "year": 1959,
+      "order": 49
+    },
+    "AL": {
+      "year": 1819,
+      "order": 22
+    },
+    "AR": {
+      "year": 1836,
+      "order": 25
+    },
+    "AZ": {
+      "year": 1912,
+      "order": 48
+    },
+    "CA": {
+      "year": 1850,
+      "order": 31
+    },
+    "CO": {
+      "year": 1876,
+      "order": 38
+    },
+    "CT": {
+      "year": 1788,
+      "order": 5
+    },
+    "DE": {
+      "year": 1787,
+      "order": 1
+    },
+    "FL": {
+      "year": 1845,
+      "order": 27
+    },
+    "GA": {
+      "year": 1788,
+      "order": 4
+    },
+    "HI": {
+      "year": 1959,
+      "order": 50
+    },
+    "IA": {
+      "year": 1846,
+      "order": 29
+    },
+    "ID": {
+      "year": 1890,
+      "order": 43
+    },
+    "IL": {
+      "year": 1818,
+      "order": 21
+    },
+    "IN": {
+      "year": 1816,
+      "order": 19
+    },
+    "KS": {
+      "year": 1861,
+      "order": 34
+    },
+    "KY": {
+      "year": 1792,
+      "order": 15
+    },
+    "LA": {
+      "year": 1812,
+      "order": 18
+    },
+    "MA": {
+      "year": 1788,
+      "order": 6
+    },
+    "MD": {
+      "year": 1788,
+      "order": 7
+    },
+    "ME": {
+      "year": 1820,
+      "order": 23
+    },
+    "MI": {
+      "year": 1837,
+      "order": 26
+    },
+    "MN": {
+      "year": 1858,
+      "order": 32
+    },
+    "MO": {
+      "year": 1821,
+      "order": 24
+    },
+    "MS": {
+      "year": 1817,
+      "order": 20
+    },
+    "MT": {
+      "year": 1889,
+      "order": 41
+    },
+    "NC": {
+      "year": 1789,
+      "order": 12
+    },
+    "ND": {
+      "year": 1889,
+      "order": 39
+    },
+    "NE": {
+      "year": 1867,
+      "order": 37
+    },
+    "NH": {
+      "year": 1788,
+      "order": 9
+    },
+    "NJ": {
+      "year": 1787,
+      "order": 3
+    },
+    "NM": {
+      "year": 1912,
+      "order": 47
+    },
+    "NV": {
+      "year": 1864,
+      "order": 36
+    },
+    "NY": {
+      "year": 1788,
+      "order": 11
+    },
+    "OH": {
+      "year": 1803,
+      "order": 17
+    },
+    "OK": {
+      "year": 1907,
+      "order": 46
+    },
+    "OR": {
+      "year": 1859,
+      "order": 33
+    },
+    "PA": {
+      "year": 1787,
+      "order": 2
+    },
+    "RI": {
+      "year": 1790,
+      "order": 13
+    },
+    "SC": {
+      "year": 1788,
+      "order": 8
+    },
+    "SD": {
+      "year": 1889,
+      "order": 40
+    },
+    "TN": {
+      "year": 1796,
+      "order": 16
+    },
+    "TX": {
+      "year": 1845,
+      "order": 28
+    },
+    "UT": {
+      "year": 1896,
+      "order": 45
+    },
+    "VA": {
+      "year": 1788,
+      "order": 10
+    },
+    "VT": {
+      "year": 1791,
+      "order": 14
+    },
+    "WA": {
+      "year": 1889,
+      "order": 42
+    },
+    "WI": {
+      "year": 1848,
+      "order": 30
+    },
+    "WV": {
+      "year": 1863,
+      "order": 35
+    },
+    "WY": {
+      "year": 1890,
+      "order": 44
+    }
+  }
+}

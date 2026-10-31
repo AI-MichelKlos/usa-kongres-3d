@@ -1,0 +1,232 @@
+{
+  "asOf": "2026-10-31",
+  "electionDate": "2026-11-03",
+  "congress": 120,
+  "format": "TopoJSON",
+  "objectName": "districts",
+  "outputPath": "/workspace/scratch/6acfbed45ee1/house-districts-2026.json",
+  "bytes": 633911,
+  "sha256": "2544411e3b6ca5c7719291c0baf01208da089871155de3412c5f93848f9f363e",
+  "featureSchema": {
+    "id": "IL-07",
+    "properties": {
+      "districtId": "IL-07",
+      "stateAbbr": "IL",
+      "stateFips": "17",
+      "district": "07"
+    }
+  },
+  "sourceVintage": "Census TIGERweb 120th Congressional Districts, January 1 2026 vintage, with Missouri replaced by 119th Congress geometry as required by Census current election guidance.",
+  "fetchedOn": "2026-10-31",
+  "sources": [
+    {
+      "id": "census-guidance",
+      "label": "Census Redistricting and Voting Rights Data Office: 120th Congressional Districts",
+      "url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.html",
+      "supports": "Nine states changed for 2026; Missouri must use the 2022/2024 plan; 120th TIGER files not yet corrected for Missouri.",
+      "webRef": "turn56view0"
+    },
+    {
+      "id": "census-120",
+      "label": "Census TIGERweb: 120th Congressional Districts",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0",
+      "webRef": "turn51view0"
+    },
+    {
+      "id": "census-119-mo",
+      "label": "Census TIGERweb ACS2025: 119th Congressional Districts, Missouri",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/54",
+      "webRef": "turn59view0"
+    },
+    {
+      "id": "tiger-2026-release",
+      "label": "Census TIGER/Line 2026 release",
+      "url": "https://www.census.gov/geographies/mapping-files/2026/geo/tiger-line-file.html",
+      "supports": "TIGER/Line 2026 released 14 October 2026.",
+      "webRef": "turn48search1"
+    },
+    {
+      "id": "topojson-server",
+      "label": "TopoJSON server 3.0.1",
+      "url": "https://github.com/topojson/topojson-server"
+    }
+  ],
+  "queryUrls": {
+    "current": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0/query?where=1%3D1&outFields=GEOID%2CSTATE%2CCD120%2CCDSESSN%2CNAME%2CINTPTLAT%2CINTPTLON&outSR=4326&returnGeometry=true&maxAllowableOffset=0.005&geometryPrecision=5&f=geojson",
+    "missouri": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2025/MapServer/54/query?where=STATE%3D%2729%27&outFields=GEOID%2CSTATE%2CCD119%2CCDSESSN%2CNAME%2CINTPTLAT%2CINTPTLON&outSR=4326&returnGeometry=true&maxAllowableOffset=0.005&geometryPrecision=5&f=geojson"
+  },
+  "changedStates2026": [
+    "AL",
+    "CA",
+    "FL",
+    "LA",
+    "NC",
+    "OH",
+    "TN",
+    "TX",
+    "UT"
+  ],
+  "patches": [
+    {
+      "stateAbbr": "MO",
+      "districts": 8,
+      "operation": "Remove all Missouri 120th Congressional Districts and replace them with the 119th Congressional Districts from Census TIGERweb ACS2025.",
+      "reason": "Census reports that the Supreme Court action of 23 September 2026 leaves the 2022/2024 Missouri map in use for the 2026 election. The new 120th TIGER shapefiles/geodatabases had not yet been regenerated.",
+      "ids": [
+        "MO-01",
+        "MO-02",
+        "MO-03",
+        "MO-04",
+        "MO-05",
+        "MO-06",
+        "MO-07",
+        "MO-08"
+      ],
+      "geometryMatchesOldPlanBeforeSimplification": true
+    }
+  ],
+  "simplification": {
+    "serverMaxAllowableOffset": 0.005,
+    "offsetUnits": "degrees in output EPSG:4326",
+    "coordinateDecimalPlaces": 5,
+    "topojsonQuantization": 1000000,
+    "winding": "Clockwise exteriors for D3 spherical geometry; all polygon rings reversed together where needed.",
+    "featuresRewound": 435,
+    "note": "Generalized for an interactive overview and state zoom; district identities and all 435 district geometries are preserved. Use the original Census files for legally precise boundary work."
+  },
+  "checks": {
+    "rawFeatureCount": 444,
+    "excludedCount": 9,
+    "excluded": [
+      {
+        "geoid": "17ZZ",
+        "stateFips": "17",
+        "district": "ZZ",
+        "name": "Congressional Districts not defined"
+      },
+      {
+        "geoid": "1198",
+        "stateFips": "11",
+        "district": "98",
+        "name": "Delegate District (at Large)"
+      },
+      {
+        "geoid": "09ZZ",
+        "stateFips": "09",
+        "district": "ZZ",
+        "name": "Congressional Districts not defined"
+      },
+      {
+        "geoid": "33ZZ",
+        "stateFips": "33",
+        "district": "ZZ",
+        "name": "Congressional Districts not defined"
+      },
+      {
+        "geoid": "7298",
+        "stateFips": "72",
+        "district": "98",
+        "name": "Resident Commissioner District (at Large)"
+      },
+      {
+        "geoid": "7898",
+        "stateFips": "78",
+        "district": "98",
+        "name": "Delegate District (at Large)"
+      },
+      {
+        "geoid": "6098",
+        "stateFips": "60",
+        "district": "98",
+        "name": "Delegate District (at Large)"
+      },
+      {
+        "geoid": "6698",
+        "stateFips": "66",
+        "district": "98",
+        "name": "Delegate District (at Large)"
+      },
+      {
+        "geoid": "6998",
+        "stateFips": "69",
+        "district": "98",
+        "name": "Delegate District (at Large)"
+      }
+    ],
+    "finalFeatureCount": 435,
+    "uniqueIds": 435,
+    "states": 50,
+    "perStateCounts": {
+      "AK": 1,
+      "AL": 7,
+      "AR": 4,
+      "AZ": 9,
+      "CA": 52,
+      "CO": 8,
+      "CT": 5,
+      "DE": 1,
+      "FL": 28,
+      "GA": 14,
+      "HI": 2,
+      "IA": 4,
+      "ID": 2,
+      "IL": 17,
+      "IN": 9,
+      "KS": 4,
+      "KY": 6,
+      "LA": 6,
+      "MA": 9,
+      "MD": 8,
+      "ME": 2,
+      "MI": 13,
+      "MN": 8,
+      "MO": 8,
+      "MS": 4,
+      "MT": 2,
+      "NC": 14,
+      "ND": 1,
+      "NE": 3,
+      "NH": 2,
+      "NJ": 12,
+      "NM": 3,
+      "NV": 4,
+      "NY": 26,
+      "OH": 15,
+      "OK": 5,
+      "OR": 6,
+      "PA": 17,
+      "RI": 2,
+      "SC": 7,
+      "SD": 1,
+      "TN": 9,
+      "TX": 38,
+      "UT": 4,
+      "VA": 11,
+      "VT": 1,
+      "WA": 10,
+      "WI": 8,
+      "WV": 2,
+      "WY": 1
+    },
+    "atLargeIds": [
+      "AK-00",
+      "DE-00",
+      "ND-00",
+      "SD-00",
+      "VT-00",
+      "WY-00"
+    ],
+    "allGeometriesNonEmpty": true,
+    "allCoordinatesFinite": true,
+    "allD3ProjectedPathsNonEmpty": true,
+    "allD3SphericalAreasBetweenZeroAnd2Pi": true,
+    "allSchemaFieldsPresent": true,
+    "missouriCurrentAndPriorGeometriesDiffer": true,
+    "totalDistrictsAfterPatch": 435
+  },
+  "reproduction": {
+    "scriptPath": "/workspace/scratch/6acfbed45ee1/house-geometry-raw/build-house-geometry.mjs",
+    "rawCurrentPath": "/workspace/scratch/6acfbed45ee1/house-geometry-raw/cd120-generalized.geojson",
+    "rawMissouriPath": "/workspace/scratch/6acfbed45ee1/house-geometry-raw/mo119-generalized.geojson"
+  }
+}

@@ -1,0 +1,1583 @@
+{
+  "checkedOn": "2026-10-31",
+  "electionDate": "2026-11-03",
+  "raceCount": 35,
+  "regularRaces": 33,
+  "specialRaces": 2,
+  "currentSeats": {
+    "D": 45,
+    "R": 53,
+    "I": 2
+  },
+  "seatsUp": {
+    "D": 13,
+    "R": 22,
+    "I": 0
+  },
+  "seatsNotUp": {
+    "D": 32,
+    "R": 31,
+    "I": 2
+  },
+  "method": "De 33 Class II-sæder samt særvalgene i Florida og Ohio. Kandidatlisten omfatter dokumenterede trykte kandidater; write-in-kandidater er udeladt. Ingen kandidater fra andre partier er på forhånd regnet til demokraterne eller republikanerne. De to siddende uafhængige senatorers demokratiske caucus kan vises særskilt i en mandatbjælke.",
+  "races": [
+    {
+      "id": "AL-2026",
+      "state": "Alabama",
+      "stateDa": "Alabama",
+      "abbr": "AL",
+      "fips": "01",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Tommy Tuberville",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Everett Wess",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Barry Moore",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Alabama Secretary of State, officiel prøvestemmeseddel",
+          "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Autauga-Sample.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "AK-2026",
+      "state": "Alaska",
+      "stateDa": "Alaska",
+      "abbr": "AK",
+      "fips": "02",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Dan Sullivan",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Mary Peltola",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Dan S. Sullivan",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Daniel J. Sullivan Jr.",
+          "party": "I",
+          "partyLabel": "Undeclared (uden angivet parti)",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Alaska Division of Elections, certificerede kandidater",
+          "url": "https://www.elections.alaska.gov/candidates/?election=26GENR"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "AR-2026",
+      "state": "Arkansas",
+      "stateDa": "Arkansas",
+      "abbr": "AR",
+      "fips": "05",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Tom Cotton",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Hallie Shoffner",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Tom Cotton",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Jeff Wadlin",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "AR Votes, føderale valg",
+          "url": "https://www.arvotes.org/federal-elections"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "CO-2026",
+      "state": "Colorado",
+      "stateDa": "Colorado",
+      "abbr": "CO",
+      "fips": "08",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "John Hickenlooper",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "John Hickenlooper",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Mark Baisley",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Bob Chew",
+          "party": "FWD",
+          "partyLabel": "Forward Party",
+          "group": "O"
+        },
+        {
+          "name": "Christopher Baum",
+          "party": "AVP",
+          "partyLabel": "Approval Voting Party",
+          "group": "O"
+        },
+        {
+          "name": "Blake Huber",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Adam Withrow",
+          "party": "UNITY",
+          "partyLabel": "Unity Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Boulder County Elections, kandidater på stemmesedlen",
+          "url": "https://bouldercounty.gov/elections/information/2026-general-election-candidates-and-ballot-measures/"
+        },
+        {
+          "label": "Ballotpedia, samlet kandidatoversigt med partier",
+          "url": "https://ballotpedia.org/United_States_Senate_elections,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "DE-2026",
+      "state": "Delaware",
+      "stateDa": "Delaware",
+      "abbr": "DE",
+      "fips": "10",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Chris Coons",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Chris Coons",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Michael \"Dr. Mike\" Katz",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Delaware Department of Elections, prøvestemmeseddel",
+          "url": "https://elections.delaware.gov/elections/general/sampleballots/GE2026/09-07.html"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "FL-2026-special",
+      "state": "Florida",
+      "stateDa": "Florida",
+      "abbr": "FL",
+      "fips": "12",
+      "type": "special",
+      "typeLabel": "Særvalg",
+      "incumbent": "Ashley Moody",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Angie Nixon",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Ashley Moody",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Neil J. Gillespie",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Florida Division of Elections, kandidatliste",
+          "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?OfficeCode=USS&elecid=20261103-GEN"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "GA-2026",
+      "state": "Georgia",
+      "stateDa": "Georgia",
+      "abbr": "GA",
+      "fips": "13",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Jon Ossoff",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Mike Collins",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Georgia, officiel prøvestemmeseddel",
+          "url": "https://app.enhancedvoting.com/ebd/voter/Georgia/sampleballots/jurisdiction/2fa1ec9c-3b40-4423-9dbe-3967321ee822/election/01000000-719b-cf59-dfd1-08df151dcdac/precinct/0ee4a379-f499-4b1a-a87d-da85ece464bf/ballotStyle/01000000-758e-0fe0-7a24-08df151dcf6c"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "ID-2026",
+      "state": "Idaho",
+      "stateDa": "Idaho",
+      "abbr": "ID",
+      "fips": "16",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Jim Risch",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Jim Risch",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Todd Achilles",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Natalie M. Fleming",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Matt Loesby",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "Ballotpedia, Idaho 2026",
+          "url": "https://ballotpedia.org/United_States_Senate_election_in_Idaho,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31",
+      "note": "Den demokratiske primærvalgsvinder David Roth har trukket sig."
+    },
+    {
+      "id": "IL-2026",
+      "state": "Illinois",
+      "stateDa": "Illinois",
+      "abbr": "IL",
+      "fips": "17",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Dick Durbin",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Juliana Stratton",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Don Tracy",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Whitfield Harrington Jr.",
+          "party": "ACP",
+          "partyLabel": "American Center Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Illinois State Board of Elections, certificeret kandidatliste",
+          "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkjHeNv3Pz40NQ%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "IA-2026",
+      "state": "Iowa",
+      "stateDa": "Iowa",
+      "abbr": "IA",
+      "fips": "19",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Joni Ernst",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Josh Turek",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Ashley Hinson",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Thomas Laehn",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Iowa County, kandidater ved valget 3. november",
+          "url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "KS-2026",
+      "state": "Kansas",
+      "stateDa": "Kansas",
+      "abbr": "KS",
+      "fips": "20",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Roger Marshall",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Adam Hamilton",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Roger Marshall",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "David C. Graham",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Kiowa County, officiel valgmeddelelse",
+          "url": "https://www.kiowacountyks.gov/210/Election-Notices"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "KY-2026",
+      "state": "Kentucky",
+      "stateDa": "Kentucky",
+      "abbr": "KY",
+      "fips": "21",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Mitch McConnell",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Charles Booker",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Andy Barr",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Christopher Campbell",
+          "party": "KYP",
+          "partyLabel": "Kentucky Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Kentucky Secretary of State, general election candidates",
+          "url": "https://web.sos.ky.gov/candidatefilings/default.aspx?id=3"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "LA-2026",
+      "state": "Louisiana",
+      "stateDa": "Louisiana",
+      "abbr": "LA",
+      "fips": "22",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Bill Cassidy",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Jamie Davis",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Julia Letlow",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Louisiana Secretary of State, kandidater 3. november",
+          "url": "https://voterportal.sos.la.gov/CandidateInquiry/ParishCandidate/Print?electionDate=11%2F03%2F2026&electionId=344&parishId=34&parishName=MADISON"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "ME-2026",
+      "state": "Maine",
+      "stateDa": "Maine",
+      "abbr": "ME",
+      "fips": "23",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Susan Collins",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Troy Jackson",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Susan Collins",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "Ballotpedia, Maine 2026",
+          "url": "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MA-2026",
+      "state": "Massachusetts",
+      "stateDa": "Massachusetts",
+      "abbr": "MA",
+      "fips": "25",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Ed Markey",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Edward J. Markey",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "John Deaton",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Shiva Ayyadurai",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Joe Tache",
+          "party": "PSL",
+          "partyLabel": "Socialism and Liberation",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Massachusetts Secretary of the Commonwealth, kandidatliste",
+          "url": "https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MI-2026",
+      "state": "Michigan",
+      "stateDa": "Michigan",
+      "abbr": "MI",
+      "fips": "26",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Gary Peters",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Abdul El-Sayed",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Mike Rogers",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Lydia Christensen",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Tim Long",
+          "party": "UST",
+          "partyLabel": "U.S. Taxpayers Party",
+          "group": "O"
+        },
+        {
+          "name": "Douglas P. Marsh",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        },
+        {
+          "name": "Walter P. Kristy",
+          "party": "NLP",
+          "partyLabel": "Natural Law Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Michigan Bureau of Elections, general election candidates",
+          "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?electionType=GEN&electionYear=2026&page=page.miboePublicReport"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MN-2026",
+      "state": "Minnesota",
+      "stateDa": "Minnesota",
+      "abbr": "MN",
+      "fips": "27",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Tina Smith",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Peggy Flanagan",
+          "party": "D",
+          "partyLabel": "Democratic-Farmer-Labor (DFL)",
+          "group": "D"
+        },
+        {
+          "name": "Michele Tafoya",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Marisa Simonetti",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Rebecca Whiting",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Minnesota Secretary of State, officiel stemmeseddel",
+          "url": "https://myballotmn.sos.mn.gov/results?id=260922"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MS-2026",
+      "state": "Mississippi",
+      "stateDa": "Mississippi",
+      "abbr": "MS",
+      "fips": "28",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Cindy Hyde-Smith",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Scott Colom",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Cindy Hyde-Smith",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Ty Pinkins",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Mississippi Secretary of State, kvalificerede kandidater",
+          "url": "https://www.sos.ms.gov/content/CandidateQualifying/default.aspx"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "MT-2026",
+      "state": "Montana",
+      "stateDa": "Montana",
+      "abbr": "MT",
+      "fips": "30",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Steve Daines",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Alani Bankhead",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Kurt Alme",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Seth Bodnar",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Kyle Austin",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Montana Secretary of State, Federal General 2026",
+          "url": "https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NE-2026",
+      "state": "Nebraska",
+      "stateDa": "Nebraska",
+      "abbr": "NE",
+      "fips": "31",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Pete Ricketts",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Pete Ricketts",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Dan Osborn",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Mike Marvin",
+          "party": "LMN",
+          "partyLabel": "Legal Marijuana NOW",
+          "group": "O",
+          "note": "Har suspenderet sin kampagne, men står fortsat på stemmesedlen."
+        },
+        {
+          "name": "Robin Richards",
+          "party": "NWP",
+          "partyLabel": "Nebraska Working People",
+          "group": "O"
+        },
+        {
+          "name": "Chuck Conboy",
+          "party": "AF",
+          "partyLabel": "America First",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Nebraska Secretary of State, endelig kandidatliste",
+          "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NH-2026",
+      "state": "New Hampshire",
+      "stateDa": "New Hampshire",
+      "abbr": "NH",
+      "fips": "33",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Jeanne Shaheen",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Chris Pappas",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "John E. Sununu",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Edmond Laplante",
+          "party": "CON",
+          "partyLabel": "Constitution Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "Ballotpedia, New Hampshire 2026",
+          "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NJ-2026",
+      "state": "New Jersey",
+      "stateDa": "New Jersey",
+      "abbr": "NJ",
+      "fips": "34",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Cory Booker",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Cory Booker",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Justin Murphy",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Veronica Fernandez",
+          "party": "I",
+          "partyLabel": "Uafhængig: End the Corruption!",
+          "group": "O"
+        },
+        {
+          "name": "Joanne Kuniansky",
+          "party": "SWP",
+          "partyLabel": "Socialist Workers Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "New Jersey Monitor, valgguide",
+          "url": "https://newjerseymonitor.com/voter-guide/2026-general/"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NM-2026",
+      "state": "New Mexico",
+      "stateDa": "New Mexico",
+      "abbr": "NM",
+      "fips": "35",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Ben Ray Luján",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Ben Ray Luján",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Larry E. Marker",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "New Mexico Secretary of State, 2026-valgside (kandidatnavne, ingen resultater)",
+          "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?map=CTY&type=FED"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "NC-2026",
+      "state": "North Carolina",
+      "stateDa": "North Carolina",
+      "abbr": "NC",
+      "fips": "37",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Thom Tillis",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "G",
+          "partyLabel": "Green Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "Ballotpedia, North Carolina 2026",
+          "url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "OH-2026-special",
+      "state": "Ohio",
+      "stateDa": "Ohio",
+      "abbr": "OH",
+      "fips": "39",
+      "type": "special",
+      "typeLabel": "Særvalg",
+      "incumbent": "Jon Husted",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Sherrod Brown",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Jon Husted",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "William B. Redpath",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Greg Levy",
+          "party": "PSL",
+          "partyLabel": "Socialism and Liberation",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Ohio Board of Elections, prøvestemmeseddel",
+          "url": "https://www.boe.ohio.gov/abmt/oh33/20261103/X09____1_GOSHEN.html"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "OK-2026",
+      "state": "Oklahoma",
+      "stateDa": "Oklahoma",
+      "abbr": "OK",
+      "fips": "40",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Alan Armstrong",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "N’Kiyla Jasmine Thomas",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Kevin Hern",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Sevier White",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Ron Meinhardt",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Curtis Stinnett",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Oklahoma State Election Board, valgoversigt",
+          "url": "https://hosting.okelections.gov/electionlist.html"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "OR-2026",
+      "state": "Oregon",
+      "stateDa": "Oregon",
+      "abbr": "OR",
+      "fips": "41",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Jeff Merkley",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Jeff Merkley",
+          "party": "D",
+          "partyLabel": "Demokraterne / Working Families",
+          "group": "D"
+        },
+        {
+          "name": "David Brock Smith",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Gary Lyndon Dye",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Chris Henry",
+          "party": "PROG",
+          "partyLabel": "Progressive / Pacific Green",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "Ballotpedia, Oregon 2026",
+          "url": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "RI-2026",
+      "state": "Rhode Island",
+      "stateDa": "Rhode Island",
+      "abbr": "RI",
+      "fips": "44",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Jack Reed",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Jack Reed",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Michael Anthony Bahry",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Rhode Island Secretary of State, kandidatliste",
+          "url": "https://vote.sos.ri.gov/Candidates/CandidateSearchSummary?Election=18144&OfficeType=620"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "SC-2026",
+      "state": "South Carolina",
+      "stateDa": "South Carolina",
+      "abbr": "SC",
+      "fips": "45",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Darline Graham",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Annie Andrews",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Darline Graham",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Kasie Whitener",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        },
+        {
+          "name": "Mark Hackett",
+          "party": "CON",
+          "partyLabel": "Constitution Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Charleston County Board of Voter Registration & Elections",
+          "url": "https://vote.charlestoncounty.gov/?r=816"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "SD-2026",
+      "state": "South Dakota",
+      "stateDa": "South Dakota",
+      "abbr": "SD",
+      "fips": "46",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Mike Rounds",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Mike Rounds",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Brian L. Bengs",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "South Dakota Secretary of State, general election candidates",
+          "url": "https://vip.sdsos.gov/candidatelist.aspx?eid=774"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "TN-2026",
+      "state": "Tennessee",
+      "stateDa": "Tennessee",
+      "abbr": "TN",
+      "fips": "47",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Bill Hagerty",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Marquita Bradshaw",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Bill Hagerty",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Tharon Chandler",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Andrew Gerena",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Jeremy Dean Hearn",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Robert Jones",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "James William Macon III",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Yoshi D. Matthews",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "David Sutman Jr.",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        },
+        {
+          "name": "Catherine Barcel \"Barcy\" Whitson",
+          "party": "I",
+          "partyLabel": "Uafhængig",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "TN Election, baseret på Secretary of State-kandidatliste",
+          "url": "https://tnelection.org/races/us-senate/"
+        },
+        {
+          "label": "Tennessee Secretary of State, officiel kandidatliste (PDF)",
+          "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/USSenate_Nov2026.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "TX-2026",
+      "state": "Texas",
+      "stateDa": "Texas",
+      "abbr": "TX",
+      "fips": "48",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "John Cornyn",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "James Talarico",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "Ted Brown",
+          "party": "L",
+          "partyLabel": "Libertarian Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Texas Secretary of State, certificeret stemmeseddel",
+          "url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "VA-2026",
+      "state": "Virginia",
+      "stateDa": "Virginia",
+      "abbr": "VA",
+      "fips": "51",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Mark Warner",
+      "incumbentParty": "D",
+      "candidates": [
+        {
+          "name": "Mark R. Warner",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Bert Mizusawa",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Fairfax County Office of Elections, stemmeseddel",
+          "url": "https://www.fairfaxcounty.gov/elections/"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "WV-2026",
+      "state": "West Virginia",
+      "stateDa": "West Virginia",
+      "abbr": "WV",
+      "fips": "54",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Shelley Moore Capito",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "Rachel Fetty Anderson",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Shelley Moore Capito",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        },
+        {
+          "name": "S. Marshall Wilson",
+          "party": "CON",
+          "partyLabel": "Constitution Party",
+          "group": "O"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": false,
+      "sources": [
+        {
+          "label": "West Virginia Public Broadcasting, valgguide",
+          "url": "https://wvpublic.org/newsroom/west-virginia-2026-general-election-voters-guide/"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "id": "WY-2026",
+      "state": "Wyoming",
+      "stateDa": "Wyoming",
+      "abbr": "WY",
+      "fips": "56",
+      "type": "regular",
+      "typeLabel": "Ordinært valg",
+      "incumbent": "Cynthia Lummis",
+      "incumbentParty": "R",
+      "candidates": [
+        {
+          "name": "James Byrd",
+          "party": "D",
+          "partyLabel": "Demokraterne",
+          "group": "D"
+        },
+        {
+          "name": "Harriet Hageman",
+          "party": "R",
+          "partyLabel": "Republikanerne",
+          "group": "R"
+        }
+      ],
+      "candidateScope": "Viste kandidater følger de anførte kilder. Write-in-kandidater er ikke medtaget.",
+      "candidateOfficialSource": true,
+      "sources": [
+        {
+          "label": "Wyoming Secretary of State, general election candidates",
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf"
+        }
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  ],
+  "nationalSourceUrls": [
+    {
+      "label": "U.S. Senate, Class II",
+      "url": "https://www.senate.gov/senators/Class_II.htm"
+    },
+    {
+      "label": "U.S. Senate Daily Press, Senate Facts",
+      "url": "https://www.dailypress.senate.gov/on-the-floor/senate-facts/"
+    },
+    {
+      "label": "Ballotpedia, Senate elections 2026",
+      "url": "https://ballotpedia.org/United_States_Senate_elections,_2026"
+    }
+  ],
+  "notes": [
+    "Ingen valgresultater eller meningsmålinger indgår.",
+    "Alaska: Daniel J. Sullivan Jr. er Undeclared ifølge den officielle kandidatliste, selv om nogle valgoversigter kalder ham republikaner.",
+    "Maine: Troy Jackson erstattede Graham Platner som demokratisk kandidat.",
+    "Nebraska: Mike Marvin har suspenderet sin kampagne, men hans navn er fortsat på stemmesedlen. Dan Osborns eventuelle caucus må ikke antages.",
+    "South Dakota: Julian Beaudion trak sig 4. august; ingen demokratisk kandidat på den viste stemmeseddel.",
+    "New Mexico og Minnesota har testresultater online før valget. De må aldrig indlæses som rigtige valgresultater."
+  ],
+  "additionalEvidence": [
+    {
+      "label": "Nebraska Examiner om Marvin og Osborn",
+      "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-general-u-s-senate/"
+    },
+    {
+      "label": "Officiel Maine kandidatoversigt",
+      "url": "https://www3.maine.gov/sos/elections-voting/upcoming-elections"
+    },
+    {
+      "label": "Officiel NH valgside",
+      "url": "https://www.sos.nh.gov/2026-election-details"
+    },
+    {
+      "label": "Officiel NJ certificering",
+      "url": "https://nj.gov/state/elections/assets/pdf/election-results/2026/2026-certification-of-general-election-nominees_us-senate_us-house.pdf"
+    }
+  ]
+}

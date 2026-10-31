@@ -1,0 +1,71 @@
+{
+  "asOf": "2026-10-31",
+  "electionDate": "2026-11-03",
+  "totalSeats": 100,
+  "currentByParty": {"D": 45, "R": 53, "I": 2, "vacant": 0},
+  "currentByCaucus": {"D": 47, "R": 53},
+  "regularElections": 33,
+  "specialElections": 2,
+  "specialStates": ["FL", "OH"],
+  "seatsUp": 35,
+  "seatsUpByIncumbentParty": {"D": 13, "R": 22, "I": 0},
+  "seatsNotUpByParty": {"D": 32, "R": 31, "I": 2},
+  "seatsNotUpByCaucus": {"D": 34, "R": 31},
+  "existingIndependents": [
+    {"name": "Angus King", "state": "Maine", "abbr": "ME", "party": "I", "caucus": "D", "upIn2026": false},
+    {"name": "Bernie Sanders", "state": "Vermont", "abbr": "VT", "party": "I", "caucus": "D", "upIn2026": false}
+  ],
+  "vicePresident": {"name": "J.D. Vance", "party": "R", "mayBreakTiedSenateVote": true},
+  "scenarioRules": {
+    "initialD": 34,
+    "initialR": 31,
+    "initialOther": 0,
+    "initialUnassigned": 35,
+    "democraticControlThreshold": 51,
+    "republicanControlThresholdWithCurrentVicePresident": 50,
+    "majorityOf100Senators": 51,
+    "exampleAllRetained": {"DIncludingExistingIndependents": 47, "R": 53, "unassigned": 0},
+    "democraticWinsRequiredForControl": 17,
+    "republicanWinsRequiredForControlWithVP": 19,
+    "labelDanish": "Demokrater + 2 uafhængige",
+    "tieExplanationDanish": "Ved 50 mod 50 har den republikanske vicepræsident J.D. Vance den afgørende stemme. Demokraternes gruppe skal derfor nå 51 for at sikre kontrollen.",
+    "independentWarningDanish": "De to nuværende uafhængige senatorer samarbejder med Demokraterne. Nye uafhængige vindere er ikke automatisk placeret i en af de to grupper.",
+    "assumptions": [
+      "Current senators whose seats are not up in 2026 retain their present party/caucus affiliation.",
+      "King and Sanders retain their present Democratic caucus affiliation.",
+      "New independent or third-party winners stay in a separate unallocated group unless a documented caucus choice is available.",
+      "The current Republican vice president remains in office.",
+      "Control indicates the modeled organizational balance, not a prediction of individual roll-call votes or passage of bills.",
+      "No election outcomes or probability ratings are inferred from current party control."
+    ]
+  },
+  "geometry": {
+    "localPath": "/workspace/scratch/6acfbed45ee1/us-states-topology.json",
+    "sourceUrl": "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json",
+    "sourceProjectUrl": "https://github.com/topojson/us-atlas",
+    "format": "TopoJSON",
+    "bytes": 114554,
+    "geometryCount": 56,
+    "verifiedStateCount": 50,
+    "includeFips": ["01","02","04","05","06","08","09","10","12","13","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","44","45","46","47","48","49","50","51","53","54","55","56"],
+    "excludeNames": ["District of Columbia", "American Samoa", "Guam", "Commonwealth of the Northern Mariana Islands", "Puerto Rico", "United States Virgin Islands"],
+    "recommendation": "Convert topology.objects.states with topojson-client, filter the exact 50 state FIPS IDs, then render with d3.geoAlbersUsa and geoPath. Alaska and Hawaii appear as standard inset regions; label them explicitly. Do not manually draw outlines."
+  },
+  "sources": [
+    {"id":"party","label":"U.S. Senate: Party Division, 119th Congress","url":"https://www.senate.gov/about/parties-leadership/party-division.shtml","supports":"53 R, 45 D, 2 I, no vacancies; checked 31 October 2026.","webRef":"turn11view1"},
+    {"id":"daily-press","label":"U.S. Senate Daily Press: Senate Facts","url":"https://www.dailypress.senate.gov/on-the-floor/senate-facts/","supports":"Party lineup; King and Sanders caucus with Democrats; 13 Democratic and 20 Republican regular Class II seats up in 2026.","webRef":"turn9search2","retrievalNote":"Search indexed text read; direct web open returned 403."},
+    {"id":"race-count","label":"Ballotpedia: U.S. Senate elections, 2026","url":"https://ballotpedia.org/United_States_Senate_elections%2C_2026","supports":"33 regular seats plus two Republican-held special election seats; 13 D and 22 R in all.","webRef":"turn9search7"},
+    {"id":"oh-special","label":"Ohio Secretary of State: Directive 2025-54","url":"https://www.ohiosos.gov/assets/directive-2025-54-writ-of-special-election-for-united-states-senate-election.pdf","supports":"Ohio U.S. Senate special election 3 November 2026 for unexpired term ending 3 January 2029.","webRef":"turn23search8"},
+    {"id":"fl-ballot","label":"Florida Division of Elections: 2026 U.S. Senate candidates","url":"https://dos.elections.myflorida.com/candidates/CanList.asp?OfficeCode=USS&elecid=20261103-GEN","supports":"2026 Senate race, incumbent Republican Ashley Moody, Democratic nominee Angie Nixon, independent Neil Gillespie.","webRef":"turn23search3"},
+    {"id":"fl-special","label":"Ballotpedia: Florida Senate special election, 2026","url":"https://ballotpedia.org/United_States_Senate_special_election_in_Florida%2C_2026","supports":"Florida special Senate election 3 November 2026 completes Marco Rubio's term ending January 2029.","webRef":"turn23search1"},
+    {"id":"vp-party","label":"U.S. Senate: Vice Presidents of the United States","url":"https://www.senate.gov/about/officers-staff/vice-presidents.htm","supports":"J.D. Vance, Republican, vice president since 2025.","webRef":"turn19search0"},
+    {"id":"tie","label":"U.S. Senate: Votes to Break Ties in the Senate","url":"https://www.senate.gov/legislative/TieVotes.htm","supports":"Vice president may vote when Senate equally divided; current vice president J.D. Vance.","webRef":"turn11view2"}
+  ],
+  "validation": {
+    "currentSeatsSum": 100,
+    "upSeatsSum": 35,
+    "fixedSeatsSum": 65,
+    "fixedPlusUp": 100,
+    "fixedCaucusPlusUnassigned": 100
+  }
+}

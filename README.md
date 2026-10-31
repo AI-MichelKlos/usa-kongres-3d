@@ -57,3 +57,7 @@ npm run preview
 ```
 
 Kortgeometrien er [us-atlas](https://github.com/topojson/us-atlas) 3.0.1 (`states-10m.json`, ISC, Mike Bostock) og projiceres i browseren med `d3-geo`s `geoAlbersUsa`.
+
+## Valg USA 2026
+
+Den aktuelle danske valgguide [Valg USA 2026](https://valgkort-usa-2026-michel.danske-a-kas-7580.chatgpt.site/) ligger i mappen [`valg-usa-2026/`](valg-usa-2026/). Mappen indeholder både den viste side (`dist/`), datakilderne og kontrollerne. Kongreskortet beskrevet ovenfor er bevaret som et separat projekt.

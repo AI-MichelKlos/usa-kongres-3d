@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-31",
+  "electionDate": "2026-11-03",
+  "title": "Hvad stemmer man om i Chicago?",
+  "intro": "Chicago-vælgere vælger politikere på føderalt, delstatsligt og lokalt niveau. De konkrete distriktsvalg afhænger af adressen.",
+  "statewideRaces": [
+    {
+      "id": "illinois-senate",
+      "title": "Illinois' plads i USA's Senat",
+      "description": "Senatoren repræsenterer Illinois i Washington og er med til at vedtage føderale love og godkende udnævnelser.",
+      "candidateScope": "De tre aktive kandidater på den officielle kandidatliste; eventuelle write-in-kandidater er ikke medtaget.",
+      "candidates": [
+        {"name": "Juliana Stratton", "party": "D", "partyDa": "Demokraterne"},
+        {"name": "Don Tracy", "party": "R", "partyDa": "Republikanerne"},
+        {"name": "Whitfield Harrington Jr", "party": "ACP", "partyDa": "American Center Party"}
+      ],
+      "sourceIds": ["illinois-senate-candidates", "cook-results"]
+    },
+    {
+      "id": "illinois-governor",
+      "title": "Guvernør og viceguvernør i Illinois",
+      "description": "Guvernøren leder delstatens administration og kan underskrive eller nedlægge veto mod delstatslove; guvernør og viceguvernør vælges som et fælles hold.",
+      "candidateScope": "De tre kandidatpar på den officielle resultatsides stemmeseddeloversigt.",
+      "candidates": [
+        {"name": "JB Pritzker", "runningMate": "Christian Mitchell", "party": "D", "partyDa": "Demokraterne"},
+        {"name": "Darren Bailey", "runningMate": "Aaron B. Del Mar", "party": "R", "partyDa": "Republikanerne"},
+        {"name": "Collin Corbett", "runningMate": "Carolyn Schofield", "party": "I", "partyDa": "Uafhængige"}
+      ],
+      "sourceIds": ["illinois-governor-candidates", "cook-results"]
+    }
+  ],
+  "otherBallotSections": [
+    {
+      "id": "us-house",
+      "title": "Repræsentanternes Hus",
+      "description": "Vælgerne vælger én repræsentant fra deres kongresdistrikt til arbejdet med føderale love og budgetter i Washington.",
+      "dependsOnAddress": true,
+      "sourceIds": ["chicago-ballot-guide"]
+    },
+    {
+      "id": "illinois-legislature",
+      "title": "Illinois' parlament",
+      "description": "Medlemmerne vedtager delstatens love og budget; der vælges medlemmer af delstatens Repræsentanternes Hus og i nogle distrikter også delstatssenatorer.",
+      "dependsOnAddress": true,
+      "sourceIds": ["chicago-ballot-guide"]
+    },
+    {
+      "id": "illinois-offices",
+      "title": "Øvrige delstatsembeder",
+      "description": "Der vælges også attorney general, secretary of state, comptroller og treasurer med ansvar for blandt andet juridiske opgaver, registrering og delstatens økonomi.",
+      "dependsOnAddress": false,
+      "sourceIds": ["chicago-ballot-guide", "cook-results"]
+    },
+    {
+      "id": "cook-county",
+      "title": "Cook County",
+      "description": "Valgene omfatter county-ledelsen, sheriff, clerk, treasurer, assessor og ejendomsskatteklagenævnet; de vedrører blandt andet lokale tjenester, retsvæsenets drift og ejendomsskatter.",
+      "offices": ["County Board-præsident", "County Commissioners", "Sheriff", "County Clerk", "County Treasurer", "Assessor", "Board of Review"],
+      "dependsOnAddress": true,
+      "sourceIds": ["chicago-ballot-guide"]
+    },
+    {
+      "id": "judges",
+      "title": "Dommere",
+      "description": "Vælgerne tager stilling til dommerkandidater og til, om siddende dommere skal fortsætte i deres embede.",
+      "dependsOnAddress": true,
+      "sourceIds": ["chicago-ballot-guide"]
+    },
+    {
+      "id": "schools",
+      "title": "Chicagos skolebestyrelse",
+      "description": "Vælgerne vælger en fælles formand og et medlem fra deres eget skoledistrikt til bestyrelsen, der fører tilsyn med Chicago Public Schools.",
+      "dependsOnAddress": true,
+      "sourceIds": ["school-board-guide"]
+    },
+    {
+      "id": "water",
+      "title": "Vand og spildevand",
+      "description": "Der vælges medlemmer af Metropolitan Water Reclamation District, som arbejder med spildevandsrensning og regnvand i Chicago-området.",
+      "dependsOnAddress": false,
+      "sourceIds": ["chicago-ballot-guide"]
+    }
+  ],
+  "referendumNote": "De seks spørgsmål her er vejledende. Et ja ændrer ikke i sig selv lovgivningen. Enkelte bydele og afstemningsområder har yderligere spørgsmål på stemmesedlen.",
+  "referendums": [
+    {
+      "id": "gunshots",
+      "jurisdiction": "City of Chicago",
+      "jurisdictionDa": "Chicago by",
+      "title": "Registrering af skud",
+      "summary": "Skal Chicago igen bruge teknologi, der registrerer skud og giver besked til beredskabet?",
+      "binding": false,
+      "sourceIds": ["nbc-six-questions", "fox-referendums"]
+    },
+    {
+      "id": "festival",
+      "jurisdiction": "City of Chicago",
+      "jurisdictionDa": "Chicago by",
+      "title": "Fast festivalområde",
+      "summary": "Skal byen etablere et permanent område til festivaler og store udendørsarrangementer?",
+      "binding": false,
+      "sourceIds": ["nbc-six-questions", "fox-referendums"]
+    },
+    {
+      "id": "ice-costs",
+      "jurisdiction": "City of Chicago",
+      "jurisdictionDa": "Chicago by",
+      "title": "Erstatning efter immigrationsaktioner",
+      "summary": "Skal byen søge økonomisk kompensation fra den føderale regering for udgifter og økonomisk skade fra immigrationsaktioner, herunder Operation Midway Blitz?",
+      "binding": false,
+      "sourceIds": ["nbc-six-questions", "fox-referendums"]
+    },
+    {
+      "id": "county-millionaires",
+      "jurisdiction": "Cook County",
+      "jurisdictionDa": "Cook County",
+      "title": "Millionærskat til skoler og ejendomsskattelettelser",
+      "summary": "Skal Illinois indføre 3 pct. ekstra indkomstskat på millionærer, med halvdelen af provenuet til ejendomsskattelettelser og halvdelen til offentlig uddannelse?",
+      "binding": false,
+      "sourceIds": ["cook-millionaires"]
+    },
+    {
+      "id": "schools-millionaires",
+      "jurisdiction": "Chicago Public Schools District 299",
+      "jurisdictionDa": "Chicago Public Schools",
+      "title": "Millionærskat til offentlige skoler",
+      "summary": "Skal Illinois bruge provenu fra en ekstra skat på millionærer til at øge finansieringen af offentlige skoler?",
+      "binding": false,
+      "sourceIds": ["cps-rs1"]
+    },
+    {
+      "id": "schools-vacant",
+      "jurisdiction": "Chicago Public Schools District 299",
+      "jurisdictionDa": "Chicago Public Schools",
+      "title": "Afgift på tomme ejendomme",
+      "summary": "Skal ejere af langvarigt tomme eller ubebyggede erhvervs- og investeringsejendomme betale en ekstra årlig afgift til Chicago Public Schools?",
+      "binding": false,
+      "sourceIds": ["cps-rs2"]
+    }
+  ],
+  "practicalLinks": [
+    {"label": "Chicagos valgmyndighed", "url": "https://chicagoelections.gov/", "description": "Officiel indgang til lokale valginformationer og resultater."},
+    {"label": "Officielle resultater for Illinois", "url": "https://www.elections.il.gov/electionoperations/ElectionResults.aspx", "description": "Delstatens resultatindgang. Vælg den rigtige valgdato; den kontrollerede side viste endnu primærvalg, ikke resultater fra 3. november."}
+  ],
+  "sources": [
+    {"id": "illinois-senate-candidates", "label": "Illinois State Board of Elections: senatskandidater", "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkjHeNv3Pz40NQ%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D", "type": "official"},
+    {"id": "illinois-governor-candidates", "label": "Illinois State Board of Elections: guvernørkandidater", "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=%2FIn13iuXmuD56WVRMXU%2FKg%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D", "type": "official"},
+    {"id": "cook-results", "label": "Cook County Clerk: kandidater på resultatoversigten", "url": "https://cookresults.azurewebsites.net/", "type": "official", "note": "Dækker forstæderne i Cook County, ikke Chicago by eller hele Illinois. Ingen indberettede stemmer ved kontrollen. Anvendt til at verificere kandidatnavne, ikke resultater."},
+    {"id": "chicago-ballot-guide", "label": "League of Women Voters Chicago: stemmesedlens embeder", "url": "https://www.lwvchicago.org/voter-information", "type": "civic"},
+    {"id": "school-board-guide", "label": "Chicago Sun-Times: skolebestyrelsesvalget", "url": "https://chicago.suntimes.com/education/2026/09/21/what-you-need-to-know-about-chicagos-historic-school-board-election", "type": "news"},
+    {"id": "nbc-six-questions", "label": "NBC Chicago: de seks vejledende spørgsmål", "url": "https://www.nbcchicago.com/news/local/chicago-voters-will-weigh-questions-on-millionaires-tax-gunshot-detection-tech/4007541/", "type": "news"},
+    {"id": "fox-referendums", "label": "FOX 32 Chicago: byens vejledende spørgsmål", "url": "https://www.fox32chicago.com/news/election-2026-chicago-referenda-ballot-question", "type": "news"},
+    {"id": "cook-millionaires", "label": "Cook County: vedtaget resolution 26-1964", "url": "https://cook-county.legistar.com/LegislationDetail.aspx?FullText=1&GUID=D2328AC2-656A-4047-A3D1-5189AD5E6687&ID=8132091", "type": "official"},
+    {"id": "cps-rs1", "label": "Chicago Board of Education: resolution 26-0813-RS1", "url": "https://www.cpsboe.org/content/actions/2026_08s/26-0813-RS1.pdf", "type": "official"},
+    {"id": "cps-rs2", "label": "Chicago Board of Education: resolution 26-0813-RS2", "url": "https://www.cpsboe.org/content/actions/2026_08s/26-0813-RS2.pdf", "type": "official"}
+  ],
+  "implementationNotes": [
+    "Vis stemmeseddelspørgsmålene som danske resuméer, ikke som ordrette oversættelser af den officielle stemmeseddel.",
+    "Millionærspørgsmålet fra Cook County og millionærspørgsmålet fra CPS er to forskellige vejledende spørgsmål.",
+    "Der er ikke et statewide Illinois-referendum om millionærskat; dette panels spørgsmål kommer fra county, by og skoledistrikt.",
+    "Kandidatlisten til Senatet indeholder også en fjernet kandidat, Tyrone F Muhammad; han er bevidst udeladt.",
+    "Dette er en valgguide før valget, ikke en opgørelse over resultater."
+  ]
+}
